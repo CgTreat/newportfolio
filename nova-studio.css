@@ -481,6 +481,8 @@ body:hover .mouse-gradient {
     line-height: 0.95;
     letter-spacing: -0.03em;
     margin-bottom: 50px;
+    opacity: 1;
+    visibility: visible;
 }
 
 .headline-word {

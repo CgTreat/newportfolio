@@ -36,6 +36,12 @@
     },
     "bb7eaada": {
       "value": "# World-Class Hero Animation — “The Digital Thread”\n\nCreate a premium, award-winning digital studio website hero animation based on the supplied visual reference.\n\n## Core visual direction\n\nPreserve the existing hero composition and visual identity:\n\n* Near-black / charcoal background\n* Large oversized white typography\n* Gradient purple-to-pink word “digital”\n* Small uppercase eyebrow text: “BROOKLYN BASED DIGITAL STUDIO”\n* Purple 3D abstract knot / twisted digital sculpture positioned toward th"
+    },
+    "68271b11": {
+      "value": "We craft digital experiences text is not visible. make sure its visible and animate in first scroll. Add some interesting loader effect."
+    },
+    "dcad2920": {
+      "value": "first scroll main text We craft digital experiences is not visible anywhere."
     }
   },
   "localPrompts": {},

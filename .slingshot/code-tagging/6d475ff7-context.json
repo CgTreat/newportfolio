@@ -30,6 +30,9 @@
     },
     "3f01da37": {
       "value": "good, 'We craft digital experiences' should come with some animation, smooth animation may be from blurred invisible to visible unblurred. maybe slide in or word by word reveal animation. add one animated blur orb in dark background complementing with dark background, maybe dark pink or redblack color not too strong, subtle animated with mouse cursor position."
+    },
+    "68271b11": {
+      "value": "We craft digital experiences text is not visible. make sure its visible and animate in first scroll. Add some interesting loader effect."
     }
   },
   "localPrompts": {},
