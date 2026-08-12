@@ -478,6 +478,7 @@ body:hover .mouse-gradient {
     height: 200px;
     opacity: 0;
     animation: fade-in 1s var(--ease-smooth) 1s forwards;
+    filter: drop-shadow(0 20px 40px rgba(107, 91, 255, 0.4));
 }
 
 .scroll-cue {
@@ -662,12 +663,28 @@ body:hover .mouse-gradient {
     position: relative;
     background: var(--color-card-bg);
     border-radius: 24px;
-    overflow: hidden;
+    overflow: visible;
     cursor: pointer;
     opacity: 0;
     transform: translateZ(-200px) rotateX(45deg) scale(0.8);
     transform-style: preserve-3d;
     perspective: 1000px;
+}
+
+.project-card::after {
+    content: '';
+    position: absolute;
+    inset: -20px;
+    background: inherit;
+    border-radius: 24px;
+    filter: blur(40px);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.6s;
+}
+
+.project-card:hover::after {
+    opacity: 0.4;
 }
 
 .project-card.in-view {
@@ -709,25 +726,44 @@ body:hover .mouse-gradient {
 .project-image {
     width: 100%;
     height: 100%;
-    transition: transform 0.8s var(--ease-poppr);
+    transition: transform 0.8s var(--ease-poppr), filter 0.8s;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.85);
 }
 
 .project-image::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, transparent 0%, rgba(107, 91, 255, 0.1) 100%);
+    background: linear-gradient(135deg, transparent 0%, rgba(107, 91, 255, 0.2) 100%);
     opacity: 0;
+    transition: opacity 0.6s;
+}
+
+.project-image::after {
+    content: '';
+    position: absolute;
+    inset: -10px;
+    background: inherit;
+    filter: blur(20px);
+    opacity: 0;
+    z-index: -1;
     transition: opacity 0.6s;
 }
 
 .project-card:hover .project-image {
     transform: scale(1.08) rotate(1deg);
+    filter: brightness(1);
 }
 
 .project-card:hover .project-image::before {
     opacity: 1;
+}
+
+.project-card:hover .project-image::after {
+    opacity: 0.3;
 }
 
 .project-number {
@@ -1424,35 +1460,46 @@ body:hover .mouse-gradient {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(135deg, var(--color-accent-cyan) 0%, var(--color-accent-purple) 50%, var(--color-accent-pink) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    background-size: 200% 200%;
-    animation: gradient-flow 5s ease-in-out infinite;
-}
-
-@keyframes gradient-flow {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+    color: #FFFFFF;
 }
 
 .footer-cta-btn {
     display: inline-block;
     padding: 20px 50px;
-    background: var(--color-primary);
-    color: var(--color-bg);
+    background: linear-gradient(135deg, var(--color-accent-pink) 0%, var(--color-accent-purple) 50%, var(--color-accent-cyan) 100%);
+    background-size: 200% 200%;
+    color: #FFFFFF;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
     border-radius: 50px;
     transition: all 0.4s var(--ease-smooth);
-    box-shadow: 0 10px 40px rgba(176, 135, 255, 0.3);
+    box-shadow: 0 10px 40px rgba(255, 107, 157, 0.4);
+    animation: gradient-shift-cta 4s ease-in-out infinite;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes gradient-shift-cta {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+.footer-cta-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at var(--btn-x, 50%) var(--btn-y, 50%), rgba(255, 255, 255, 0.2) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.footer-cta-btn:hover::before {
+    opacity: 1;
 }
 
 .footer-cta-btn:hover {
-    background: var(--color-secondary);
-    box-shadow: 0 15px 60px rgba(255, 208, 116, 0.4);
+    box-shadow: 0 15px 60px rgba(255, 107, 157, 0.6);
     transform: translateY(-5px) scale(1.05);
 }
 
@@ -1483,7 +1530,7 @@ body:hover .mouse-gradient {
 .footer-tagline {
     font-size: 16px;
     line-height: 1.6;
-    opacity: 0.7;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-heading {
@@ -1492,11 +1539,7 @@ body:hover .mouse-gradient {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     margin-bottom: 24px;
-    background: linear-gradient(135deg, var(--color-accent-purple) 0%, var(--color-accent-pink) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.7;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-link {
@@ -1561,11 +1604,7 @@ body:hover .mouse-gradient {
 
 .footer-copyright {
     font-size: 14px;
-    background: linear-gradient(90deg, var(--color-accent-purple) 0%, var(--color-accent-pink) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.6;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-bottom-links {

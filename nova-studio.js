@@ -675,6 +675,28 @@ magneticBtns.forEach(btn => {
 });
 
 // ========================================
+// FOOTER CTA BUTTON CURSOR TRACKING
+// ========================================
+
+const footerCtaBtn = document.querySelector('.footer-cta-btn');
+
+if (footerCtaBtn) {
+    footerCtaBtn.addEventListener('mousemove', (e) => {
+        const rect = footerCtaBtn.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width) * 100;
+        const y = ((e.clientY - rect.top) / rect.height) * 100;
+        
+        footerCtaBtn.style.setProperty('--btn-x', `${x}%`);
+        footerCtaBtn.style.setProperty('--btn-y', `${y}%`);
+    });
+    
+    footerCtaBtn.addEventListener('mouseleave', () => {
+        footerCtaBtn.style.setProperty('--btn-x', '50%');
+        footerCtaBtn.style.setProperty('--btn-y', '50%');
+    });
+}
+
+// ========================================
 // BACK TO TOP
 // ========================================
 
