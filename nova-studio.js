@@ -298,14 +298,14 @@ if (servicesRibbon && services3DContainer) {
         });
     });
     
-    // Create 3D ribbon scroll animation
+    // Create 3D ribbon scroll animation - FASTER
     gsap.to(servicesRibbon, {
         x: -totalWidth + window.innerWidth,
         scrollTrigger: {
             trigger: '.services-section',
             start: 'top top',
-            end: '+=3000',
-            scrub: 1,
+            end: '+=1500',
+            scrub: 0.5,
             pin: true,
             onUpdate: (self) => {
                 const progress = self.progress;
@@ -314,41 +314,36 @@ if (servicesRibbon && services3DContainer) {
                     // Calculate card's relative position in viewport
                     const cardProgress = (progress * totalWidth - i * cardWidth) / window.innerWidth;
                     
-                    // 3D transforms based on position
+                    // 3D transforms - subtle angle for depth
                     let rotateY = 0;
                     let rotateX = 0;
                     let z = 0;
                     let opacity = 1;
                     
                     if (cardProgress < 0) {
-                        // Coming from left
-                        rotateY = -45 + (cardProgress * 90);
-                        rotateX = 10;
-                        z = -200 + (cardProgress * 400);
-                        opacity = 0.3 + (cardProgress * 1.4);
+                        // Coming from left - subtle angle
+                        rotateY = -15;
+                        rotateX = 5;
+                        z = -100;
+                        opacity = 0.6;
                     } else if (cardProgress > 1) {
-                        // Going to right
-                        const exitProgress = cardProgress - 1;
-                        rotateY = exitProgress * 45;
-                        rotateX = -exitProgress * 10;
-                        z = -exitProgress * 200;
-                        opacity = 1 - (exitProgress * 0.7);
+                        // Going to right - subtle angle
+                        const exitProgress = Math.min(cardProgress - 1, 0.5);
+                        rotateY = exitProgress * 15;
+                        rotateX = -exitProgress * 5;
+                        z = -exitProgress * 100;
+                        opacity = 1 - (exitProgress * 0.8);
                     } else {
-                        // In viewport - center focus
-                        const centerDist = Math.abs(0.5 - cardProgress);
-                        rotateY = (cardProgress - 0.5) * 20;
-                        z = -centerDist * 100 + 50;
+                        // In viewport - subtle perspective
+                        rotateY = (cardProgress - 0.5) * 8;
+                        rotateX = 2;
+                        z = 0;
                         opacity = 1;
                     }
                     
-                    gsap.to(card, {
-                        rotateY: rotateY,
-                        rotateX: rotateX,
-                        z: z,
-                        opacity: opacity,
-                        duration: 0.3,
-                        ease: 'power2.out'
-                    });
+                    // Direct CSS update for performance
+                    card.style.transform = `rotateY(${rotateY}deg) rotateX(${rotateX}deg) translateZ(${z}px)`;
+                    card.style.opacity = opacity;
                 });
             }
         }
