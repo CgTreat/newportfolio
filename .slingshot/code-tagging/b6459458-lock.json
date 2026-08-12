@@ -1,0 +1,198 @@
+{
+  ".gitignore": {
+    "filename": ".gitignore",
+    "path": ".gitignore",
+    "version": "1.2",
+    "contextFile": "b6459458-context.json",
+    "chunks": {
+      "19ec45": {
+        "user": "Narendra Keshkar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1786530981,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "1ab40680"
+        },
+        "hash": "9a2e2fd8",
+        "messageId": "system_ac6d54d0-9637-11f1-960a-19d1076f7b80",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Narendra Keshkar\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/12/2026, 4:06:21 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "19ec45",
+        "hash": "ffe795fd",
+        "encoded": "#%20System%20Files",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "19ec45",
+        "hash": "9940a186",
+        "encoded": ".DS_Store",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "19ec45",
+        "hash": "da51e3b9",
+        "encoded": "Thumbs.db",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "19ec45",
+        "hash": "51bde858",
+        "encoded": "#%20IDE%20and%20Editor%20Files",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "19ec45",
+        "hash": "f3a6564e",
+        "encoded": ".vscode/",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "19ec45",
+        "hash": "85071438",
+        "encoded": ".idea/",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "19ec45",
+        "hash": "ff21b3ff",
+        "encoded": "*.swp",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "19ec45",
+        "hash": "a74db3e7",
+        "encoded": "*.swo",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "19ec45",
+        "hash": "73bd8950",
+        "encoded": "*~",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "19ec45",
+        "hash": "fb6ed203",
+        "encoded": "#%20Logs",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "19ec45",
+        "hash": "745dd1a6",
+        "encoded": "*.log",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "19ec45",
+        "hash": "19b10d95",
+        "encoded": "npm-debug.log*",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "19ec45",
+        "hash": "b14f2725",
+        "encoded": "yarn-debug.log*",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "19ec45",
+        "hash": "c9283559",
+        "encoded": "yarn-error.log*",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "19ec45",
+        "hash": "88f512a3",
+        "encoded": "#%20Dependencies%20(if%20you%20add%20them%20later)",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "19ec45",
+        "hash": "f2140538",
+        "encoded": "node_modules/",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "19ec45",
+        "hash": "2089b0dd",
+        "encoded": "#%20Build%20outputs%20(if%20you%20add%20a%20build%20process)",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "19ec45",
+        "hash": "d1cf842b",
+        "encoded": "dist/",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "19ec45",
+        "hash": "0c6a013f",
+        "encoded": "build/",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "19ec45",
+        "hash": "3951694b",
+        "encoded": "#%20Environment%20variables",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "19ec45",
+        "hash": "47eda9b9",
+        "encoded": ".env",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "19ec45",
+        "hash": "f28071e3",
+        "encoded": ".env.local",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "19ec45",
+        "hash": "05870804",
+        "encoded": ".env.*.local",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "19ec45",
+        "hash": "ba26e0f3",
+        "encoded": "#%20Temporary%20files",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "19ec45",
+        "hash": "d3c1f42f",
+        "encoded": "*.tmp",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "19ec45",
+        "hash": "e3389260",
+        "encoded": "*.temp",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "19ec45",
+        "hash": "b05e154e",
+        "encoded": "#%20Agent%20files",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "19ec45",
+        "hash": "cdbab620",
+        "encoded": ".agent/",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

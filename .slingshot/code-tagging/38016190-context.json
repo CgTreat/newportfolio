@@ -1,0 +1,33 @@
+{
+  "filename": "nova-studio.css",
+  "path": "nova-studio.css",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "272b8f66": {
+      "value": "# Build Prompt: Immersive Agency Website (Poppr.be-Style)\n\nCopy everything below the line into Claude (Artifacts or Claude Code) as your build prompt.\n\n---\n\n## Project Brief\n\nBuild a single-page, scroll-driven marketing website for **\"Nova Studio\"** (placeholder name — swap freely), an immersive digital-experience agency. The reference for tone, motion, and layout is **Poppr.be** (2022 Awwwards Site-of-the-Day, Dev Award winner) — a Belgian studio known for horizontal drag navigation, WebGL/3D e"
+    },
+    "5b622dd3": {
+      "value": "Match the fonts, the 3d cursor effect, second scroll image gallery animation on scroll, subtle background blur animation and footer design and animation."
+    },
+    "eac8f79d": {
+      "value": "match the design with https://www.poppr.be/en match the effects."
+    },
+    "376b6030": {
+      "value": "Add some perspective hover animation, when mouse move some subtle background animation should happen that blend well with the dark background. cards should have some animation on scroll may be appearing in 3d wheel and sticking on the screen then moving away. Footer has dark background and dark text. Change dark text into pink blue color gradient. cards elements should have some animation on scroll."
+    },
+    "5b9d2dbc": {
+      "value": "turn footer text color to white, CTA colour should be pink blue gradient animating. slightly animating with cursor. Add images in all the cards. add some 3d blurr effect."
+    },
+    "74966e2a": {
+      "value": "each card should have some images. Remove 360 demo section, Moments in motion should have a dynemic interactive wall where cards will react based on the cursor position, they will appear or move to to their position on scroll."
+    },
+    "b32d1eb8": {
+      "value": "Discover, Design, Develop & Deliver, should come in four column horizontally. Moments in motion section images looks randomly placed think some better way to position them, animate all of them based on the cursor position. Imagine like all cards shifts a bit when cursor moves. every section should have scroll reveal or slide animation. \"We craft digital experiences\" is the main hero, this should have some reveal animation, some interactive cursor animation, elements should react based on cursor "
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

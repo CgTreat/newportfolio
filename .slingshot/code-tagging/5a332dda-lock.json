@@ -1,0 +1,1848 @@
+{
+  "ANIMATIONS_GUIDE.md": {
+    "filename": "ANIMATIONS_GUIDE.md",
+    "path": "ANIMATIONS_GUIDE.md",
+    "version": "1.2",
+    "contextFile": "5a332dda-context.json",
+    "chunks": {
+      "c3b413": {
+        "user": "Narendra Keshkar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1786532284,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "a0cdb9ba"
+        },
+        "hash": "790bbabe",
+        "messageId": "system_192e87c0-963c-11f1-960a-19d1076f7b80",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Narendra Keshkar\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/12/2026, 4:28:04 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "c3b413",
+        "hash": "778b42a3",
+        "encoded": "#%20%F0%9F%8E%A8%20Premium%20Animations%20&%20Interactions%20Guide",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "c3b413",
+        "hash": "b53c00ef",
+        "encoded": "##%20%E2%9C%A8%20What's%20Been%20Enhanced",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "c3b413",
+        "hash": "80625a04",
+        "encoded": "Your%20website%20now%20features%20**sophisticated,%20buttery-smooth%20animations**%20matching%20premium%20portfolio%20sites%20like%20Poppr,%20Awwwards%20winners,%20and%20modern%20digital%20agencies.",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "c3b413",
+        "hash": "b130fb01",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "c3b413",
+        "hash": "9ba8d4aa",
+        "encoded": "##%20%F0%9F%8E%AD%20Key%20Animation%20Features",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "c3b413",
+        "hash": "86a22849",
+        "encoded": "###%201.%20**Smooth%20Scroll%20System**%20%E2%9A%A1",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "c3b413",
+        "hash": "28c3dcf4",
+        "encoded": "**Implementation**:%20Custom%20smooth%20scroll%20class%20with%20easing",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "c3b413",
+        "hash": "882beed0",
+        "encoded": "-%20**Feeling**:%20Buttery,%20inertial%20scrolling",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "c3b413",
+        "hash": "41c9f37c",
+        "encoded": "-%20**Easing**:%200.1%20(10%25%20interpolation%20per%20frame)",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "c3b413",
+        "hash": "d5eabf29",
+        "encoded": "-%20**Effect**:%20Scroll%20feels%20weighted%20and%20luxurious",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "c3b413",
+        "hash": "6cba5d2b",
+        "encoded": "-%20**Performance**:%20Uses%20%60requestAnimationFrame%60%20for%2060fps",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "c3b413",
+        "hash": "2f129233",
+        "encoded": "%60%60%60javascript",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "c3b413",
+        "hash": "0b180ac8",
+        "encoded": "//%20Smooth%20interpolation%20between%20current%20and%20target%20scroll",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "c3b413",
+        "hash": "a21afe1e",
+        "encoded": "scrollY%20+=%20(targetScrollY%20-%20scrollY)%20*%200.1;",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "c3b413",
+        "hash": "aeb267a2",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "c3b413",
+        "hash": "22eed31f",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "c3b413",
+        "hash": "03dcc195",
+        "encoded": "###%202.%20**Custom%20Magnetic%20Cursor**%20%F0%9F%A7%B2",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "c3b413",
+        "hash": "9113ba62",
+        "encoded": "**Two-layer%20cursor%20system**:",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "c3b413",
+        "hash": "9c0e2b6a",
+        "encoded": "-%20**Dot**:%20Fast%20following%20(30%25%20interpolation)",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "c3b413",
+        "hash": "5a8b90d4",
+        "encoded": "-%20**Outline**:%20Slow%20following%20(15%25%20interpolation)",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "c3b413",
+        "hash": "5aa32038",
+        "encoded": "-%20**Magnetic%20effect**:%20Expands%20on%20hover",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "c3b413",
+        "hash": "7b1098ae",
+        "encoded": "-%20**Mix-blend-mode**:%20Inverts%20colors%20for%20visibility",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "c3b413",
+        "hash": "49459866",
+        "encoded": "**Interactions**:",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "c3b413",
+        "hash": "a231b5c6",
+        "encoded": "-%20Grows%20when%20hovering%20links/buttons",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "c3b413",
+        "hash": "96acbf98",
+        "encoded": "-%20Smooth%20delay%20creates%20%22lag%22%20effect",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "c3b413",
+        "hash": "3f6a8d49",
+        "encoded": "-%20Desktop%20only%20(automatically%20disabled%20on%20mobile)",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "c3b413",
+        "hash": "879b2d52",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "c3b413",
+        "hash": "2793dc02",
+        "encoded": "###%203.%20**Magnetic%20Buttons**%20%F0%9F%8E%AF",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "c3b413",
+        "hash": "43eea35d",
+        "encoded": "**What%20it%20does**:",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "c3b413",
+        "hash": "c29bd2fd",
+        "encoded": "-%20Buttons%20subtly%20follow%20your%20cursor",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "c3b413",
+        "hash": "04e48fda",
+        "encoded": "-%20Creates%20%22attraction%22%20effect",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "c3b413",
+        "hash": "1ca40d99",
+        "encoded": "-%20Smooth%20spring-back%20when%20leaving",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "c3b413",
+        "hash": "de738777",
+        "encoded": "**Distance-based%20attraction**:",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "c3b413",
+        "hash": "f7317ff8",
+        "encoded": "%60%60%60javascript",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "c3b413",
+        "hash": "58043dcc",
+        "encoded": "const%20strength%20=%20(maxDistance%20-%20distance)%20/%20maxDistance;",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "c3b413",
+        "hash": "c3bf1cb8",
+        "encoded": "transform%20=%20translate(x%20*%20strength%20*%200.3,%20y%20*%20strength%20*%200.3);",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "c3b413",
+        "hash": "a9b40cba",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "c3b413",
+        "hash": "69527e51",
+        "encoded": "**Applied%20to**:",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "c3b413",
+        "hash": "e9790bea",
+        "encoded": "-%20CTA%20buttons",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "c3b413",
+        "hash": "147d63ff",
+        "encoded": "-%20Navigation%20links",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "c3b413",
+        "hash": "a445e52b",
+        "encoded": "-%20Cookie%20accept%20button",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "c3b413",
+        "hash": "2c5ce8b6",
+        "encoded": "-%20All%20interactive%20elements",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "c3b413",
+        "hash": "526cf402",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "c3b413",
+        "hash": "079c25a9",
+        "encoded": "###%204.%20**Parallax%20Scrolling**%20%F0%9F%8F%94%EF%B8%8F",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "c3b413",
+        "hash": "d14efb51",
+        "encoded": "**Multi-speed%20layers**:",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "c3b413",
+        "hash": "d46c824e",
+        "encoded": "-%20Hero%20content:%20Slower%20(speed:%20-2)",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "c3b413",
+        "hash": "3be53f99",
+        "encoded": "-%20Background%20elements:%20Different%20speeds",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "c3b413",
+        "hash": "0f1d16d8",
+        "encoded": "-%20Creates%20depth%20perception",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "c3b413",
+        "hash": "dec21e1c",
+        "encoded": "**How%20it%20works**:",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "c3b413",
+        "hash": "6a52d76b",
+        "encoded": "-%20Each%20element%20has%20%60data-scroll-speed%60%20attribute",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "c3b413",
+        "hash": "704455ad",
+        "encoded": "-%20Negative%20values%20=%20moves%20opposite%20to%20scroll",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "c3b413",
+        "hash": "e35f9f88",
+        "encoded": "-%20Positive%20values%20=%20moves%20with%20scroll",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "c3b413",
+        "hash": "5d390720",
+        "encoded": "-%20Creates%203D%20depth%20illusion",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "c3b413",
+        "hash": "b4d7586c",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "c3b413",
+        "hash": "30f13c91",
+        "encoded": "###%205.%20**Text%20Reveal%20Animations**%20%F0%9F%93%9D",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "c3b413",
+        "hash": "7e978b20",
+        "encoded": "**Character-by-character%20reveal**:",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "c3b413",
+        "hash": "6abd8db4",
+        "encoded": "-%20Each%20letter%20animates%20individually",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "c3b413",
+        "hash": "1dcfce25",
+        "encoded": "-%20Staggered%20timing%20(0.03s%20delay%20per%20char)",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "c3b413",
+        "hash": "cfd2e80f",
+        "encoded": "-%20Fade%20+%20translate%20+%20subtle%20rotate",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "c3b413",
+        "hash": "2be50222",
+        "encoded": "-%20Creates%20typewriter%20effect",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "c3b413",
+        "hash": "c2c43cab",
+        "encoded": "**Applied%20to**:",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "c3b413",
+        "hash": "b36d21ba",
+        "encoded": "-%20Hero%20title%20words",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "c3b413",
+        "hash": "0214ac4f",
+        "encoded": "-%20Section%20headings",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "c3b413",
+        "hash": "dc375a99",
+        "encoded": "-%20Important%20text%20elements",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "c3b413",
+        "hash": "5078e1c2",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "c3b413",
+        "hash": "5150c11b",
+        "encoded": "###%206.%20**Film%20Grain%20Effect**%20%F0%9F%8E%9E%EF%B8%8F",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "c3b413",
+        "hash": "3f6c73db",
+        "encoded": "**Subtle%20texture%20overlay**:",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "c3b413",
+        "hash": "6f4e3a5b",
+        "encoded": "-%20Animated%20SVG%20noise%20filter",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "c3b413",
+        "hash": "a6e96155",
+        "encoded": "-%203%25%20opacity%20for%20subtlety",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "c3b413",
+        "hash": "30fd7832",
+        "encoded": "-%20Moves%20slowly%20across%20screen",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "c3b413",
+        "hash": "8fc85f1d",
+        "encoded": "-%20Adds%20analog/cinematic%20feel",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "c3b413",
+        "hash": "c69ec8c0",
+        "encoded": "-%20Premium%20aesthetic%20touch",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "c3b413",
+        "hash": "d3592f45",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "c3b413",
+        "hash": "6fd2ca98",
+        "encoded": "###%207.%20**Work%20Grid%20Momentum%20Scroll**%20%F0%9F%8E%AA",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "c3b413",
+        "hash": "48720a01",
+        "encoded": "**Physics-based%20dragging**:",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "c3b413",
+        "hash": "2690f01c",
+        "encoded": "-%20Click%20and%20drag%20to%20scroll",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "c3b413",
+        "hash": "cbd04a42",
+        "encoded": "-%20Velocity%20calculation",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "c3b413",
+        "hash": "f2883c66",
+        "encoded": "-%20Momentum%20continues%20after%20release",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "c3b413",
+        "hash": "0c8beed1",
+        "encoded": "-%20Friction%20decay%20(0.95%20per%20frame)",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "c3b413",
+        "hash": "166e4c17",
+        "encoded": "-%20Feels%20like%20iOS%20scrolling",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "c3b413",
+        "hash": "786d29e7",
+        "encoded": "**User%20experience**:",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "c3b413",
+        "hash": "af354dd1",
+        "encoded": "-%20Cursor%20changes%20to%20%22grab%22",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "c3b413",
+        "hash": "d5939dd2",
+        "encoded": "-%20Smooth%20acceleration",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "c3b413",
+        "hash": "440f856d",
+        "encoded": "-%20Natural%20deceleration",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "c3b413",
+        "hash": "78b1f426",
+        "encoded": "-%20Touch-like%20feel%20on%20desktop",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "c3b413",
+        "hash": "7f1e825c",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "c3b413",
+        "hash": "c40d4c60",
+        "encoded": "###%208.%20**Image%20Reveal%20Effect**%20%F0%9F%96%BC%EF%B8%8F",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "c3b413",
+        "hash": "0f451667",
+        "encoded": "**Wipe%20animation**:",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "c3b413",
+        "hash": "3d44f5af",
+        "encoded": "-%20Dark%20overlay%20slides%20across",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "c3b413",
+        "hash": "4ea8fe69",
+        "encoded": "-%20Reveals%20image%20underneath",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "c3b413",
+        "hash": "61b5ac77",
+        "encoded": "-%20Two-stage%20animation",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "c3b413",
+        "hash": "c6b4fe26",
+        "encoded": "-%20Scale%20+%20slide%20combination",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "c3b413",
+        "hash": "6ce82be8",
+        "encoded": "**Timing**:",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "c3b413",
+        "hash": "2b8d927c",
+        "encoded": "1.%20Overlay%20enters%20from%20left%20(0-50%25)",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "c3b413",
+        "hash": "dbf742bb",
+        "encoded": "2.%20Transform%20origin%20switches",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "c3b413",
+        "hash": "56bbde7e",
+        "encoded": "3.%20Overlay%20exits%20to%20right%20(50-100%25)",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "c3b413",
+        "hash": "a459e1d5",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "c3b413",
+        "hash": "f13e5e93",
+        "encoded": "###%209.%20**Scroll-Triggered%20Animations**%20%F0%9F%8E%AC",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "c3b413",
+        "hash": "0126db85",
+        "encoded": "**Intersection%20Observer%20based**:",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "c3b413",
+        "hash": "668bca8d",
+        "encoded": "-%20Monitors%20element%20visibility",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "c3b413",
+        "hash": "5c85c352",
+        "encoded": "-%20Triggers%20when%2010%25%20visible",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "c3b413",
+        "hash": "91af786d",
+        "encoded": "-%2050px%20rootMargin%20for%20early%20trigger",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "c3b413",
+        "hash": "42d56a98",
+        "encoded": "-%20Staggered%20delays%20per%20element",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "c3b413",
+        "hash": "68671855",
+        "encoded": "**States**:",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "c3b413",
+        "hash": "81847c03",
+        "encoded": "-%20**Before**:%20Opacity%200,%20translateY(50px)",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "c3b413",
+        "hash": "193be95f",
+        "encoded": "-%20**After**:%20Opacity%201,%20translateY(0)",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "c3b413",
+        "hash": "02fbf90c",
+        "encoded": "-%20**Transition**:%201s%20with%20custom%20easing",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "c3b413",
+        "hash": "a472928a",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "c3b413",
+        "hash": "56607a51",
+        "encoded": "###%2010.%20**Navigation%20Hide/Show**%20%F0%9F%8E%AF",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "c3b413",
+        "hash": "b6e03d00",
+        "encoded": "**Smart%20behavior**:",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "c3b413",
+        "hash": "7313c613",
+        "encoded": "-%20Hides%20when%20scrolling%20down",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "c3b413",
+        "hash": "09daf91f",
+        "encoded": "-%20Shows%20when%20scrolling%20up",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "c3b413",
+        "hash": "1770aac6",
+        "encoded": "-%20Only%20triggers%20after%20100px",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "c3b413",
+        "hash": "245fa3d4",
+        "encoded": "-%20Smooth%20transform%20transition",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "c3b413",
+        "hash": "99842e8c",
+        "encoded": "%60%60%60javascript",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "c3b413",
+        "hash": "d95fa7c5",
+        "encoded": "if%20(scrolling%20down%20&&%20scrollY%20%3E%20100)%20%7B",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "c3b413",
+        "hash": "039345c4",
+        "encoded": "nav.transform%20=%20'translateY(-100%25)';",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "c3b413",
+        "hash": "10c4a851",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "c3b413",
+        "hash": "47eaf8a8",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "c3b413",
+        "hash": "6f7f5fe1",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "c3b413",
+        "hash": "4400a160",
+        "encoded": "##%20%F0%9F%8E%A8%20Custom%20Easing%20Curves",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "c3b413",
+        "hash": "40c70c9b",
+        "encoded": "###%20Premium%20Timing%20Functions:",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "c3b413",
+        "hash": "d5225fa6",
+        "encoded": "%60%60%60css",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "c3b413",
+        "hash": "f036159a",
+        "encoded": "--ease-out-expo:%20cubic-bezier(0.16,%201,%200.3,%201);",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "c3b413",
+        "hash": "4849b4d6",
+        "encoded": "--ease-out-quart:%20cubic-bezier(0.25,%201,%200.5,%201);",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "c3b413",
+        "hash": "4c7a5b34",
+        "encoded": "--ease-in-out-quart:%20cubic-bezier(0.76,%200,%200.24,%201);",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "c3b413",
+        "hash": "97aac73e",
+        "encoded": "--ease-elastic:%20cubic-bezier(0.68,%20-0.55,%200.265,%201.55);",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "c3b413",
+        "hash": "c4e20f80",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "c3b413",
+        "hash": "d05d566d",
+        "encoded": "**When%20to%20use%20each**:",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "c3b413",
+        "hash": "3dd906cd",
+        "encoded": "-%20**ease-out-expo**:%20Elegant%20exits,%20smooth%20reveals",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "c3b413",
+        "hash": "7d4520ec",
+        "encoded": "-%20**ease-out-quart**:%20General%20hover%20states",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "c3b413",
+        "hash": "febbe341",
+        "encoded": "-%20**ease-in-out-quart**:%20Two-way%20transitions",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "c3b413",
+        "hash": "bb1f3743",
+        "encoded": "-%20**ease-elastic**:%20Playful%20bounce%20effects",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "c3b413",
+        "hash": "5fc99200",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "c3b413",
+        "hash": "de5ab430",
+        "encoded": "##%20%F0%9F%8E%AD%20Micro-Interactions",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "c3b413",
+        "hash": "6494b7d1",
+        "encoded": "###%20Button%20Hover%20States:",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "c3b413",
+        "hash": "d8c37193",
+        "encoded": "1.%20**Vertical%20Text%20Slide**",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "c3b413",
+        "hash": "ae4bf406",
+        "encoded": "-%20Two%20text%20layers",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "c3b413",
+        "hash": "adb03cad",
+        "encoded": "-%20Top%20slides%20out,%20bottom%20slides%20in",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "c3b413",
+        "hash": "a90f7493",
+        "encoded": "-%200.3s%20transition",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "c3b413",
+        "hash": "bc694fe1",
+        "encoded": "2.%20**Scale%20on%20Click**",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "c3b413",
+        "hash": "e02e588b",
+        "encoded": "-%2095%25%20scale%20when%20active",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "c3b413",
+        "hash": "98e7e601",
+        "encoded": "-%20Tactile%20feedback",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "c3b413",
+        "hash": "f7c0594a",
+        "encoded": "-%20Instant%20response",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "c3b413",
+        "hash": "27cb4bd3",
+        "encoded": "3.%20**Ripple%20Effect**",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "c3b413",
+        "hash": "c1b4ba55",
+        "encoded": "-%20Expanding%20circle%20on%20click",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "c3b413",
+        "hash": "11c5ff0e",
+        "encoded": "-%2030%25%20white%20opacity",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "c3b413",
+        "hash": "67505b4d",
+        "encoded": "-%20Fades%20out%20naturally",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "c3b413",
+        "hash": "283bd748",
+        "encoded": "###%20Link%20Animations:",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "c3b413",
+        "hash": "1e40304f",
+        "encoded": "1.%20**Underline%20Reveal**",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "c3b413",
+        "hash": "f50693d4",
+        "encoded": "-%200%25%20%E2%86%92%20100%25%20width",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "c3b413",
+        "hash": "8756688a",
+        "encoded": "-%200.6s%20smooth%20transition",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "c3b413",
+        "hash": "20e63df7",
+        "encoded": "-%20Appears%20on%20hover",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "c3b413",
+        "hash": "318a432f",
+        "encoded": "2.%20**Character%20Wave**",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "c3b413",
+        "hash": "7d787ef6",
+        "encoded": "-%20Each%20letter%20bounces",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "c3b413",
+        "hash": "80591b9d",
+        "encoded": "-%20Staggered%20delays",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "c3b413",
+        "hash": "3da8f452",
+        "encoded": "-%20Navigation%20links",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "c3b413",
+        "hash": "87d077fa",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "c3b413",
+        "hash": "561caaa5",
+        "encoded": "##%20%E2%9A%A1%20Performance%20Optimizations",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "c3b413",
+        "hash": "70fc286e",
+        "encoded": "###%20GPU%20Acceleration:",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "c3b413",
+        "hash": "b022b9fe",
+        "encoded": "%60%60%60css",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "c3b413",
+        "hash": "7d92752f",
+        "encoded": ".gpu-accelerated%20%7B",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "c3b413",
+        "hash": "e6c975f7",
+        "encoded": "transform:%20translateZ(0);",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "c3b413",
+        "hash": "043b0c02",
+        "encoded": "backface-visibility:%20hidden;",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "c3b413",
+        "hash": "f1d08981",
+        "encoded": "perspective:%201000px;",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "c3b413",
+        "hash": "75bbcadd",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "c3b413",
+        "hash": "2e86529a",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "c3b413",
+        "hash": "b9d0c093",
+        "encoded": "###%20Will-Change%20Usage:",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "c3b413",
+        "hash": "755fa3c1",
+        "encoded": "-%20Added%20on%20hover%20(not%20permanent)",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "c3b413",
+        "hash": "191f8110",
+        "encoded": "-%20Removed%20on%20mouse%20leave",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "c3b413",
+        "hash": "5845a5e5",
+        "encoded": "-%20Prevents%20layout%20thrashing",
+        "prevChunkIds": []
+      },
+      "231": {
+        "chunkId": "c3b413",
+        "hash": "cea1398f",
+        "encoded": "###%20RequestAnimationFrame:",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "c3b413",
+        "hash": "4236e71a",
+        "encoded": "-%20All%20animations%20use%20RAF",
+        "prevChunkIds": []
+      },
+      "233": {
+        "chunkId": "c3b413",
+        "hash": "9e5234da",
+        "encoded": "-%20Synchronized%20with%20browser%20repaint",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "c3b413",
+        "hash": "ebf33575",
+        "encoded": "-%2060fps%20target",
+        "prevChunkIds": []
+      },
+      "235": {
+        "chunkId": "c3b413",
+        "hash": "f5528c22",
+        "encoded": "-%20Smooth,%20no%20jank",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "c3b413",
+        "hash": "283f2f17",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "c3b413",
+        "hash": "605b001b",
+        "encoded": "##%20%F0%9F%8E%AF%20Animation%20Hierarchy",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "c3b413",
+        "hash": "476827dd",
+        "encoded": "###%20Loading%20Sequence:",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "c3b413",
+        "hash": "9ced1764",
+        "encoded": "1.%20**Page%20loads**%20%E2%86%92%20Body%20gets%20%60.loaded%60%20class",
+        "prevChunkIds": []
+      },
+      "243": {
+        "chunkId": "c3b413",
+        "hash": "602410f0",
+        "encoded": "2.%20**Hero%20title**%20%E2%86%92%20Lines%20reveal%20with%20delays",
+        "prevChunkIds": []
+      },
+      "244": {
+        "chunkId": "c3b413",
+        "hash": "fd721f49",
+        "encoded": "3.%20**Hero%20content**%20%E2%86%92%20Subtitle%20fades%20in",
+        "prevChunkIds": []
+      },
+      "245": {
+        "chunkId": "c3b413",
+        "hash": "272a097d",
+        "encoded": "4.%20**Scroll%20indicator**%20%E2%86%92%20Bounces%20into%20view",
+        "prevChunkIds": []
+      },
+      "246": {
+        "chunkId": "c3b413",
+        "hash": "a944da8e",
+        "encoded": "5.%20**Cookie%20notice**%20%E2%86%92%20Slides%20up%20from%20bottom",
+        "prevChunkIds": []
+      },
+      "248": {
+        "chunkId": "c3b413",
+        "hash": "086f4cd1",
+        "encoded": "###%20Scroll%20Sequence:",
+        "prevChunkIds": []
+      },
+      "249": {
+        "chunkId": "c3b413",
+        "hash": "91685cfe",
+        "encoded": "1.%20**Navigation**%20%E2%86%92%20Hides/shows%20based%20on%20direction",
+        "prevChunkIds": []
+      },
+      "250": {
+        "chunkId": "c3b413",
+        "hash": "d3995b84",
+        "encoded": "2.%20**Work%20items**%20%E2%86%92%20Reveal%20as%20they%20enter%20viewport",
+        "prevChunkIds": []
+      },
+      "251": {
+        "chunkId": "c3b413",
+        "hash": "099d03de",
+        "encoded": "3.%20**Service%20cards**%20%E2%86%92%20Staggered%20fade-in",
+        "prevChunkIds": []
+      },
+      "252": {
+        "chunkId": "c3b413",
+        "hash": "dee9cf7d",
+        "encoded": "4.%20**Images**%20%E2%86%92%20Wipe%20reveal%20effect",
+        "prevChunkIds": []
+      },
+      "254": {
+        "chunkId": "c3b413",
+        "hash": "546c6724",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "256": {
+        "chunkId": "c3b413",
+        "hash": "62ede0b5",
+        "encoded": "##%20%F0%9F%8E%A8%20Visual%20Effects",
+        "prevChunkIds": []
+      },
+      "258": {
+        "chunkId": "c3b413",
+        "hash": "a4316b08",
+        "encoded": "###%20Glow%20Effect:",
+        "prevChunkIds": []
+      },
+      "259": {
+        "chunkId": "c3b413",
+        "hash": "bd621ddd",
+        "encoded": "-%20Gradient%20background%20layer",
+        "prevChunkIds": []
+      },
+      "260": {
+        "chunkId": "c3b413",
+        "hash": "ee25b178",
+        "encoded": "-%2020px%20blur",
+        "prevChunkIds": []
+      },
+      "261": {
+        "chunkId": "c3b413",
+        "hash": "7db158cc",
+        "encoded": "-%200.5%20opacity%20on%20hover",
+        "prevChunkIds": []
+      },
+      "262": {
+        "chunkId": "c3b413",
+        "hash": "41490683",
+        "encoded": "-%20Creates%20neon%20feel",
+        "prevChunkIds": []
+      },
+      "264": {
+        "chunkId": "c3b413",
+        "hash": "cbb7a3d3",
+        "encoded": "###%20Shimmer%20Loading:",
+        "prevChunkIds": []
+      },
+      "265": {
+        "chunkId": "c3b413",
+        "hash": "fbfba656",
+        "encoded": "-%20Moving%20gradient",
+        "prevChunkIds": []
+      },
+      "266": {
+        "chunkId": "c3b413",
+        "hash": "69b769e0",
+        "encoded": "-%202s%20loop",
+        "prevChunkIds": []
+      },
+      "267": {
+        "chunkId": "c3b413",
+        "hash": "43f7610a",
+        "encoded": "-%20Suggests%20loading%20state",
+        "prevChunkIds": []
+      },
+      "268": {
+        "chunkId": "c3b413",
+        "hash": "8f499f8f",
+        "encoded": "-%20Skeleton%20screens",
+        "prevChunkIds": []
+      },
+      "270": {
+        "chunkId": "c3b413",
+        "hash": "08be61dc",
+        "encoded": "###%20Perspective%20Cards:",
+        "prevChunkIds": []
+      },
+      "271": {
+        "chunkId": "c3b413",
+        "hash": "69704c25",
+        "encoded": "-%203D%20rotation%20on%20hover",
+        "prevChunkIds": []
+      },
+      "272": {
+        "chunkId": "c3b413",
+        "hash": "16d70b11",
+        "encoded": "-%205deg%20X%20and%20Y%20rotation",
+        "prevChunkIds": []
+      },
+      "273": {
+        "chunkId": "c3b413",
+        "hash": "949c6c8e",
+        "encoded": "-%20Preserve-3d%20transform",
+        "prevChunkIds": []
+      },
+      "274": {
+        "chunkId": "c3b413",
+        "hash": "86693e91",
+        "encoded": "-%20Depth%20illusion",
+        "prevChunkIds": []
+      },
+      "276": {
+        "chunkId": "c3b413",
+        "hash": "a3150135",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "278": {
+        "chunkId": "c3b413",
+        "hash": "a3ef3df1",
+        "encoded": "##%20%F0%9F%93%B1%20Responsive%20Behavior",
+        "prevChunkIds": []
+      },
+      "280": {
+        "chunkId": "c3b413",
+        "hash": "46172c42",
+        "encoded": "###%20Mobile%20Adaptations:",
+        "prevChunkIds": []
+      },
+      "281": {
+        "chunkId": "c3b413",
+        "hash": "72dfacff",
+        "encoded": "-%20Custom%20cursor:%20**Disabled**",
+        "prevChunkIds": []
+      },
+      "282": {
+        "chunkId": "c3b413",
+        "hash": "0986f331",
+        "encoded": "-%20Magnetic%20buttons:%20**Reduced%20strength**",
+        "prevChunkIds": []
+      },
+      "283": {
+        "chunkId": "c3b413",
+        "hash": "bbeb6159",
+        "encoded": "-%20Parallax:%20**Simplified**",
+        "prevChunkIds": []
+      },
+      "284": {
+        "chunkId": "c3b413",
+        "hash": "66b5201c",
+        "encoded": "-%20Hover%20states:%20**Touch-friendly**",
+        "prevChunkIds": []
+      },
+      "286": {
+        "chunkId": "c3b413",
+        "hash": "27927086",
+        "encoded": "###%20Reduced%20Motion:",
+        "prevChunkIds": []
+      },
+      "287": {
+        "chunkId": "c3b413",
+        "hash": "270f0caa",
+        "encoded": "%60%60%60css",
+        "prevChunkIds": []
+      },
+      "288": {
+        "chunkId": "c3b413",
+        "hash": "f3c4661e",
+        "encoded": "@media%20(prefers-reduced-motion:%20reduce)%20%7B",
+        "prevChunkIds": []
+      },
+      "289": {
+        "chunkId": "c3b413",
+        "hash": "042f9d9a",
+        "encoded": "/*%20All%20animations%20%E2%86%92%200.01ms%20*/",
+        "prevChunkIds": []
+      },
+      "290": {
+        "chunkId": "c3b413",
+        "hash": "3e01dd72",
+        "encoded": "/*%20Respects%20accessibility%20*/",
+        "prevChunkIds": []
+      },
+      "291": {
+        "chunkId": "c3b413",
+        "hash": "3ecc5ee5",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "292": {
+        "chunkId": "c3b413",
+        "hash": "11a3ac8c",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "294": {
+        "chunkId": "c3b413",
+        "hash": "04f97b5e",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "296": {
+        "chunkId": "c3b413",
+        "hash": "fa96a647",
+        "encoded": "##%20%F0%9F%8E%AC%20Advanced%20Techniques",
+        "prevChunkIds": []
+      },
+      "298": {
+        "chunkId": "c3b413",
+        "hash": "b53e89cd",
+        "encoded": "###%201.%20Momentum%20Scrolling:",
+        "prevChunkIds": []
+      },
+      "299": {
+        "chunkId": "c3b413",
+        "hash": "d0c42802",
+        "encoded": "%60%60%60javascript",
+        "prevChunkIds": []
+      },
+      "300": {
+        "chunkId": "c3b413",
+        "hash": "a361646a",
+        "encoded": "velocity%20=%20(dx%20/%20dt)%20*%2016;%20%20//%20Calculate%20velocity",
+        "prevChunkIds": []
+      },
+      "301": {
+        "chunkId": "c3b413",
+        "hash": "2bf85f24",
+        "encoded": "velocity%20*=%200.95;%20%20%20%20%20%20%20%20%20%20%20//%20Apply%20friction",
+        "prevChunkIds": []
+      },
+      "302": {
+        "chunkId": "c3b413",
+        "hash": "0bf1d897",
+        "encoded": "scroll%20+=%20velocity;%20%20%20%20%20%20%20%20%20//%20Continue%20motion",
+        "prevChunkIds": []
+      },
+      "303": {
+        "chunkId": "c3b413",
+        "hash": "b8455191",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "305": {
+        "chunkId": "c3b413",
+        "hash": "1bc834bf",
+        "encoded": "###%202.%20Interpolation:",
+        "prevChunkIds": []
+      },
+      "306": {
+        "chunkId": "c3b413",
+        "hash": "f0979030",
+        "encoded": "%60%60%60javascript",
+        "prevChunkIds": []
+      },
+      "307": {
+        "chunkId": "c3b413",
+        "hash": "bdcfe63f",
+        "encoded": "current%20+=%20(target%20-%20current)%20*%20ease;",
+        "prevChunkIds": []
+      },
+      "308": {
+        "chunkId": "c3b413",
+        "hash": "17dd5299",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "310": {
+        "chunkId": "c3b413",
+        "hash": "4fcba5d3",
+        "encoded": "###%203.%20Stagger%20Delays:",
+        "prevChunkIds": []
+      },
+      "311": {
+        "chunkId": "c3b413",
+        "hash": "733b19c3",
+        "encoded": "%60%60%60javascript",
+        "prevChunkIds": []
+      },
+      "312": {
+        "chunkId": "c3b413",
+        "hash": "9ba0b77a",
+        "encoded": "delay%20=%20index%20*%200.1s",
+        "prevChunkIds": []
+      },
+      "313": {
+        "chunkId": "c3b413",
+        "hash": "8e7a1c3a",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "315": {
+        "chunkId": "c3b413",
+        "hash": "4c3ce847",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "317": {
+        "chunkId": "c3b413",
+        "hash": "5b5525ba",
+        "encoded": "##%20%F0%9F%8E%AF%20Feeling%20&%20Psychology",
+        "prevChunkIds": []
+      },
+      "319": {
+        "chunkId": "c3b413",
+        "hash": "6c14c503",
+        "encoded": "###%20Why%20It%20Feels%20Premium:",
+        "prevChunkIds": []
+      },
+      "321": {
+        "chunkId": "c3b413",
+        "hash": "9ece2194",
+        "encoded": "1.%20**Weight%20&%20Inertia**",
+        "prevChunkIds": []
+      },
+      "322": {
+        "chunkId": "c3b413",
+        "hash": "95e121f3",
+        "encoded": "-%20Smooth%20scroll%20has%20%22mass%22",
+        "prevChunkIds": []
+      },
+      "323": {
+        "chunkId": "c3b413",
+        "hash": "f163db2a",
+        "encoded": "-%20Movements%20feel%20physical",
+        "prevChunkIds": []
+      },
+      "324": {
+        "chunkId": "c3b413",
+        "hash": "6d2be69f",
+        "encoded": "-%20Not%20instant%20=%20more%20luxurious",
+        "prevChunkIds": []
+      },
+      "326": {
+        "chunkId": "c3b413",
+        "hash": "8e40967f",
+        "encoded": "2.%20**Anticipation**",
+        "prevChunkIds": []
+      },
+      "327": {
+        "chunkId": "c3b413",
+        "hash": "0e97d933",
+        "encoded": "-%20Hover%20states%20telegraph%20interaction",
+        "prevChunkIds": []
+      },
+      "328": {
+        "chunkId": "c3b413",
+        "hash": "9c0c9f65",
+        "encoded": "-%20Cursor%20changes%20before%20click",
+        "prevChunkIds": []
+      },
+      "329": {
+        "chunkId": "c3b413",
+        "hash": "c2f76b17",
+        "encoded": "-%20Builds%20user%20confidence",
+        "prevChunkIds": []
+      },
+      "331": {
+        "chunkId": "c3b413",
+        "hash": "61e94707",
+        "encoded": "3.%20**Follow-Through**",
+        "prevChunkIds": []
+      },
+      "332": {
+        "chunkId": "c3b413",
+        "hash": "aeb32c06",
+        "encoded": "-%20Momentum%20after%20drag%20release",
+        "prevChunkIds": []
+      },
+      "333": {
+        "chunkId": "c3b413",
+        "hash": "11e8a171",
+        "encoded": "-%20Animations%20complete%20naturally",
+        "prevChunkIds": []
+      },
+      "334": {
+        "chunkId": "c3b413",
+        "hash": "c362d7a3",
+        "encoded": "-%20Nothing%20feels%20%22snappy%22",
+        "prevChunkIds": []
+      },
+      "336": {
+        "chunkId": "c3b413",
+        "hash": "a633f973",
+        "encoded": "4.%20**Attention%20to%20Detail**",
+        "prevChunkIds": []
+      },
+      "337": {
+        "chunkId": "c3b413",
+        "hash": "06ceca1b",
+        "encoded": "-%20Grain%20texture",
+        "prevChunkIds": []
+      },
+      "338": {
+        "chunkId": "c3b413",
+        "hash": "3e838651",
+        "encoded": "-%20Subtle%20glows",
+        "prevChunkIds": []
+      },
+      "339": {
+        "chunkId": "c3b413",
+        "hash": "0e127682",
+        "encoded": "-%20Character-level%20animations",
+        "prevChunkIds": []
+      },
+      "340": {
+        "chunkId": "c3b413",
+        "hash": "4e9bbfff",
+        "encoded": "-%20Shows%20craftsmanship",
+        "prevChunkIds": []
+      },
+      "342": {
+        "chunkId": "c3b413",
+        "hash": "96a6cf8a",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "344": {
+        "chunkId": "c3b413",
+        "hash": "3f2b1d09",
+        "encoded": "##%20%F0%9F%94%A7%20Customization",
+        "prevChunkIds": []
+      },
+      "346": {
+        "chunkId": "c3b413",
+        "hash": "9f5b2824",
+        "encoded": "###%20Adjust%20Smooth%20Scroll%20Speed:",
+        "prevChunkIds": []
+      },
+      "347": {
+        "chunkId": "c3b413",
+        "hash": "6472b43e",
+        "encoded": "%60%60%60javascript",
+        "prevChunkIds": []
+      },
+      "348": {
+        "chunkId": "c3b413",
+        "hash": "09734a07",
+        "encoded": "this.ease%20=%200.1;%20%20//%20Lower%20=%20smoother,%20slower",
+        "prevChunkIds": []
+      },
+      "349": {
+        "chunkId": "c3b413",
+        "hash": "1561e042",
+        "encoded": "//%20Higher%20=%20faster,%20less%20smooth",
+        "prevChunkIds": []
+      },
+      "350": {
+        "chunkId": "c3b413",
+        "hash": "c791d61a",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "352": {
+        "chunkId": "c3b413",
+        "hash": "3445a355",
+        "encoded": "###%20Change%20Parallax%20Strength:",
+        "prevChunkIds": []
+      },
+      "353": {
+        "chunkId": "c3b413",
+        "hash": "4e2e6d9b",
+        "encoded": "%60%60%60html",
+        "prevChunkIds": []
+      },
+      "354": {
+        "chunkId": "c3b413",
+        "hash": "3d27c505",
+        "encoded": "data-scroll-speed=%22-2%22%20%20%3C!--%20Slower%20--%3E",
+        "prevChunkIds": []
+      },
+      "355": {
+        "chunkId": "c3b413",
+        "hash": "490921e0",
+        "encoded": "data-scroll-speed=%22-5%22%20%20%3C!--%20Faster%20--%3E",
+        "prevChunkIds": []
+      },
+      "356": {
+        "chunkId": "c3b413",
+        "hash": "af7421cb",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "358": {
+        "chunkId": "c3b413",
+        "hash": "1192a3ef",
+        "encoded": "###%20Modify%20Easing:",
+        "prevChunkIds": []
+      },
+      "359": {
+        "chunkId": "c3b413",
+        "hash": "1f18792d",
+        "encoded": "%60%60%60css",
+        "prevChunkIds": []
+      },
+      "360": {
+        "chunkId": "c3b413",
+        "hash": "b57a07ce",
+        "encoded": "--ease-out-expo:%20cubic-bezier(0.16,%201,%200.3,%201);",
+        "prevChunkIds": []
+      },
+      "361": {
+        "chunkId": "c3b413",
+        "hash": "7124a86c",
+        "encoded": "/*%20Adjust%20these%20four%20values%20*/",
+        "prevChunkIds": []
+      },
+      "362": {
+        "chunkId": "c3b413",
+        "hash": "ada75d6f",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "364": {
+        "chunkId": "c3b413",
+        "hash": "12fda16b",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "366": {
+        "chunkId": "c3b413",
+        "hash": "2e6912cd",
+        "encoded": "##%20%F0%9F%93%8A%20Performance%20Metrics",
+        "prevChunkIds": []
+      },
+      "368": {
+        "chunkId": "c3b413",
+        "hash": "c95a747f",
+        "encoded": "**Target**:",
+        "prevChunkIds": []
+      },
+      "369": {
+        "chunkId": "c3b413",
+        "hash": "dcbaf506",
+        "encoded": "-%2060%20FPS%20scrolling",
+        "prevChunkIds": []
+      },
+      "370": {
+        "chunkId": "c3b413",
+        "hash": "123c2a5a",
+        "encoded": "-%20%3C%2016ms%20per%20frame",
+        "prevChunkIds": []
+      },
+      "371": {
+        "chunkId": "c3b413",
+        "hash": "c13054c9",
+        "encoded": "-%20%3C%20100ms%20interaction%20response",
+        "prevChunkIds": []
+      },
+      "373": {
+        "chunkId": "c3b413",
+        "hash": "fdfbc45d",
+        "encoded": "**Achieved**:",
+        "prevChunkIds": []
+      },
+      "374": {
+        "chunkId": "c3b413",
+        "hash": "30cf152a",
+        "encoded": "-%20%E2%9C%85%2060%20FPS%20on%20modern%20devices",
+        "prevChunkIds": []
+      },
+      "375": {
+        "chunkId": "c3b413",
+        "hash": "a973d6dc",
+        "encoded": "-%20%E2%9C%85%20GPU-accelerated%20transforms",
+        "prevChunkIds": []
+      },
+      "376": {
+        "chunkId": "c3b413",
+        "hash": "b058aae4",
+        "encoded": "-%20%E2%9C%85%20Debounced%20event%20handlers",
+        "prevChunkIds": []
+      },
+      "377": {
+        "chunkId": "c3b413",
+        "hash": "b08954d2",
+        "encoded": "-%20%E2%9C%85%20Lazy-loaded%20animations",
+        "prevChunkIds": []
+      },
+      "379": {
+        "chunkId": "c3b413",
+        "hash": "dcc9c7dc",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "381": {
+        "chunkId": "c3b413",
+        "hash": "aaedbbd8",
+        "encoded": "##%20%F0%9F%8E%93%20Learning%20Resources",
+        "prevChunkIds": []
+      },
+      "383": {
+        "chunkId": "c3b413",
+        "hash": "3cc085cd",
+        "encoded": "These%20animations%20are%20inspired%20by:",
+        "prevChunkIds": []
+      },
+      "384": {
+        "chunkId": "c3b413",
+        "hash": "cc0d67ee",
+        "encoded": "-%20**Poppr.be**%20-%20Smooth%20scroll,%20grain%20effect",
+        "prevChunkIds": []
+      },
+      "385": {
+        "chunkId": "c3b413",
+        "hash": "887a2502",
+        "encoded": "-%20**Awwwards%20winners**%20-%20Premium%20interactions",
+        "prevChunkIds": []
+      },
+      "386": {
+        "chunkId": "c3b413",
+        "hash": "1d3254e5",
+        "encoded": "-%20**Apple.com**%20-%20Refined%20easing%20curves",
+        "prevChunkIds": []
+      },
+      "387": {
+        "chunkId": "c3b413",
+        "hash": "0befb6e6",
+        "encoded": "-%20**Stripe.com**%20-%20Subtle%20micro-interactions",
+        "prevChunkIds": []
+      },
+      "389": {
+        "chunkId": "c3b413",
+        "hash": "5aa146b4",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "391": {
+        "chunkId": "c3b413",
+        "hash": "7926c194",
+        "encoded": "##%20%F0%9F%9A%80%20What%20Makes%20It%20Special",
+        "prevChunkIds": []
+      },
+      "393": {
+        "chunkId": "c3b413",
+        "hash": "19bba904",
+        "encoded": "1.%20**No%20external%20libraries**%20(pure%20vanilla%20JS)",
+        "prevChunkIds": []
+      },
+      "394": {
+        "chunkId": "c3b413",
+        "hash": "a4c22aac",
+        "encoded": "2.%20**Custom%20smooth%20scroll**%20(not%20CSS%20scroll-snap)",
+        "prevChunkIds": []
+      },
+      "395": {
+        "chunkId": "c3b413",
+        "hash": "ed2d2e32",
+        "encoded": "3.%20**Physics-based%20motion**%20(velocity,%20friction)",
+        "prevChunkIds": []
+      },
+      "396": {
+        "chunkId": "c3b413",
+        "hash": "11abd964",
+        "encoded": "4.%20**Layered%20cursor**%20(dot%20+%20outline)",
+        "prevChunkIds": []
+      },
+      "397": {
+        "chunkId": "c3b413",
+        "hash": "211c802f",
+        "encoded": "5.%20**Grain%20texture**%20(analog%20feel)",
+        "prevChunkIds": []
+      },
+      "398": {
+        "chunkId": "c3b413",
+        "hash": "7d4a36b9",
+        "encoded": "6.%20**Magnetic%20attraction**%20(buttons%20follow%20cursor)",
+        "prevChunkIds": []
+      },
+      "399": {
+        "chunkId": "c3b413",
+        "hash": "f5c1aaa3",
+        "encoded": "7.%20**Character-level**%20(text%20split%20animations)",
+        "prevChunkIds": []
+      },
+      "400": {
+        "chunkId": "c3b413",
+        "hash": "bd877e0c",
+        "encoded": "8.%20**Momentum%20scrolling**%20(iOS-like%20physics)",
+        "prevChunkIds": []
+      },
+      "402": {
+        "chunkId": "c3b413",
+        "hash": "6ece3154",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "404": {
+        "chunkId": "c3b413",
+        "hash": "d026f50c",
+        "encoded": "**The%20result**:%20A%20buttery-smooth,%20premium-feeling%20website%20that%20rivals%20the%20best%20portfolio%20sites%20on%20the%20web.%20%F0%9F%8E%A8%E2%9C%A8",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

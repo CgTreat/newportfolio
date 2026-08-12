@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://api.fontshare.com">
     <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700,500,400,300,200,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="nova-studio.css">
+    <link rel="stylesheet" href="nova-enhancements.css">
 </head>
 <body>
     <!-- Preloader -->
@@ -80,14 +81,18 @@
             <!-- Eyebrow text -->
             <p class="hero-eyebrow">Brooklyn Based Digital Studio</p>
             
-            <!-- Main headline - split words -->
-            <h1 class="hero-headline">
-                <span class="headline-word" data-word="1">We</span>
-                <span class="headline-word" data-word="2">craft</span>
-                <br>
-                <span class="headline-word accent" data-word="3">digital</span>
-                <br>
-                <span class="headline-word" data-word="4">experiences</span>
+            <!-- Main headline - character split for reveal -->
+            <h1 class="hero-headline" id="heroHeadline">
+                <div class="headline-line">
+                    <span class="headline-word" data-word="1">We</span>
+                    <span class="headline-word" data-word="2">craft</span>
+                </div>
+                <div class="headline-line">
+                    <span class="headline-word accent" data-word="3">digital</span>
+                </div>
+                <div class="headline-line">
+                    <span class="headline-word" data-word="4">experiences</span>
+                </div>
             </h1>
             
             <!-- Subhead with link -->
@@ -135,13 +140,13 @@
         </div>
     </div>
 
-    <!-- Services (Horizontal Drag) -->
+        <!-- Services (3D Ribbon Carousel) -->
     <section class="services-section" id="services" data-scroll-section>
         <div class="section-eyebrow">What We Do</div>
         <h2 class="section-heading">Capabilities</h2>
         
-        <div class="services-container">
-            <div class="services-track" id="servicesTrack">
+        <div class="services-3d-container" id="services3DContainer">
+            <div class="services-ribbon" id="servicesRibbon">
                 <div class="service-card" style="--accent: var(--color-primary)">
                     <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80');"></div>
                     <div class="service-content">
@@ -284,67 +289,68 @@
         <h2 class="section-heading">Moments in Motion</h2>
         
         <div class="interactive-wall-container" id="wallContainer">
-            <div class="wall-card" data-x="10" data-y="15">
+            <div class="wall-card" data-x="15" data-y="10">
                 <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=400&q=80');"></div>
             </div>
-            <div class="wall-card" data-x="35" data-y="25">
+            <div class="wall-card" data-x="45" data-y="5">
                 <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400&q=80');"></div>
             </div>
-            <div class="wall-card" data-x="65" data-y="10">
+            <div class="wall-card" data-x="75" data-y="12">
                 <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=400&q=80');"></div>
             </div>
-            <div class="wall-card" data-x="20" data-y="55">
+            <div class="wall-card" data-x="10" data-y="45">
                 <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&q=80');"></div>
             </div>
-            <div class="wall-card" data-x="50" data-y="50">
+            <div class="wall-card" data-x="38" data-y="40">
                 <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=400&q=80');"></div>
             </div>
-            <div class="wall-card" data-x="75" data-y="60">
+            <div class="wall-card" data-x="68" data-y="48">
                 <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80');"></div>
             </div>
-            <div class="wall-card" data-x="15" data-y="80">
+            <div class="wall-card" data-x="20" data-y="75">
                 <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80');"></div>
             </div>
-            <div class="wall-card" data-x="60" data-y="85">
+            <div class="wall-card" data-x="55" data-y="78">
                 <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1559028012-481c04fa702d?w=400&q=80');"></div>
+            </div>
+            <div class="wall-card" data-x="85" data-y="80">
+                <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&q=80');"></div>
             </div>
         </div>
     </section>
 
-    <!-- Approach -->
+    <!-- Approach - 4 Column Layout -->
     <section class="approach-section" id="approach" data-scroll-section>
         <div class="section-eyebrow">Our Process</div>
         <h2 class="section-heading">How We Work</h2>
         
-        <div class="process-timeline">
-            <svg class="timeline-line" viewBox="0 0 4 400" preserveAspectRatio="none">
-                <path d="M2 0 L2 400" stroke="var(--color-primary)" stroke-width="2" fill="none" stroke-dasharray="400" stroke-dashoffset="400" id="timelinePath"/>
-            </svg>
+        <div class="process-grid">
+            <div class="process-step" data-step="1">
+                <div class="step-icon">🔍</div>
+                <div class="step-number">01</div>
+                <h3 class="step-title">Discover</h3>
+                <p class="step-desc">Deep dive into your vision, audience, and goals</p>
+            </div>
             
-            <div class="process-steps">
-                <div class="process-step" data-step="1">
-                    <div class="step-number">01</div>
-                    <h3 class="step-title">Discover</h3>
-                    <p class="step-desc">Deep dive into your vision, audience, and goals</p>
-                </div>
-                
-                <div class="process-step" data-step="2">
-                    <div class="step-number">02</div>
-                    <h3 class="step-title">Design</h3>
-                    <p class="step-desc">Craft immersive concepts and visual systems</p>
-                </div>
-                
-                <div class="process-step" data-step="3">
-                    <div class="step-number">03</div>
-                    <h3 class="step-title">Develop</h3>
-                    <p class="step-desc">Build with cutting-edge tech and craft</p>
-                </div>
-                
-                <div class="process-step" data-step="4">
-                    <div class="step-number">04</div>
-                    <h3 class="step-title">Deliver</h3>
-                    <p class="step-desc">Launch and optimize for maximum impact</p>
-                </div>
+            <div class="process-step" data-step="2">
+                <div class="step-icon">✨</div>
+                <div class="step-number">02</div>
+                <h3 class="step-title">Design</h3>
+                <p class="step-desc">Craft immersive concepts and visual systems</p>
+            </div>
+            
+            <div class="process-step" data-step="3">
+                <div class="step-icon">⚡</div>
+                <div class="step-number">03</div>
+                <h3 class="step-title">Develop</h3>
+                <p class="step-desc">Build with cutting-edge tech and craft</p>
+            </div>
+            
+            <div class="process-step" data-step="4">
+                <div class="step-icon">🚀</div>
+                <div class="step-number">04</div>
+                <h3 class="step-title">Deliver</h3>
+                <p class="step-desc">Launch and optimize for maximum impact</p>
             </div>
         </div>
     </section>

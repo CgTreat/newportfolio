@@ -1,0 +1,189 @@
+/* ========================================
+   NOVA STUDIO - ENHANCEMENTS
+   Additional styles for new features
+   ======================================== */
+
+/* APPROACH - 4 COLUMN GRID */
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 1400px;
+    margin: 60px auto 0;
+}
+
+.approach-section {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s var(--ease-smooth);
+}
+
+.approach-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.process-step {
+    position: relative;
+    padding: 40px 30px;
+    background: var(--color-card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(60px) scale(0.9);
+    transition: all 0.8s var(--ease-poppr), border-color 0.4s;
+}
+
+.process-step.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.process-step:nth-child(1) { transition-delay: 0.1s; }
+.process-step:nth-child(2) { transition-delay: 0.2s; }
+.process-step:nth-child(3) { transition-delay: 0.3s; }
+.process-step:nth-child(4) { transition-delay: 0.4s; }
+
+.process-step:hover {
+    border-color: var(--color-accent-purple);
+    transform: translateY(-10px) scale(1.02);
+}
+
+.step-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.process-step .step-number {
+    position: static;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-accent-purple);
+    opacity: 0.6;
+    margin-bottom: 16px;
+    letter-spacing: 0.1em;
+}
+
+.process-step .step-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.process-step .step-desc {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* SERVICES - 3D RIBBON CAROUSEL */
+.services-section {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s var(--ease-smooth);
+}
+
+.services-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.services-3d-container {
+    margin-top: 60px;
+    perspective: 2000px;
+    perspective-origin: 50% 50%;
+    height: 600px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.services-ribbon {
+    display: flex;
+    gap: 30px;
+    padding: 0 40px;
+    will-change: transform;
+    transform-style: preserve-3d;
+    position: absolute;
+    left: -500px;
+}
+
+/* NAVIGATION LINK COLORS */
+.nav-pill {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.nav-pill:hover,
+.nav-pill.active {
+    color: var(--color-bg) !important;
+}
+
+/* PROJECTS SECTION */
+.projects-section {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s var(--ease-smooth);
+}
+
+.projects-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* INSIGHTS SECTION */
+.insights-section {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s var(--ease-smooth);
+}
+
+.insights-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* HERO ENHANCEMENTS */
+.hero {
+    perspective: 1500px !important;
+}
+
+.headline-line {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.headline-word {
+    opacity: 0;
+    transform: translateY(150%) rotateX(-90deg);
+    will-change: transform, opacity;
+}
+
+.headline-word.visible {
+    opacity: 1;
+    transform: translateY(0) rotateX(0deg);
+    transition: all 1.4s var(--ease-expo);
+}
+
+.headline-word[data-word="1"] { transition-delay: 0.2s !important; }
+.headline-word[data-word="2"] { transition-delay: 0.35s !important; }
+.headline-word[data-word="3"] { transition-delay: 0.55s !important; }
+.headline-word[data-word="4"] { transition-delay: 0.75s !important; }
+
+@media (max-width: 1024px) {
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+}

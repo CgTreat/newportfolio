@@ -276,56 +276,81 @@ if (hero3DContainer) {
 }
 
 // ========================================
-// SERVICES HORIZONTAL DRAG
+// SERVICES 3D RIBBON CAROUSEL
 // ========================================
 
-const servicesTrack = document.getElementById('servicesTrack');
+const servicesRibbon = document.getElementById('servicesRibbon');
+const services3DContainer = document.getElementById('services3DContainer');
 
-if (servicesTrack) {
-    let isDown = false;
-    let startX;
-    let scrollLeft;
-    let velocity = 0;
+if (servicesRibbon && services3DContainer) {
+    const cards = servicesRibbon.querySelectorAll('.service-card');
+    const cardWidth = 530; // 500 + 30 gap
+    const totalWidth = cards.length * cardWidth;
     
-    servicesTrack.parentElement.addEventListener('mousedown', (e) => {
-        isDown = true;
-        startX = e.pageX - servicesTrack.offsetLeft;
-        scrollLeft = servicesTrack.parentElement.scrollLeft;
-        servicesTrack.parentElement.style.cursor = 'grabbing';
-        cursor.classList.add('drag');
-        cursorLabel.textContent = 'Drag';
+    // Position cards initially off-screen with 3D transforms
+    cards.forEach((card, i) => {
+        gsap.set(card, {
+            x: i * cardWidth,
+            rotateY: -45,
+            rotateX: 10,
+            z: -200,
+            opacity: 0.3
+        });
     });
     
-    servicesTrack.parentElement.addEventListener('mouseleave', () => {
-        isDown = false;
-        servicesTrack.parentElement.style.cursor = 'grab';
-        cursor.classList.remove('drag');
-    });
-    
-    servicesTrack.parentElement.addEventListener('mouseup', () => {
-        isDown = false;
-        servicesTrack.parentElement.style.cursor = 'grab';
-        cursor.classList.remove('drag');
-    });
-    
-    servicesTrack.parentElement.addEventListener('mousemove', (e) => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - servicesTrack.offsetLeft;
-        const walk = (x - startX) * 2;
-        servicesTrack.parentElement.scrollLeft = scrollLeft - walk;
-    });
-    
-    // GSAP ScrollTrigger for horizontal scroll
-    gsap.to(servicesTrack, {
-        x: () => -(servicesTrack.scrollWidth - window.innerWidth),
-        ease: 'none',
+    // Create 3D ribbon scroll animation
+    gsap.to(servicesRibbon, {
+        x: -totalWidth + window.innerWidth,
         scrollTrigger: {
             trigger: '.services-section',
-            pin: true,
+            start: 'top top',
+            end: '+=3000',
             scrub: 1,
-            end: () => '+=' + servicesTrack.scrollWidth,
-            invalidateOnRefresh: true
+            pin: true,
+            onUpdate: (self) => {
+                const progress = self.progress;
+                
+                cards.forEach((card, i) => {
+                    // Calculate card's relative position in viewport
+                    const cardProgress = (progress * totalWidth - i * cardWidth) / window.innerWidth;
+                    
+                    // 3D transforms based on position
+                    let rotateY = 0;
+                    let rotateX = 0;
+                    let z = 0;
+                    let opacity = 1;
+                    
+                    if (cardProgress < 0) {
+                        // Coming from left
+                        rotateY = -45 + (cardProgress * 90);
+                        rotateX = 10;
+                        z = -200 + (cardProgress * 400);
+                        opacity = 0.3 + (cardProgress * 1.4);
+                    } else if (cardProgress > 1) {
+                        // Going to right
+                        const exitProgress = cardProgress - 1;
+                        rotateY = exitProgress * 45;
+                        rotateX = -exitProgress * 10;
+                        z = -exitProgress * 200;
+                        opacity = 1 - (exitProgress * 0.7);
+                    } else {
+                        // In viewport - center focus
+                        const centerDist = Math.abs(0.5 - cardProgress);
+                        rotateY = (cardProgress - 0.5) * 20;
+                        z = -centerDist * 100 + 50;
+                        opacity = 1;
+                    }
+                    
+                    gsap.to(card, {
+                        rotateY: rotateY,
+                        rotateX: rotateX,
+                        z: z,
+                        opacity: opacity,
+                        duration: 0.3,
+                        ease: 'power2.out'
+                    });
+                });
+            }
         }
     });
 }
@@ -352,6 +377,80 @@ if (projectCards.length > 0) {
     });
     
     projectCards.forEach(card => cardObserver.observe(card));
+}
+
+// ========================================
+// SCROLL REVEAL FOR ALL SECTIONS
+// ========================================
+
+const revealSections = document.querySelectorAll(
+    '.approach-section, .services-section, .projects-section, .interactive-wall-section, .insights-section, .studio-section'
+);
+
+const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, {
+    threshold: 0.2
+});
+
+revealSections.forEach(section => {
+    sectionObserver.observe(section);
+});
+
+// ========================================
+// APPROACH SECTION - 4 COLUMN REVEAL
+// ========================================
+
+const processSteps = document.querySelectorAll('.process-step');
+
+if (processSteps.length > 0) {
+    const stepObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, {
+        threshold: 0.3
+    });
+    
+    processSteps.forEach(step => {
+        stepObserver.observe(step);
+    });
+}
+
+// ========================================
+// HERO CURSOR INTERACTION
+// ========================================
+
+const hero = document.querySelector('.hero');
+const heroHeadline = document.getElementById('heroHeadline');
+
+if (hero) {
+    hero.addEventListener('mousemove', (e) => {
+        const rect = hero.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width) * 100;
+        const y = ((e.clientY - rect.top) / rect.height) * 100;
+        
+        hero.style.setProperty('--mouse-x', `${x}%`);
+        hero.style.setProperty('--mouse-y', `${y}%`);
+        
+        if (heroHeadline) {
+            const moveX = (x - 50) * 0.02;
+            const moveY = (y - 50) * 0.02;
+            heroHeadline.style.transform = `perspective(1000px) rotateY(${moveX}deg) rotateX(${-moveY}deg)`;
+        }
+    });
+    
+    hero.addEventListener('mouseleave', () => {
+        if (heroHeadline) {
+            heroHeadline.style.transform = '';
+        }
+    });
 }
 
 // ========================================
@@ -386,41 +485,38 @@ if (wallContainer && wallCards.length > 0) {
     
     wallObserver.observe(wallContainer);
     
-    // Magnetic cursor effect
-    wallContainer.addEventListener('mousemove', (e) => {
-        const rect = wallContainer.getBoundingClientRect();
-        const mouseX = e.clientX - rect.left;
-        const mouseY = e.clientY - rect.top;
+    // Global parallax effect - ALL cards shift with cursor
+    document.addEventListener('mousemove', (e) => {
+        const mouseX = e.clientX / window.innerWidth;
+        const mouseY = e.clientY / window.innerHeight;
         
-        wallCards.forEach(card => {
-            const cardRect = card.getBoundingClientRect();
-            const cardCenterX = cardRect.left + cardRect.width / 2 - rect.left;
-            const cardCenterY = cardRect.top + cardRect.height / 2 - rect.top;
+        wallCards.forEach((card, index) => {
+            if (!card.classList.contains('visible')) return;
             
-            const deltaX = mouseX - cardCenterX;
-            const deltaY = mouseY - cardCenterY;
-            const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+            const x = parseFloat(card.dataset.x);
+            const y = parseFloat(card.dataset.y);
             
-            const magneticRadius = 200;
+            // Calculate distance from cursor (0-1 range)
+            const deltaX = (mouseX * 100 - x) / 100;
+            const deltaY = (mouseY * 100 - y) / 100;
             
-            if (distance < magneticRadius) {
-                const strength = 1 - (distance / magneticRadius);
-                const moveX = deltaX * strength * 0.15;
-                const moveY = deltaY * strength * 0.15;
-                
-                card.classList.add('magnetic');
-                card.style.transform = `translate(calc(-50% + ${moveX}px), calc(-50% + ${moveY}px)) scale(${1 + strength * 0.1}) rotateY(0deg)`;
-            } else {
-                card.classList.remove('magnetic');
-                card.style.transform = '';
-            }
+            // Parallax shift - cards further from cursor move more
+            const shiftX = deltaX * 15;
+            const shiftY = deltaY * 15;
+            
+            card.classList.add('parallax');
+            card.style.transform = `translate(calc(-50% + ${shiftX}px), calc(-50% + ${shiftY}px)) scale(1) rotateY(0deg)`;
         });
     });
     
-    wallContainer.addEventListener('mouseleave', () => {
-        wallCards.forEach(card => {
-            card.classList.remove('magnetic');
-            card.style.transform = '';
+    // Magnetic hover effect on individual cards
+    wallCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.classList.remove('parallax');
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.classList.add('parallax');
         });
     });
 }

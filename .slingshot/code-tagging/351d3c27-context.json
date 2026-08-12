@@ -1,0 +1,15 @@
+{
+  "filename": "nova-enhancements.css",
+  "path": "nova-enhancements.css",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "b32d1eb8": {
+      "value": "Discover, Design, Develop & Deliver, should come in four column horizontally. Moments in motion section images looks randomly placed think some better way to position them, animate all of them based on the cursor position. Imagine like all cards shifts a bit when cursor moves. every section should have scroll reveal or slide animation. \"We craft digital experiences\" is the main hero, this should have some reveal animation, some interactive cursor animation, elements should react based on cursor "
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

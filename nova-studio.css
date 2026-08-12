@@ -595,12 +595,13 @@ body:hover .mouse-gradient {
     border-radius: 32px;
     position: relative;
     overflow: hidden;
-    transition: border-color 0.4s, transform 0.4s;
+    transition: all 0.6s var(--ease-poppr);
+    transform-style: preserve-3d;
 }
 
 .service-card:hover {
     border-color: var(--color-accent-purple);
-    transform: translateY(-5px);
+    transform: scale(1.05) translateZ(50px);
 }
 
 .service-card-image {
@@ -1133,6 +1134,14 @@ body:hover .mouse-gradient {
 .studio-section {
     padding: 120px 40px;
     background: var(--color-bg);
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s var(--ease-smooth);
+}
+
+.studio-section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .studio-grid {
@@ -1351,21 +1360,29 @@ body:hover .mouse-gradient {
     min-height: 100vh;
     background: var(--color-bg);
     text-align: center;
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s var(--ease-smooth);
+}
+
+.interactive-wall-section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .interactive-wall-container {
     position: relative;
     width: 100%;
     max-width: 1400px;
-    height: 800px;
+    height: 900px;
     margin: 60px auto 0;
     perspective: 1000px;
 }
 
 .wall-card {
     position: absolute;
-    width: 250px;
-    height: 350px;
+    width: 280px;
+    height: 380px;
     border-radius: 20px;
     overflow: hidden;
     cursor: pointer;
@@ -1389,11 +1406,12 @@ body:hover .mouse-gradient {
 .wall-card:nth-child(6) { transition-delay: 0.5s; }
 .wall-card:nth-child(7) { transition-delay: 0.6s; }
 .wall-card:nth-child(8) { transition-delay: 0.7s; }
+.wall-card:nth-child(9) { transition-delay: 0.8s; }
 
 .wall-card:hover {
     z-index: 10;
-    transform: translate(-50%, -50%) scale(1.1) rotateY(0deg);
-    box-shadow: 0 30px 80px rgba(107, 91, 255, 0.4);
+    transform: translate(-50%, -50%) scale(1.15) rotateY(0deg);
+    box-shadow: 0 30px 80px rgba(107, 91, 255, 0.5);
 }
 
 .wall-card-image {
@@ -1408,9 +1426,9 @@ body:hover .mouse-gradient {
     transform: scale(1.1);
 }
 
-/* Magnetic effect when cursor is near */
-.wall-card.magnetic {
-    transition: all 0.15s ease-out;
+/* Global parallax effect */
+.wall-card.parallax {
+    transition: all 0.08s ease-out;
 }
 
 /* FOOTER */

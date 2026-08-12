@@ -1,0 +1,15 @@
+{
+  "filename": "PUSH_TO_GITHUB.md",
+  "path": "PUSH_TO_GITHUB.md",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "1ab40680": {
+      "value": "create github project and push"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

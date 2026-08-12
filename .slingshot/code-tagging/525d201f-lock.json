@@ -1,0 +1,900 @@
+{
+  "PUSH_TO_GITHUB.md": {
+    "filename": "PUSH_TO_GITHUB.md",
+    "path": "PUSH_TO_GITHUB.md",
+    "version": "1.2",
+    "contextFile": "525d201f-context.json",
+    "chunks": {
+      "ffa11b": {
+        "user": "Narendra Keshkar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1786531105,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "1ab40680"
+        },
+        "hash": "e58d1725",
+        "messageId": "system_ac6d54d0-9637-11f1-960a-19d1076f7b80",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Narendra Keshkar\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/12/2026, 4:08:25 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "ffa11b",
+        "hash": "1be4a5c6",
+        "encoded": "#%20%F0%9F%9A%80%20Push%20to%20GitHub%20-%20Complete%20Guide%20for%20CgTreat",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "ffa11b",
+        "hash": "3e242a02",
+        "encoded": "##%20%E2%9C%85%20Current%20Status",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "ffa11b",
+        "hash": "db6575d6",
+        "encoded": "-%20%E2%9C%93%20Git%20repository%20initialized",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "ffa11b",
+        "hash": "fb24b8b2",
+        "encoded": "-%20%E2%9C%93%20All%20files%20committed%20(commit:%20ac38827)",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "ffa11b",
+        "hash": "82f39d95",
+        "encoded": "-%20%E2%9C%93%20Remote%20added:%20https://github.com/CgTreat/creative-studio-website.git",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "ffa11b",
+        "hash": "dae9ddee",
+        "encoded": "-%20%E2%9A%A0%EF%B8%8F%20**Next%20Step**:%20Create%20the%20repository%20on%20GitHub%20and%20push!",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "ffa11b",
+        "hash": "a770a7c1",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "ffa11b",
+        "hash": "a9d4a9ef",
+        "encoded": "##%20%F0%9F%93%8C%20Step-by-Step%20Instructions",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "ffa11b",
+        "hash": "d74004bf",
+        "encoded": "###%20Step%201:%20Create%20the%20Repository%20on%20GitHub",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "ffa11b",
+        "hash": "a638c346",
+        "encoded": "1.%20**Open%20your%20browser**%20and%20go%20to:%20https://github.com/new",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "ffa11b",
+        "hash": "029da870",
+        "encoded": "2.%20**Fill%20in%20the%20repository%20details**:",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "ffa11b",
+        "hash": "0380e888",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "ffa11b",
+        "hash": "07823564",
+        "encoded": "Repository%20name:%20creative-studio-website",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "ffa11b",
+        "hash": "34cf3524",
+        "encoded": "Description:%20Modern%20portfolio%20website%20with%20smooth%20animations,%20scroll%20effects,%20and%20interactive%20micro-interactions",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "ffa11b",
+        "hash": "d75f8480",
+        "encoded": "Visibility:%20%E2%98%90%20Public%20(recommended)%20or%20%E2%98%90%20Private",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "ffa11b",
+        "hash": "c82ca2d0",
+        "encoded": "%E2%9A%A0%EF%B8%8F%20IMPORTANT:%20DO%20NOT%20check%20any%20of%20these%20boxes:",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "ffa11b",
+        "hash": "bb6d583a",
+        "encoded": "%E2%98%90%20Add%20a%20README%20file",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "ffa11b",
+        "hash": "70282667",
+        "encoded": "%E2%98%90%20Add%20.gitignore",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "ffa11b",
+        "hash": "15c3e387",
+        "encoded": "%E2%98%90%20Choose%20a%20license",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "ffa11b",
+        "hash": "ebfd5a89",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "ffa11b",
+        "hash": "efde4e49",
+        "encoded": "3.%20**Click%20%22Create%20repository%22**",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "ffa11b",
+        "hash": "ccafc827",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "ffa11b",
+        "hash": "36ff0249",
+        "encoded": "###%20Step%202:%20Push%20Your%20Code",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "ffa11b",
+        "hash": "d357a758",
+        "encoded": "After%20creating%20the%20repository,%20**open%20your%20terminal**%20and%20run%20this%20single%20command:",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "ffa11b",
+        "hash": "9fb99b03",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "ffa11b",
+        "hash": "dc412bbb",
+        "encoded": "git%20push%20-u%20origin%20main",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "ffa11b",
+        "hash": "ee3aeb44",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "ffa11b",
+        "hash": "99b201b3",
+        "encoded": "That's%20it!%20Your%20code%20will%20be%20pushed%20to%20GitHub.",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "ffa11b",
+        "hash": "d3e00cdb",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "ffa11b",
+        "hash": "2594c4dc",
+        "encoded": "##%20%F0%9F%94%90%20Authentication",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "ffa11b",
+        "hash": "686872d6",
+        "encoded": "When%20you%20run%20%60git%20push%60,%20you'll%20be%20asked%20for%20authentication.%20You%20have%20two%20options:",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "ffa11b",
+        "hash": "57f56b46",
+        "encoded": "###%20Option%20A:%20Use%20Personal%20Access%20Token%20(Easier)",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "ffa11b",
+        "hash": "35178ed5",
+        "encoded": "1.%20Go%20to:%20https://github.com/settings/tokens",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "ffa11b",
+        "hash": "16deeeef",
+        "encoded": "2.%20Click%20**%22Generate%20new%20token%22**%20%E2%86%92%20**%22Generate%20new%20token%20(classic)%22**",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "ffa11b",
+        "hash": "490e0fd6",
+        "encoded": "3.%20Give%20it%20a%20name:%20%60creative-studio-website%60",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "ffa11b",
+        "hash": "47989d75",
+        "encoded": "4.%20Set%20expiration:%20**90%20days**%20(or%20longer)",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "ffa11b",
+        "hash": "6a32a363",
+        "encoded": "5.%20Check%20the%20**%60repo%60**%20checkbox%20(this%20gives%20full%20repository%20access)",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "ffa11b",
+        "hash": "65e5bc7b",
+        "encoded": "6.%20Click%20**%22Generate%20token%22**",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "ffa11b",
+        "hash": "0f4ade90",
+        "encoded": "7.%20**Copy%20the%20token**%20(you%20won't%20see%20it%20again!)",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "ffa11b",
+        "hash": "65429839",
+        "encoded": "8.%20When%20pushing:",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "ffa11b",
+        "hash": "e412b613",
+        "encoded": "-%20Username:%20%60CgTreat%60",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "ffa11b",
+        "hash": "fc937689",
+        "encoded": "-%20Password:%20%60%3Cpaste-your-token-here%3E%60",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "ffa11b",
+        "hash": "2318d343",
+        "encoded": "###%20Option%20B:%20Use%20GitHub%20Desktop%20(Easiest)",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "ffa11b",
+        "hash": "1df8c3dd",
+        "encoded": "1.%20Download%20GitHub%20Desktop:%20https://desktop.github.com",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "ffa11b",
+        "hash": "7020aa97",
+        "encoded": "2.%20Sign%20in%20with%20your%20GitHub%20account",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "ffa11b",
+        "hash": "1e4e54e4",
+        "encoded": "3.%20Click%20**%22Add%22**%20%E2%86%92%20**%22Add%20existing%20repository%22**",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "ffa11b",
+        "hash": "19c732e5",
+        "encoded": "4.%20Browse%20to%20your%20project%20folder",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "ffa11b",
+        "hash": "686660ce",
+        "encoded": "5.%20Click%20**%22Publish%20repository%22**",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "ffa11b",
+        "hash": "225a1efa",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "ffa11b",
+        "hash": "ec2036b6",
+        "encoded": "##%20%F0%9F%93%A6%20What%20Will%20Be%20Pushed",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "ffa11b",
+        "hash": "723fb4c2",
+        "encoded": "These%20files%20will%20be%20uploaded%20to%20GitHub:",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "ffa11b",
+        "hash": "f95f11be",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "ffa11b",
+        "hash": "06dfd3ac",
+        "encoded": "%E2%9C%94%EF%B8%8F%20index.html%20%20%20%20%20%20%20(Website%20structure)",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "ffa11b",
+        "hash": "f929096d",
+        "encoded": "%E2%9C%94%EF%B8%8F%20styles.css%20%20%20%20%20%20%20(All%20styling%20and%20animations)",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "ffa11b",
+        "hash": "5280bd48",
+        "encoded": "%E2%9C%94%EF%B8%8F%20script.js%20%20%20%20%20%20%20%20(Interactive%20functionality)",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "ffa11b",
+        "hash": "b74ff6bc",
+        "encoded": "%E2%9C%94%EF%B8%8F%20README.md%20%20%20%20%20%20%20%20(Documentation)",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "ffa11b",
+        "hash": "0fca858b",
+        "encoded": "%E2%9C%94%EF%B8%8F%20.gitignore%20%20%20%20%20%20%20(Git%20ignore%20rules)",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "ffa11b",
+        "hash": "94e37d99",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "ffa11b",
+        "hash": "540fbc64",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "ffa11b",
+        "hash": "62c4a958",
+        "encoded": "##%20%F0%9F%8C%90%20Enable%20GitHub%20Pages%20(Make%20Your%20Site%20Live!)",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "ffa11b",
+        "hash": "6e8f8800",
+        "encoded": "After%20pushing,%20you%20can%20make%20your%20website%20live%20for%20**FREE**:",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "ffa11b",
+        "hash": "044c4cd2",
+        "encoded": "1.%20Go%20to%20your%20repository:%20https://github.com/CgTreat/creative-studio-website",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "ffa11b",
+        "hash": "3cf3a980",
+        "encoded": "2.%20Click%20**%22Settings%22**%20tab",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "ffa11b",
+        "hash": "99c53b23",
+        "encoded": "3.%20Click%20**%22Pages%22**%20in%20the%20left%20sidebar",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "ffa11b",
+        "hash": "99d61b40",
+        "encoded": "4.%20Under%20%22Source%22:",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "ffa11b",
+        "hash": "45b92aa1",
+        "encoded": "-%20Branch:%20**main**",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "ffa11b",
+        "hash": "ae486e9b",
+        "encoded": "-%20Folder:%20**/%20(root)**",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "ffa11b",
+        "hash": "1c1247ea",
+        "encoded": "5.%20Click%20**%22Save%22**",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "ffa11b",
+        "hash": "d97f28ff",
+        "encoded": "6.%20Wait%201-2%20minutes",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "ffa11b",
+        "hash": "c929dc3e",
+        "encoded": "7.%20Your%20site%20will%20be%20live%20at:",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "ffa11b",
+        "hash": "0b932502",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "ffa11b",
+        "hash": "a8901da2",
+        "encoded": "%F0%9F%8C%90%20https://cgtreat.github.io/creative-studio-website/",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "ffa11b",
+        "hash": "3468b825",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "ffa11b",
+        "hash": "d78f88a4",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "ffa11b",
+        "hash": "81f9125c",
+        "encoded": "##%20%F0%9F%8E%AF%20Quick%20Commands%20Reference",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "ffa11b",
+        "hash": "cdac4669",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "ffa11b",
+        "hash": "e16d16f2",
+        "encoded": "#%20Check%20what's%20ready%20to%20push",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "ffa11b",
+        "hash": "df23c26d",
+        "encoded": "git%20status",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "ffa11b",
+        "hash": "5403f89b",
+        "encoded": "#%20View%20your%20commits",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "ffa11b",
+        "hash": "c24b0add",
+        "encoded": "git%20log%20--oneline",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "ffa11b",
+        "hash": "2f5217fd",
+        "encoded": "#%20Check%20remote%20repository",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "ffa11b",
+        "hash": "fa33f113",
+        "encoded": "git%20remote%20-v",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "ffa11b",
+        "hash": "7c94f48a",
+        "encoded": "#%20Push%20to%20GitHub%20(main%20command)",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "ffa11b",
+        "hash": "924374fc",
+        "encoded": "git%20push%20-u%20origin%20main",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "ffa11b",
+        "hash": "e74f7f4e",
+        "encoded": "#%20Pull%20changes%20from%20GitHub%20(for%20future%20updates)",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "ffa11b",
+        "hash": "f809a4ca",
+        "encoded": "git%20pull%20origin%20main",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "ffa11b",
+        "hash": "15266480",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "ffa11b",
+        "hash": "0c683631",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "ffa11b",
+        "hash": "8a0a9536",
+        "encoded": "##%20%F0%9F%94%84%20Future%20Updates",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "ffa11b",
+        "hash": "81feb0cf",
+        "encoded": "When%20you%20make%20changes%20to%20your%20website:",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "ffa11b",
+        "hash": "79d3b468",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "ffa11b",
+        "hash": "90923f7f",
+        "encoded": "#%201.%20Check%20what%20changed",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "ffa11b",
+        "hash": "10e92577",
+        "encoded": "git%20status",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "ffa11b",
+        "hash": "8e0a35b9",
+        "encoded": "#%202.%20Add%20the%20changed%20files",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "ffa11b",
+        "hash": "69b3b3a1",
+        "encoded": "git%20add%20.",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "ffa11b",
+        "hash": "950d4124",
+        "encoded": "#%203.%20Commit%20with%20a%20message",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "ffa11b",
+        "hash": "5e3a78f1",
+        "encoded": "git%20commit%20-m%20%22Description%20of%20your%20changes%22",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "ffa11b",
+        "hash": "b8d0d092",
+        "encoded": "#%204.%20Push%20to%20GitHub",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "ffa11b",
+        "hash": "07fd72ee",
+        "encoded": "git%20push%20origin%20main",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "ffa11b",
+        "hash": "44b70e7b",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "ffa11b",
+        "hash": "469cf1c0",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "ffa11b",
+        "hash": "d4cdaee5",
+        "encoded": "##%20%E2%9D%93%20Troubleshooting",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "ffa11b",
+        "hash": "9688d61d",
+        "encoded": "###%20Problem:%20%22Repository%20not%20found%22",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "ffa11b",
+        "hash": "744927bd",
+        "encoded": "**Solution**:%20Make%20sure%20you%20created%20the%20repository%20on%20GitHub%20first!",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "ffa11b",
+        "hash": "6b390989",
+        "encoded": "###%20Problem:%20%22Authentication%20failed%22",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "ffa11b",
+        "hash": "8f37c0e6",
+        "encoded": "**Solution**:%20Use%20a%20Personal%20Access%20Token%20instead%20of%20your%20password",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "ffa11b",
+        "hash": "2810845d",
+        "encoded": "###%20Problem:%20%22fatal:%20remote%20origin%20already%20exists%22",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "ffa11b",
+        "hash": "5042e8cd",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "ffa11b",
+        "hash": "a9c19d32",
+        "encoded": "git%20remote%20remove%20origin",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "ffa11b",
+        "hash": "d7021a95",
+        "encoded": "git%20remote%20add%20origin%20https://github.com/CgTreat/creative-studio-website.git",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "ffa11b",
+        "hash": "3400feea",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "ffa11b",
+        "hash": "5ce227d3",
+        "encoded": "###%20Problem:%20%22Updates%20were%20rejected%22",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "ffa11b",
+        "hash": "9ec3d70b",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "ffa11b",
+        "hash": "bc7e218e",
+        "encoded": "git%20pull%20origin%20main%20--allow-unrelated-histories",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "ffa11b",
+        "hash": "8de85262",
+        "encoded": "git%20push%20-u%20origin%20main",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "ffa11b",
+        "hash": "3f4e2600",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "ffa11b",
+        "hash": "fb65cffa",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "ffa11b",
+        "hash": "7d88fdd8",
+        "encoded": "##%20%F0%9F%8E%89%20After%20Successfully%20Pushing",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "ffa11b",
+        "hash": "56d417ee",
+        "encoded": "1.%20**View%20your%20repository**:%20https://github.com/CgTreat/creative-studio-website",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "ffa11b",
+        "hash": "3d159d37",
+        "encoded": "2.%20**Add%20topics**%20(click%20the%20gear%20icon%20next%20to%20%22About%22):",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "ffa11b",
+        "hash": "711e17de",
+        "encoded": "-%20%60portfolio%60",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "ffa11b",
+        "hash": "177d5fd1",
+        "encoded": "-%20%60javascript%60",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "ffa11b",
+        "hash": "836ba860",
+        "encoded": "-%20%60css-animations%60",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "ffa11b",
+        "hash": "1570ebf2",
+        "encoded": "-%20%60scroll-animations%60",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "ffa11b",
+        "hash": "47f08233",
+        "encoded": "-%20%60responsive-design%60",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "ffa11b",
+        "hash": "3bb9612f",
+        "encoded": "-%20%60web-design%60",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "ffa11b",
+        "hash": "0c6a18a8",
+        "encoded": "3.%20**Star%20your%20own%20repo**%20%E2%AD%90%20(why%20not?)",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "ffa11b",
+        "hash": "ef4010ea",
+        "encoded": "4.%20**Share%20it**:",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "ffa11b",
+        "hash": "7ba39c51",
+        "encoded": "-%20Repository:%20https://github.com/CgTreat/creative-studio-website",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "ffa11b",
+        "hash": "6107746f",
+        "encoded": "-%20Live%20Site:%20https://cgtreat.github.io/creative-studio-website/",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "ffa11b",
+        "hash": "0b37543c",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "ffa11b",
+        "hash": "a2583f89",
+        "encoded": "##%20%F0%9F%93%8C%20Summary",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "ffa11b",
+        "hash": "631f3df5",
+        "encoded": "**TL;DR%20-%20Just%20do%20this:**",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "ffa11b",
+        "hash": "70a64296",
+        "encoded": "1.%20Go%20to%20https://github.com/new",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "ffa11b",
+        "hash": "1dbafc54",
+        "encoded": "2.%20Create%20repo:%20%60creative-studio-website%60",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "ffa11b",
+        "hash": "0126e1bc",
+        "encoded": "3.%20Don't%20check%20any%20boxes",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "ffa11b",
+        "hash": "d6db755e",
+        "encoded": "4.%20Run:%20%60git%20push%20-u%20origin%20main%60",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "ffa11b",
+        "hash": "3ff7cb47",
+        "encoded": "5.%20Enter%20your%20username%20and%20token",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "ffa11b",
+        "hash": "269ec35d",
+        "encoded": "6.%20Done!%20%F0%9F%8E%89",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "ffa11b",
+        "hash": "ec85f618",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "ffa11b",
+        "hash": "e84c32f1",
+        "encoded": "**You're%20all%20set!**%20Your%20project%20is%20ready%20to%20be%20pushed%20to%20GitHub.%20%F0%9F%9A%80",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "ffa11b",
+        "hash": "3536502d",
+        "encoded": "Need%20help?%20The%20repository%20URL%20is%20already%20configured:",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "ffa11b",
+        "hash": "09d1bf16",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "ffa11b",
+        "hash": "10a97516",
+        "encoded": "https://github.com/CgTreat/creative-studio-website.git",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "ffa11b",
+        "hash": "a422f964",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
