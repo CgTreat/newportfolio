@@ -131,7 +131,7 @@
     transform: translateY(40px) scale(0.9);
     filter: blur(10px);
     will-change: transform, opacity, filter;
-    animation: wordEmphasis 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    animation: wordEmphasis 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 @keyframes wordEmphasis {
@@ -152,11 +152,11 @@
     }
 }
 
-/* Staggered delays for emphasis - each word gets attention */
-.headline-word[data-word="1"] { animation-delay: 0.3s; }
-.headline-word[data-word="2"] { animation-delay: 0.8s; }
-.headline-word[data-word="3"] { animation-delay: 1.4s; }
-.headline-word[data-word="4"] { animation-delay: 2.0s; }
+/* Sequential delays - each word appears one after another */
+.headline-word[data-word="1"] { animation-delay: 0.5s; }  /* We */
+.headline-word[data-word="2"] { animation-delay: 1.4s; }  /* craft */
+.headline-word[data-word="3"] { animation-delay: 2.3s; }  /* digital */
+.headline-word[data-word="4"] { animation-delay: 3.2s; }  /* experiences */
 
 @media (max-width: 1024px) {
     .process-grid {
