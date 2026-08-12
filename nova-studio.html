@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Studio — Immersive Digital Experiences</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nova-studio.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="loader-circle">
+                <svg viewBox="0 0 100 100">
+                    <circle class="loader-ring" cx="50" cy="50" r="45"></circle>
+                </svg>
+            </div>
+            <div class="loader-counter" id="loaderCounter">0%</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="nav-container">
+            <a href="#" class="wordmark">NOVA</a>
+            
+            <div class="nav-pill-container">
+                <div class="nav-pills" id="navPills">
+                    <a href="#hero" class="nav-pill active">Home</a>
+                    <a href="#work" class="nav-pill">Work</a>
+                    <a href="#studio" class="nav-pill">Studio</a>
+                    <a href="#insights" class="nav-pill">Insights</a>
+                    <a href="#contact" class="nav-pill">Contact</a>
+                    <div class="nav-pill-bg"></div>
+                </div>
+            </div>
+            
+            <div class="nav-right">
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Available</span>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-label"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero" data-scroll-section>
+        <div class="hero-blobs">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-headline">
+                <div class="headline-line">
+                    <span>Crafting</span>
+                </div>
+                <div class="headline-line">
+                    <span class="accent">Immersive</span>
+                </div>
+                <div class="headline-line">
+                    <span>Experiences</span>
+                </div>
+            </div>
+            
+            <p class="hero-subhead">We transform ideas into interactive digital worlds that captivate and inspire</p>
+            
+            <div class="hero-3d-container" id="hero3D"></div>
+        </div>
+        
+        <div class="scroll-cue">
+            <span>Scroll</span>
+            <svg width="20" height="30" viewBox="0 0 20 30">
+                <path d="M10 5 L10 25 M10 25 L5 20 M10 25 L15 20" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span class="marquee-item">3D & WebGL</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">360° Video</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">Motion Design</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">AR/VR</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">Brand Systems</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">Interactive Web</span>
+                <span class="marquee-separator">★</span>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+                <span class="marquee-item">3D & WebGL</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">360° Video</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">Motion Design</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">AR/VR</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">Brand Systems</span>
+                <span class="marquee-separator">★</span>
+                <span class="marquee-item">Interactive Web</span>
+                <span class="marquee-separator">★</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services (Horizontal Drag) -->
+    <section class="services-section" id="services" data-scroll-section>
+        <div class="section-eyebrow">What We Do</div>
+        <h2 class="section-heading">Capabilities</h2>
+        
+        <div class="services-container">
+            <div class="services-track" id="servicesTrack">
+                <div class="service-card" style="--accent: var(--color-primary)">
+                    <div class="service-number">01</div>
+                    <div class="service-icon">🌐</div>
+                    <h3 class="service-title">Immersive Web</h3>
+                    <p class="service-desc">WebGL-powered experiences that push the boundaries of the browser</p>
+                </div>
+                
+                <div class="service-card" style="--accent: var(--color-secondary)">
+                    <div class="service-number">02</div>
+                    <div class="service-icon">📦</div>
+                    <h3 class="service-title">3D & WebGL</h3>
+                    <p class="service-desc">Stunning three-dimensional interfaces and product visualizations</p>
+                </div>
+                
+                <div class="service-card" style="--accent: var(--color-primary)">
+                    <div class="service-number">03</div>
+                    <div class="service-icon">🎬</div>
+                    <h3 class="service-title">360° Experiences</h3>
+                    <p class="service-desc">Interactive panoramic tours and virtual reality content</p>
+                </div>
+                
+                <div class="service-card" style="--accent: var(--color-secondary)">
+                    <div class="service-number">04</div>
+                    <div class="service-icon">✨</div>
+                    <h3 class="service-title">Motion Design</h3>
+                    <p class="service-desc">Fluid animations that bring digital products to life</p>
+                </div>
+                
+                <div class="service-card" style="--accent: var(--color-primary)">
+                    <div class="service-number">05</div>
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-title">Brand Systems</h3>
+                    <p class="service-desc">Cohesive visual identities for the digital age</p>
+                </div>
+                
+                <div class="service-card" style="--accent: var(--color-secondary)">
+                    <div class="service-number">06</div>
+                    <div class="service-icon">🚀</div>
+                    <h3 class="service-title">Creative Dev</h3>
+                    <p class="service-desc">Custom-coded solutions that blend art and technology</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="drag-hint">← Drag to explore →</div>
+    </section>
+
+    <!-- Featured Work -->
+    <section class="work-section" id="work" data-scroll-section>
+        <div class="section-eyebrow">Selected Projects</div>
+        <h2 class="section-heading">Featured Work</h2>
+        
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-slide">
+                    <div class="slide-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="slide-content">
+                        <span class="slide-category">WebGL / 3D</span>
+                        <h3 class="slide-title">Virtual Museum</h3>
+                        <a href="#" class="slide-cta">View Case</a>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide has-360" id="slide360">
+                    <div class="slide-360-container" id="container360">
+                        <div class="slide-360-label">
+                            <span>Drag to explore — 360°</span>
+                            <svg class="rotate-icon" width="20" height="20" viewBox="0 0 20 20">
+                                <path d="M10 2 A8 8 0 1 1 10 18 A8 8 0 0 1 10 2" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                                <path d="M14 10 L18 10 L16 8 M18 10 L16 12" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="slide-content">
+                        <span class="slide-category">360° / Interactive</span>
+                        <h3 class="slide-title">Product Showcase</h3>
+                        <a href="#" class="slide-cta">View Case</a>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <div class="slide-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="slide-content">
+                        <span class="slide-category">Brand / Web</span>
+                        <h3 class="slide-title">Brand Platform</h3>
+                        <a href="#" class="slide-cta">View Case</a>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <div class="slide-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                    <div class="slide-content">
+                        <span class="slide-category">AR / Mobile</span>
+                        <h3 class="slide-title">AR Experience</h3>
+                        <a href="#" class="slide-cta">View Case</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-arrow carousel-prev" id="carouselPrev">←</button>
+                <div class="carousel-pagination" id="carouselPagination">01 / 04</div>
+                <button class="carousel-arrow carousel-next" id="carouselNext">→</button>
+            </div>
+            
+            <div class="carousel-progress">
+                <div class="carousel-progress-bar" id="carouselProgressBar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach -->
+    <section class="approach-section" id="approach" data-scroll-section>
+        <div class="section-eyebrow">Our Process</div>
+        <h2 class="section-heading">How We Work</h2>
+        
+        <div class="process-timeline">
+            <svg class="timeline-line" viewBox="0 0 4 400" preserveAspectRatio="none">
+                <path d="M2 0 L2 400" stroke="var(--color-primary)" stroke-width="2" fill="none" stroke-dasharray="400" stroke-dashoffset="400" id="timelinePath"/>
+            </svg>
+            
+            <div class="process-steps">
+                <div class="process-step" data-step="1">
+                    <div class="step-number">01</div>
+                    <h3 class="step-title">Discover</h3>
+                    <p class="step-desc">Deep dive into your vision, audience, and goals</p>
+                </div>
+                
+                <div class="process-step" data-step="2">
+                    <div class="step-number">02</div>
+                    <h3 class="step-title">Design</h3>
+                    <p class="step-desc">Craft immersive concepts and visual systems</p>
+                </div>
+                
+                <div class="process-step" data-step="3">
+                    <div class="step-number">03</div>
+                    <h3 class="step-title">Develop</h3>
+                    <p class="step-desc">Build with cutting-edge tech and craft</p>
+                </div>
+                
+                <div class="process-step" data-step="4">
+                    <div class="step-number">04</div>
+                    <h3 class="step-title">Deliver</h3>
+                    <p class="step-desc">Launch and optimize for maximum impact</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Studio -->
+    <section class="studio-section" id="studio" data-scroll-section>
+        <div class="studio-grid">
+            <div class="studio-quote">
+                <div class="section-eyebrow">About Nova</div>
+                <h2 class="section-heading">We believe digital experiences should feel magical</h2>
+                <p class="quote-text">Our team blends creative vision with technical expertise to build experiences that don't just look beautiful — they feel alive.</p>
+            </div>
+            
+            <div class="studio-gallery">
+                <div class="gallery-item" data-speed="0.5">
+                    <div class="gallery-mask" style="background: linear-gradient(135deg, #B087FF 0%, #FFD074 100%);"></div>
+                </div>
+                <div class="gallery-item" data-speed="0.7">
+                    <div class="gallery-mask" style="background: linear-gradient(135deg, #FFD074 0%, #B087FF 100%);"></div>
+                </div>
+                <div class="gallery-item" data-speed="0.6">
+                    <div class="gallery-mask" style="background: linear-gradient(135deg, #B087FF 50%, #FFD074 50%);"></div>
+                </div>
+                <div class="gallery-item" data-speed="0.8">
+                    <div class="gallery-mask" style="background: linear-gradient(135deg, #FFD074 0%, #B087FF 100%);"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="studio-stats">
+            <div class="stat-item">
+                <div class="stat-number" data-count="7">0</div>
+                <div class="stat-label">Years Active</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="120">0</div>
+                <div class="stat-label">Projects Shipped</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="24">0</div>
+                <div class="stat-label">Awards Won</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insights -->
+    <section class="insights-section" id="insights" data-scroll-section>
+        <div class="section-eyebrow">Latest Thinking</div>
+        <h2 class="section-heading">Insights</h2>
+        
+        <div class="insights-grid">
+            <article class="insight-card">
+                <div class="insight-image-wrapper">
+                    <div class="insight-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                </div>
+                <span class="insight-category">WebGL</span>
+                <h3 class="insight-title">The Future of 3D on the Web</h3>
+                <time class="insight-date">Apr 15, 2026</time>
+            </article>
+            
+            <article class="insight-card">
+                <div class="insight-image-wrapper">
+                    <div class="insight-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                </div>
+                <span class="insight-category">Motion</span>
+                <h3 class="insight-title">Scroll-Driven Animations Done Right</h3>
+                <time class="insight-date">Mar 28, 2026</time>
+            </article>
+            
+            <article class="insight-card">
+                <div class="insight-image-wrapper">
+                    <div class="insight-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                </div>
+                <span class="insight-category">Design</span>
+                <h3 class="insight-title">Building Immersive Brand Experiences</h3>
+                <time class="insight-date">Feb 12, 2026</time>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact" data-scroll-section>
+        <div class="contact-3d-container" id="contact3D"></div>
+        
+        <div class="contact-content">
+            <h2 class="contact-heading">Let's build something immersive</h2>
+            <a href="mailto:hello@novastudio.com" class="contact-cta magnetic-btn">
+                <span class="btn-text">Get in Touch</span>
+                <span class="btn-text">Get in Touch</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-wordmark">NOVA</div>
+        
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4 class="footer-heading">Sitemap</h4>
+                <a href="#hero" class="footer-link">Home</a>
+                <a href="#work" class="footer-link">Work</a>
+                <a href="#studio" class="footer-link">Studio</a>
+                <a href="#insights" class="footer-link">Insights</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            
+            <div class="footer-col">
+                <h4 class="footer-heading">Social</h4>
+                <a href="#" class="footer-link">Instagram</a>
+                <a href="#" class="footer-link">Twitter</a>
+                <a href="#" class="footer-link">LinkedIn</a>
+                <a href="#" class="footer-link">Dribbble</a>
+            </div>
+            
+            <div class="footer-col">
+                <h4 class="footer-heading">Contact</h4>
+                <a href="mailto:hello@novastudio.com" class="footer-link">hello@novastudio.com</a>
+                <a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a>
+                <p class="footer-address">123 Creative St<br>Brooklyn, NY 11201</p>
+            </div>
+        </div>
+        
+        <button class="back-to-top magnetic-btn" id="backToTop">
+            <span>↑</span>
+        </button>
+        
+        <div class="footer-bottom">
+            <p>© 2026 Nova Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="nova-studio.js"></script>
+</body>
+</html>
