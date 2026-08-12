@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative Studio | Immersive Digital Experiences</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="enhanced-animations.css">
 </head>
-<body>
+<body data-scroll-container>
     <!-- Cookie Notice -->
     <div class="cookie-notice" id="cookieNotice">
         <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies. <a href="#">Learn more</a>.</p>
@@ -79,8 +80,11 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-content">
+        <section class="hero" data-scroll-section>
+            <div class="hero-background">
+                <div class="grain"></div>
+            </div>
+            <div class="hero-content" data-scroll data-scroll-speed="-2">
                 <h1 class="hero-title">
                     <span class="line">
                         <span class="word">Crafting</span>
@@ -101,19 +105,17 @@
                 </div>
             </div>
             
-            <a href="#services" class="scroll-indicator">
+            <a href="#services" class="scroll-indicator" data-scroll data-scroll-speed="1">
                 <span class="scroll-text">Discover what we do</span>
                 <span class="scroll-text">Discover what we do</span>
                 <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <path d="M12 5v14M19 12l-7 7-7-7"/>
                 </svg>
             </a>
-            
-            <div class="floating-cursor" id="customCursor"></div>
         </section>
 
         <!-- Work Section -->
-        <section class="work-section" id="work">
+        <section class="work-section" id="work" data-scroll-section>
             <div class="section-header">
                 <h3 class="section-label">SELECTED WORK</h3>
                 <h2 class="section-title">
@@ -298,5 +300,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="enhanced-script.js"></script>
 </body>
 </html>
