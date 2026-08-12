@@ -682,8 +682,8 @@ body:hover .mouse-gradient {
     border-radius: 24px;
     overflow: visible;
     cursor: pointer;
-    opacity: 0;
-    transform: translateZ(-200px) rotateX(45deg) scale(0.8);
+    opacity: 1;
+    transform: translateZ(0) rotateX(0deg) scale(1);
     transform-style: preserve-3d;
     perspective: 1000px;
 }
@@ -801,8 +801,8 @@ body:hover .mouse-gradient {
 
 .project-info {
     padding: 30px;
-    transform: translateY(20px);
-    opacity: 0;
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .project-card.in-view .project-info {
@@ -1098,12 +1098,6 @@ body:hover .mouse-gradient {
 
 .process-step {
     margin-bottom: 100px;
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s var(--ease-smooth), transform 0.8s var(--ease-smooth);
-}
-
-.process-step.visible {
     opacity: 1;
     transform: translateY(0);
 }
@@ -1134,12 +1128,6 @@ body:hover .mouse-gradient {
 .studio-section {
     padding: 120px 40px;
     background: var(--color-bg);
-    opacity: 0;
-    transform: translateY(60px);
-    transition: all 1s var(--ease-smooth);
-}
-
-.studio-section.visible {
     opacity: 1;
     transform: translateY(0);
 }
@@ -1218,6 +1206,8 @@ body:hover .mouse-gradient {
     padding: 120px 40px;
     background: var(--color-bg);
     text-align: center;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .insights-grid {
@@ -1384,12 +1374,6 @@ body:hover .mouse-gradient {
     min-height: 100vh;
     background: var(--color-bg);
     text-align: center;
-    opacity: 0;
-    transform: translateY(60px);
-    transition: all 1s var(--ease-smooth);
-}
-
-.interactive-wall-section.visible {
     opacity: 1;
     transform: translateY(0);
 }

@@ -508,6 +508,42 @@
         "codeBlockId": null,
         "isActive": true,
         "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Narendra Keshkar\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/12/2026, 5:24:29 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "bb00ae": {
+        "user": "Narendra Keshkar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1786536179,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "6e1c909a"
+        },
+        "hash": "78610431",
+        "messageId": "system_52575140-9645-11f1-960a-19d1076f7b80",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Narendra Keshkar\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/12/2026, 5:32:59 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "82ae70": {
+        "user": "Narendra Keshkar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1786536179,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "6e1c909a"
+        },
+        "hash": "00000000",
+        "messageId": "system_52575140-9645-11f1-960a-19d1076f7b80",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Narendra Keshkar\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/12/2026, 5:32:59 PM\n- **source**: agent\n- **type**: agentEditTool\n"
       }
     },
     "lines": {
@@ -1898,561 +1934,555 @@
         "prevChunkIds": []
       },
       "266": {
-        "chunkId": "162db2",
-        "hash": "9a289016",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EWhat%20We%20Do%3C/div%3E",
+        "chunkId": "61dd36",
+        "hash": "bbe978ea",
+        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1617802690658-1173a812650d?w=800&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "267": {
-        "chunkId": "162db2",
-        "hash": "dbd36fc7",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3ECapabilities%3C/h2%3E",
+        "chunkId": "61dd36",
+        "hash": "e4fc1949",
+        "encoded": "%3Cdiv%20class=%22project-number%22%3E04%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "268": {
+        "chunkId": "61dd36",
+        "hash": "eabc388b",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "269": {
         "chunkId": "162db2",
-        "hash": "4a8eb2f2",
-        "encoded": "%3Cdiv%20class=%22services-container%22%3E",
+        "hash": "fedcb191",
+        "encoded": "%3Ch3%20class=%22service-title%22%3E3D%20&%20WebGL%3C/h3%3E",
         "prevChunkIds": []
       },
       "270": {
         "chunkId": "162db2",
-        "hash": "8dd25cf4",
-        "encoded": "%3Cdiv%20class=%22services-track%22%20id=%22servicesTrack%22%3E",
+        "hash": "7c7dbd81",
+        "encoded": "%3Cp%20class=%22service-desc%22%3EStunning%20three-dimensional%20interfaces%20and%20product%20visualizations%3C/p%3E",
         "prevChunkIds": []
       },
       "271": {
-        "chunkId": "162db2",
-        "hash": "9fe7bd8a",
-        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-primary)%22%3E",
+        "chunkId": "33f048",
+        "hash": "e6b6e20d",
+        "encoded": "%3Cdiv%20class=%22interactive-wall-container%22%20id=%22wallContainer%22%3E",
         "prevChunkIds": []
       },
       "272": {
-        "chunkId": "162db2",
-        "hash": "a928d57f",
-        "encoded": "%3Cdiv%20class=%22service-number%22%3E01%3C/div%3E",
+        "chunkId": "33f048",
+        "hash": "80b8b7e7",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2215%22%20data-y=%2210%22%3E",
         "prevChunkIds": []
       },
       "273": {
-        "chunkId": "162db2",
-        "hash": "80d9aca9",
-        "encoded": "%3Cdiv%20class=%22service-icon%22%3E%F0%9F%8C%90%3C/div%3E",
+        "chunkId": "33f048",
+        "hash": "16933fcf",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "274": {
-        "chunkId": "162db2",
-        "hash": "96cd77c1",
-        "encoded": "%3Ch3%20class=%22service-title%22%3EImmersive%20Web%3C/h3%3E",
+        "chunkId": "33f048",
+        "hash": "30075917",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "275": {
-        "chunkId": "162db2",
-        "hash": "e17a6e09",
-        "encoded": "%3Cp%20class=%22service-desc%22%3EWebGL-powered%20experiences%20that%20push%20the%20boundaries%20of%20the%20browser%3C/p%3E",
+        "chunkId": "33f048",
+        "hash": "1969a2e6",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2245%22%20data-y=%225%22%3E",
         "prevChunkIds": []
       },
       "276": {
-        "chunkId": "162db2",
-        "hash": "2c73cf7f",
+        "chunkId": "33f048",
+        "hash": "090e9738",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400&q=80');%22%3E%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "277": {
+        "chunkId": "33f048",
+        "hash": "35a88187",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "278": {
-        "chunkId": "162db2",
-        "hash": "73c8a393",
-        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-secondary)%22%3E",
+        "chunkId": "33f048",
+        "hash": "ae15538e",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2275%22%20data-y=%2212%22%3E",
         "prevChunkIds": []
       },
       "279": {
-        "chunkId": "162db2",
-        "hash": "dd05c9b4",
-        "encoded": "%3Cdiv%20class=%22service-number%22%3E02%3C/div%3E",
+        "chunkId": "33f048",
+        "hash": "8e32bf4f",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "280": {
-        "chunkId": "61dd36",
-        "hash": "37e90cf1",
-        "encoded": "%3Carticle%20class=%22project-card%22%20data-color=%22#FFD93D%22%3E",
-        "prevChunkIds": []
-      },
-      "281": {
-        "chunkId": "61dd36",
-        "hash": "d3a8b5bd",
-        "encoded": "%3Cdiv%20class=%22project-image-wrapper%22%3E",
-        "prevChunkIds": []
-      },
-      "282": {
-        "chunkId": "61dd36",
-        "hash": "80b1b4b5",
-        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1617802690658-1173a812650d?w=800&q=80');%22%3E%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "283": {
-        "chunkId": "61dd36",
-        "hash": "44d7f776",
-        "encoded": "%3Cdiv%20class=%22project-number%22%3E04%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "284": {
-        "chunkId": "61dd36",
-        "hash": "3781687b",
+        "chunkId": "33f048",
+        "hash": "752e9355",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
+      "281": {
+        "chunkId": "33f048",
+        "hash": "d57708fc",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2210%22%20data-y=%2245%22%3E",
+        "prevChunkIds": []
+      },
+      "282": {
+        "chunkId": "33f048",
+        "hash": "4489d653",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&q=80');%22%3E%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "283": {
+        "chunkId": "33f048",
+        "hash": "4b56816c",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "284": {
+        "chunkId": "33f048",
+        "hash": "3e496641",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2238%22%20data-y=%2240%22%3E",
+        "prevChunkIds": []
+      },
       "285": {
-        "chunkId": "162db2",
-        "hash": "1a47368c",
-        "encoded": "%3Ch3%20class=%22service-title%22%3E3D%20&%20WebGL%3C/h3%3E",
+        "chunkId": "33f048",
+        "hash": "e6970200",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "286": {
-        "chunkId": "162db2",
-        "hash": "a70ee90f",
-        "encoded": "%3Cp%20class=%22service-desc%22%3EStunning%20three-dimensional%20interfaces%20and%20product%20visualizations%3C/p%3E",
+        "chunkId": "33f048",
+        "hash": "9442f7d9",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "287": {
         "chunkId": "33f048",
-        "hash": "d3d998ed",
-        "encoded": "%3Cdiv%20class=%22interactive-wall-container%22%20id=%22wallContainer%22%3E",
+        "hash": "95f46a6d",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2268%22%20data-y=%2248%22%3E",
         "prevChunkIds": []
       },
       "288": {
         "chunkId": "33f048",
-        "hash": "13b2c19d",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2215%22%20data-y=%2210%22%3E",
+        "hash": "0bc63303",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "289": {
         "chunkId": "33f048",
-        "hash": "1eb240e9",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=400&q=80');%22%3E%3C/div%3E",
+        "hash": "d2b1763d",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "290": {
         "chunkId": "33f048",
-        "hash": "dde1bc8c",
-        "encoded": "%3C/div%3E",
+        "hash": "d299e092",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2220%22%20data-y=%2275%22%3E",
         "prevChunkIds": []
       },
       "291": {
         "chunkId": "33f048",
-        "hash": "6d11689c",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2245%22%20data-y=%225%22%3E",
+        "hash": "f2d7ee67",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "292": {
         "chunkId": "33f048",
-        "hash": "c1f68c0b",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400&q=80');%22%3E%3C/div%3E",
+        "hash": "a955f30b",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "293": {
         "chunkId": "33f048",
-        "hash": "b3cf2ffc",
-        "encoded": "%3C/div%3E",
+        "hash": "72c2069f",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2255%22%20data-y=%2278%22%3E",
         "prevChunkIds": []
       },
       "294": {
         "chunkId": "33f048",
-        "hash": "5147988b",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2275%22%20data-y=%2212%22%3E",
+        "hash": "4942a19e",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1559028012-481c04fa702d?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "295": {
         "chunkId": "33f048",
-        "hash": "84af1940",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=400&q=80');%22%3E%3C/div%3E",
+        "hash": "3e86d180",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "296": {
         "chunkId": "33f048",
-        "hash": "2bd1c7be",
-        "encoded": "%3C/div%3E",
+        "hash": "51a2502c",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2285%22%20data-y=%2280%22%3E",
         "prevChunkIds": []
       },
       "297": {
         "chunkId": "33f048",
-        "hash": "4446d6fe",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2210%22%20data-y=%2245%22%3E",
+        "hash": "8afc14eb",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "298": {
         "chunkId": "33f048",
-        "hash": "b84143e9",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&q=80');%22%3E%3C/div%3E",
+        "hash": "17e5b836",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "299": {
-        "chunkId": "33f048",
-        "hash": "4e1cab75",
-        "encoded": "%3C/div%3E",
+        "chunkId": "b92563",
+        "hash": "a552d13c",
+        "encoded": "%3C!--%20Approach%20-%204%20Column%20Layout%20--%3E",
         "prevChunkIds": []
       },
       "300": {
-        "chunkId": "33f048",
-        "hash": "4850a1c2",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2238%22%20data-y=%2240%22%3E",
+        "chunkId": "b92563",
+        "hash": "74e3a956",
+        "encoded": "%3Csection%20class=%22approach-section%22%20id=%22approach%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "301": {
-        "chunkId": "33f048",
-        "hash": "596c55cf",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "b92563",
+        "hash": "676d3375",
+        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Process%3C/div%3E",
         "prevChunkIds": []
       },
       "302": {
-        "chunkId": "33f048",
-        "hash": "fe1e3545",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "303": {
-        "chunkId": "33f048",
-        "hash": "23639ef3",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2268%22%20data-y=%2248%22%3E",
+        "chunkId": "b92563",
+        "hash": "dab79181",
+        "encoded": "%3Ch2%20class=%22section-heading%22%3EHow%20We%20Work%3C/h2%3E",
         "prevChunkIds": []
       },
       "304": {
-        "chunkId": "33f048",
-        "hash": "c4d45586",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "b92563",
+        "hash": "b13292ed",
+        "encoded": "%3Cdiv%20class=%22process-grid%22%3E",
         "prevChunkIds": []
       },
       "305": {
-        "chunkId": "33f048",
-        "hash": "947a6b32",
-        "encoded": "%3C/div%3E",
+        "chunkId": "b92563",
+        "hash": "168f01ae",
+        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%221%22%3E",
         "prevChunkIds": []
       },
       "306": {
-        "chunkId": "33f048",
-        "hash": "fb6e6b3f",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2220%22%20data-y=%2275%22%3E",
+        "chunkId": "b92563",
+        "hash": "00ab357e",
+        "encoded": "%3Cdiv%20class=%22step-icon%22%3E%F0%9F%94%8D%3C/div%3E",
         "prevChunkIds": []
       },
       "307": {
-        "chunkId": "33f048",
-        "hash": "3647358f",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "b92563",
+        "hash": "8d80332a",
+        "encoded": "%3Cdiv%20class=%22step-number%22%3E01%3C/div%3E",
         "prevChunkIds": []
       },
       "308": {
-        "chunkId": "33f048",
-        "hash": "4bbbdc44",
-        "encoded": "%3C/div%3E",
+        "chunkId": "b92563",
+        "hash": "156cf29a",
+        "encoded": "%3Ch3%20class=%22step-title%22%3EDiscover%3C/h3%3E",
         "prevChunkIds": []
       },
       "309": {
-        "chunkId": "33f048",
-        "hash": "5c18d24b",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2255%22%20data-y=%2278%22%3E",
+        "chunkId": "b92563",
+        "hash": "fbc44861",
+        "encoded": "%3Cp%20class=%22step-desc%22%3EDeep%20dive%20into%20your%20vision,%20audience,%20and%20goals%3C/p%3E",
         "prevChunkIds": []
       },
       "310": {
-        "chunkId": "33f048",
-        "hash": "b6bf4198",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1559028012-481c04fa702d?w=400&q=80');%22%3E%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "311": {
-        "chunkId": "33f048",
-        "hash": "f0b306a3",
+        "chunkId": "b92563",
+        "hash": "5428a2d0",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "312": {
-        "chunkId": "33f048",
-        "hash": "164841b6",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2285%22%20data-y=%2280%22%3E",
+        "chunkId": "b92563",
+        "hash": "f113c5f2",
+        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%222%22%3E",
         "prevChunkIds": []
       },
       "313": {
-        "chunkId": "33f048",
-        "hash": "25f2ec85",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "b92563",
+        "hash": "7c5ac2d3",
+        "encoded": "%3Cdiv%20class=%22step-icon%22%3E%E2%9C%A8%3C/div%3E",
         "prevChunkIds": []
       },
       "314": {
-        "chunkId": "33f048",
-        "hash": "90179b74",
-        "encoded": "%3C/div%3E",
+        "chunkId": "b92563",
+        "hash": "7d115be1",
+        "encoded": "%3Cdiv%20class=%22step-number%22%3E02%3C/div%3E",
         "prevChunkIds": []
       },
       "315": {
         "chunkId": "b92563",
-        "hash": "b46d2bde",
-        "encoded": "%3C!--%20Approach%20-%204%20Column%20Layout%20--%3E",
+        "hash": "02c460ce",
+        "encoded": "%3Ch3%20class=%22step-title%22%3EDesign%3C/h3%3E",
         "prevChunkIds": []
       },
       "316": {
         "chunkId": "b92563",
-        "hash": "a9934d2b",
-        "encoded": "%3Csection%20class=%22approach-section%22%20id=%22approach%22%20data-scroll-section%3E",
+        "hash": "6dcbb98c",
+        "encoded": "%3Cp%20class=%22step-desc%22%3ECraft%20immersive%20concepts%20and%20visual%20systems%3C/p%3E",
         "prevChunkIds": []
       },
       "317": {
         "chunkId": "b92563",
-        "hash": "0e69ec94",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Process%3C/div%3E",
+        "hash": "4b0b083c",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "318": {
+      "319": {
         "chunkId": "b92563",
-        "hash": "13c30eaf",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3EHow%20We%20Work%3C/h2%3E",
+        "hash": "a2097946",
+        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%223%22%3E",
         "prevChunkIds": []
       },
       "320": {
         "chunkId": "b92563",
-        "hash": "5c00ff33",
-        "encoded": "%3Cdiv%20class=%22process-grid%22%3E",
+        "hash": "0c37aac9",
+        "encoded": "%3Cdiv%20class=%22step-icon%22%3E%E2%9A%A1%3C/div%3E",
         "prevChunkIds": []
       },
       "321": {
         "chunkId": "b92563",
-        "hash": "6fbfaa58",
-        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%221%22%3E",
+        "hash": "27056361",
+        "encoded": "%3Cdiv%20class=%22step-number%22%3E03%3C/div%3E",
         "prevChunkIds": []
       },
       "322": {
         "chunkId": "b92563",
-        "hash": "7d7c267b",
-        "encoded": "%3Cdiv%20class=%22step-icon%22%3E%F0%9F%94%8D%3C/div%3E",
+        "hash": "034a1716",
+        "encoded": "%3Ch3%20class=%22step-title%22%3EDevelop%3C/h3%3E",
         "prevChunkIds": []
       },
       "323": {
         "chunkId": "b92563",
-        "hash": "e44b8dbf",
-        "encoded": "%3Cdiv%20class=%22step-number%22%3E01%3C/div%3E",
+        "hash": "26cf6adf",
+        "encoded": "%3Cp%20class=%22step-desc%22%3EBuild%20with%20cutting-edge%20tech%20and%20craft%3C/p%3E",
         "prevChunkIds": []
       },
       "324": {
         "chunkId": "b92563",
-        "hash": "d27a35cf",
-        "encoded": "%3Ch3%20class=%22step-title%22%3EDiscover%3C/h3%3E",
-        "prevChunkIds": []
-      },
-      "325": {
-        "chunkId": "b92563",
-        "hash": "a7cb8cdb",
-        "encoded": "%3Cp%20class=%22step-desc%22%3EDeep%20dive%20into%20your%20vision,%20audience,%20and%20goals%3C/p%3E",
+        "hash": "3883f1f8",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "326": {
         "chunkId": "b92563",
-        "hash": "b00cd59a",
-        "encoded": "%3C/div%3E",
+        "hash": "8f8322a6",
+        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%224%22%3E",
+        "prevChunkIds": []
+      },
+      "327": {
+        "chunkId": "b92563",
+        "hash": "d52b0dad",
+        "encoded": "%3Cdiv%20class=%22step-icon%22%3E%F0%9F%9A%80%3C/div%3E",
         "prevChunkIds": []
       },
       "328": {
         "chunkId": "b92563",
-        "hash": "a18c797e",
-        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%222%22%3E",
+        "hash": "0470b9f4",
+        "encoded": "%3Cdiv%20class=%22step-number%22%3E04%3C/div%3E",
         "prevChunkIds": []
       },
       "329": {
         "chunkId": "b92563",
-        "hash": "e06da3f4",
-        "encoded": "%3Cdiv%20class=%22step-icon%22%3E%E2%9C%A8%3C/div%3E",
+        "hash": "562de65b",
+        "encoded": "%3Ch3%20class=%22step-title%22%3EDeliver%3C/h3%3E",
         "prevChunkIds": []
       },
       "330": {
         "chunkId": "b92563",
-        "hash": "679e9cb8",
-        "encoded": "%3Cdiv%20class=%22step-number%22%3E02%3C/div%3E",
+        "hash": "29bb51cb",
+        "encoded": "%3Cp%20class=%22step-desc%22%3ELaunch%20and%20optimize%20for%20maximum%20impact%3C/p%3E",
         "prevChunkIds": []
       },
       "331": {
         "chunkId": "b92563",
-        "hash": "32cd3f52",
-        "encoded": "%3Ch3%20class=%22step-title%22%3EDesign%3C/h3%3E",
+        "hash": "8cd7a6de",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "332": {
         "chunkId": "b92563",
-        "hash": "1b56a40b",
-        "encoded": "%3Cp%20class=%22step-desc%22%3ECraft%20immersive%20concepts%20and%20visual%20systems%3C/p%3E",
+        "hash": "7ca42c3b",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "333": {
         "chunkId": "b92563",
-        "hash": "f05913d6",
-        "encoded": "%3C/div%3E",
+        "hash": "54dcf870",
+        "encoded": "%3C/section%3E",
         "prevChunkIds": []
       },
       "335": {
-        "chunkId": "b92563",
-        "hash": "a9090d27",
-        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%223%22%3E",
+        "chunkId": "162db2",
+        "hash": "ffe3de31",
+        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-primary)%22%3E",
         "prevChunkIds": []
       },
       "336": {
-        "chunkId": "b92563",
-        "hash": "9ff1ed85",
-        "encoded": "%3Cdiv%20class=%22step-icon%22%3E%E2%9A%A1%3C/div%3E",
+        "chunkId": "12ce69",
+        "hash": "23d3df5c",
+        "encoded": "%3Carticle%20class=%22project-card%22%20data-color=%22#6B5BFF%22%3E",
         "prevChunkIds": []
       },
       "337": {
-        "chunkId": "b92563",
-        "hash": "7bfec56b",
-        "encoded": "%3Cdiv%20class=%22step-number%22%3E03%3C/div%3E",
+        "chunkId": "12ce69",
+        "hash": "f347d658",
+        "encoded": "%3Cdiv%20class=%22project-image-wrapper%22%3E",
         "prevChunkIds": []
       },
       "338": {
-        "chunkId": "b92563",
-        "hash": "abeef993",
-        "encoded": "%3Ch3%20class=%22step-title%22%3EDevelop%3C/h3%3E",
+        "chunkId": "12ce69",
+        "hash": "ffcc7c2f",
+        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1569235186275-626cb53b83ce?w=800&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "339": {
-        "chunkId": "b92563",
-        "hash": "99e0365f",
-        "encoded": "%3Cp%20class=%22step-desc%22%3EBuild%20with%20cutting-edge%20tech%20and%20craft%3C/p%3E",
+        "chunkId": "12ce69",
+        "hash": "47b0267d",
+        "encoded": "%3Cdiv%20class=%22project-number%22%3E01%3C/div%3E",
         "prevChunkIds": []
       },
       "340": {
-        "chunkId": "b92563",
+        "chunkId": "12ce69",
         "hash": "f3f9f086",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
+      "341": {
+        "chunkId": "162db2",
+        "hash": "c32ed67c",
+        "encoded": "%3Cdiv%20class=%22service-icon%22%3E%F0%9F%8E%AC%3C/div%3E",
+        "prevChunkIds": []
+      },
       "342": {
-        "chunkId": "b92563",
-        "hash": "417c8ed5",
-        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%224%22%3E",
+        "chunkId": "162db2",
+        "hash": "cce30574",
+        "encoded": "%3Ch3%20class=%22service-title%22%3E360%C2%B0%20Experiences%3C/h3%3E",
         "prevChunkIds": []
       },
       "343": {
-        "chunkId": "b92563",
-        "hash": "d641c9fc",
-        "encoded": "%3Cdiv%20class=%22step-icon%22%3E%F0%9F%9A%80%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "1185c442",
+        "encoded": "%3Cp%20class=%22service-desc%22%3EInteractive%20panoramic%20tours%20and%20virtual%20reality%20content%3C/p%3E",
         "prevChunkIds": []
       },
       "344": {
-        "chunkId": "b92563",
-        "hash": "6882fdc7",
-        "encoded": "%3Cdiv%20class=%22step-number%22%3E04%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "345": {
-        "chunkId": "b92563",
-        "hash": "d9aeefd0",
-        "encoded": "%3Ch3%20class=%22step-title%22%3EDeliver%3C/h3%3E",
+        "chunkId": "162db2",
+        "hash": "b6104e46",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "346": {
-        "chunkId": "b92563",
-        "hash": "ee2c5c3d",
-        "encoded": "%3Cp%20class=%22step-desc%22%3ELaunch%20and%20optimize%20for%20maximum%20impact%3C/p%3E",
+        "chunkId": "162db2",
+        "hash": "286403ba",
+        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-secondary)%22%3E",
         "prevChunkIds": []
       },
       "347": {
-        "chunkId": "b92563",
-        "hash": "e4750f1f",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "b69059c0",
+        "encoded": "%3Cdiv%20class=%22service-number%22%3E04%3C/div%3E",
         "prevChunkIds": []
       },
       "348": {
-        "chunkId": "b92563",
-        "hash": "8801301e",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "fa090550",
+        "encoded": "%3Cdiv%20class=%22service-icon%22%3E%E2%9C%A8%3C/div%3E",
         "prevChunkIds": []
       },
       "349": {
-        "chunkId": "b92563",
-        "hash": "11961468",
-        "encoded": "%3C/section%3E",
+        "chunkId": "162db2",
+        "hash": "4161cdef",
+        "encoded": "%3Ch3%20class=%22service-title%22%3EMotion%20Design%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "350": {
+        "chunkId": "162db2",
+        "hash": "d1d3c28b",
+        "encoded": "%3Cp%20class=%22service-desc%22%3EFluid%20animations%20that%20bring%20digital%20products%20to%20life%3C/p%3E",
         "prevChunkIds": []
       },
       "351": {
         "chunkId": "162db2",
-        "hash": "56232a42",
-        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-primary)%22%3E",
-        "prevChunkIds": []
-      },
-      "352": {
-        "chunkId": "12ce69",
-        "hash": "e2b2c111",
-        "encoded": "%3Carticle%20class=%22project-card%22%20data-color=%22#6B5BFF%22%3E",
+        "hash": "6b59c780",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "353": {
-        "chunkId": "12ce69",
-        "hash": "94aabcad",
-        "encoded": "%3Cdiv%20class=%22project-image-wrapper%22%3E",
+        "chunkId": "162db2",
+        "hash": "bebc4641",
+        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-primary)%22%3E",
         "prevChunkIds": []
       },
       "354": {
-        "chunkId": "12ce69",
-        "hash": "f8cee3d3",
-        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1569235186275-626cb53b83ce?w=800&q=80');%22%3E%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "aecea43c",
+        "encoded": "%3Cdiv%20class=%22service-number%22%3E05%3C/div%3E",
         "prevChunkIds": []
       },
       "355": {
-        "chunkId": "12ce69",
-        "hash": "f3e86605",
-        "encoded": "%3Cdiv%20class=%22project-number%22%3E01%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "356": {
-        "chunkId": "12ce69",
-        "hash": "46a81189",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "379ff356",
+        "encoded": "%3Cdiv%20class=%22service-icon%22%3E%F0%9F%8E%A8%3C/div%3E",
         "prevChunkIds": []
       },
       "357": {
         "chunkId": "162db2",
-        "hash": "4b773909",
-        "encoded": "%3Cdiv%20class=%22service-icon%22%3E%F0%9F%8E%AC%3C/div%3E",
+        "hash": "1cc008f1",
+        "encoded": "%3Ch3%20class=%22service-title%22%3EBrand%20Systems%3C/h3%3E",
         "prevChunkIds": []
       },
       "358": {
         "chunkId": "162db2",
-        "hash": "a338ad75",
-        "encoded": "%3Ch3%20class=%22service-title%22%3E360%C2%B0%20Experiences%3C/h3%3E",
+        "hash": "8c5adf51",
+        "encoded": "%3Cp%20class=%22service-desc%22%3ECohesive%20visual%20identities%20for%20the%20digital%20age%3C/p%3E",
         "prevChunkIds": []
       },
       "359": {
         "chunkId": "162db2",
-        "hash": "f636109a",
-        "encoded": "%3Cp%20class=%22service-desc%22%3EInteractive%20panoramic%20tours%20and%20virtual%20reality%20content%3C/p%3E",
+        "hash": "90c57cb2",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "360": {
+      "361": {
         "chunkId": "162db2",
-        "hash": "1a0f09e2",
-        "encoded": "%3C/div%3E",
+        "hash": "dc98ec13",
+        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-secondary)%22%3E",
         "prevChunkIds": []
       },
       "362": {
         "chunkId": "162db2",
-        "hash": "e32f970c",
-        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-secondary)%22%3E",
+        "hash": "963730d1",
+        "encoded": "%3Cdiv%20class=%22service-number%22%3E06%3C/div%3E",
         "prevChunkIds": []
       },
       "363": {
         "chunkId": "162db2",
-        "hash": "3ac6f876",
-        "encoded": "%3Cdiv%20class=%22service-number%22%3E04%3C/div%3E",
+        "hash": "2e5f4fdc",
+        "encoded": "%3Cdiv%20class=%22service-icon%22%3E%F0%9F%9A%80%3C/div%3E",
         "prevChunkIds": []
       },
       "364": {
         "chunkId": "162db2",
-        "hash": "2003d3c7",
-        "encoded": "%3Cdiv%20class=%22service-icon%22%3E%E2%9C%A8%3C/div%3E",
+        "hash": "cabc8e27",
+        "encoded": "%3Ch3%20class=%22service-title%22%3ECreative%20Dev%3C/h3%3E",
         "prevChunkIds": []
       },
       "365": {
         "chunkId": "162db2",
-        "hash": "6e164863",
-        "encoded": "%3Ch3%20class=%22service-title%22%3EMotion%20Design%3C/h3%3E",
+        "hash": "6dca37f8",
+        "encoded": "%3Cp%20class=%22service-desc%22%3ECustom-coded%20solutions%20that%20blend%20art%20and%20technology%3C/p%3E",
         "prevChunkIds": []
       },
       "366": {
         "chunkId": "162db2",
-        "hash": "d0c93777",
-        "encoded": "%3Cp%20class=%22service-desc%22%3EFluid%20animations%20that%20bring%20digital%20products%20to%20life%3C/p%3E",
+        "hash": "ce41ea45",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "367": {
@@ -2461,1570 +2491,1474 @@
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "369": {
+      "368": {
         "chunkId": "162db2",
-        "hash": "ca164d03",
-        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-primary)%22%3E",
+        "hash": "24dbbf7e",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "370": {
         "chunkId": "162db2",
-        "hash": "d3d8a3da",
-        "encoded": "%3Cdiv%20class=%22service-number%22%3E05%3C/div%3E",
+        "hash": "d33c32fc",
+        "encoded": "%3Cdiv%20class=%22drag-hint%22%3E%E2%86%90%20Drag%20to%20explore%20%E2%86%92%3C/div%3E",
         "prevChunkIds": []
       },
       "371": {
         "chunkId": "162db2",
-        "hash": "bd8f4455",
-        "encoded": "%3Cdiv%20class=%22service-icon%22%3E%F0%9F%8E%A8%3C/div%3E",
+        "hash": "4b7a7d23",
+        "encoded": "%3C/section%3E",
         "prevChunkIds": []
       },
       "373": {
         "chunkId": "162db2",
-        "hash": "db7f038c",
-        "encoded": "%3Ch3%20class=%22service-title%22%3EBrand%20Systems%3C/h3%3E",
+        "hash": "7087681c",
+        "encoded": "%3C!--%20Featured%20Work%20--%3E",
         "prevChunkIds": []
       },
       "374": {
         "chunkId": "162db2",
-        "hash": "14234a7b",
-        "encoded": "%3Cp%20class=%22service-desc%22%3ECohesive%20visual%20identities%20for%20the%20digital%20age%3C/p%3E",
+        "hash": "5cab6180",
+        "encoded": "%3Csection%20class=%22work-section%22%20id=%22work%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "375": {
         "chunkId": "162db2",
-        "hash": "63f01b0f",
-        "encoded": "%3C/div%3E",
+        "hash": "ea2ea10a",
+        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3ESelected%20Projects%3C/div%3E",
         "prevChunkIds": []
       },
-      "377": {
+      "376": {
         "chunkId": "162db2",
-        "hash": "ee863950",
-        "encoded": "%3Cdiv%20class=%22service-card%22%20style=%22--accent:%20var(--color-secondary)%22%3E",
+        "hash": "e556cea8",
+        "encoded": "%3Ch2%20class=%22section-heading%22%3EFeatured%20Work%3C/h2%3E",
         "prevChunkIds": []
       },
       "378": {
-        "chunkId": "162db2",
-        "hash": "ae5a6d4b",
-        "encoded": "%3Cdiv%20class=%22service-number%22%3E06%3C/div%3E",
+        "chunkId": "578acd",
+        "hash": "d8e29746",
+        "encoded": "%3C!--%20Featured%20Work%20-%20Grid%20Style%20--%3E",
         "prevChunkIds": []
       },
       "379": {
-        "chunkId": "162db2",
-        "hash": "f81eefb9",
-        "encoded": "%3Cdiv%20class=%22service-icon%22%3E%F0%9F%9A%80%3C/div%3E",
+        "chunkId": "578acd",
+        "hash": "cb0618ba",
+        "encoded": "%3Csection%20class=%22work-section%22%20id=%22work%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "380": {
-        "chunkId": "162db2",
-        "hash": "78f28ff0",
-        "encoded": "%3Ch3%20class=%22service-title%22%3ECreative%20Dev%3C/h3%3E",
+        "chunkId": "578acd",
+        "hash": "f05cf4aa",
+        "encoded": "%3Cdiv%20class=%22work-header%22%3E",
         "prevChunkIds": []
       },
       "381": {
-        "chunkId": "162db2",
-        "hash": "a25bab5b",
-        "encoded": "%3Cp%20class=%22service-desc%22%3ECustom-coded%20solutions%20that%20blend%20art%20and%20technology%3C/p%3E",
+        "chunkId": "578acd",
+        "hash": "cb92ba79",
+        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3ESelected%20Case%20Studies%3C/div%3E",
         "prevChunkIds": []
       },
       "382": {
-        "chunkId": "162db2",
-        "hash": "99196ef4",
-        "encoded": "%3C/div%3E",
+        "chunkId": "578acd",
+        "hash": "1f898809",
+        "encoded": "%3Ch2%20class=%22section-heading%22%3ERecent%20Work%3C/h2%3E",
         "prevChunkIds": []
       },
       "383": {
-        "chunkId": "162db2",
+        "chunkId": "578acd",
         "hash": "26be78cb",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "384": {
-        "chunkId": "162db2",
-        "hash": "a3f2db3c",
-        "encoded": "%3C/div%3E",
+      "385": {
+        "chunkId": "578acd",
+        "hash": "a70f01be",
+        "encoded": "%3C!--%20Project%20Grid%20--%3E",
         "prevChunkIds": []
       },
       "386": {
-        "chunkId": "162db2",
-        "hash": "5b46791f",
-        "encoded": "%3Cdiv%20class=%22drag-hint%22%3E%E2%86%90%20Drag%20to%20explore%20%E2%86%92%3C/div%3E",
+        "chunkId": "578acd",
+        "hash": "45fbee9c",
+        "encoded": "%3Cdiv%20class=%22projects-grid%22%3E",
         "prevChunkIds": []
       },
       "387": {
-        "chunkId": "162db2",
-        "hash": "fbc989ad",
-        "encoded": "%3C/section%3E",
+        "chunkId": "578acd",
+        "hash": "e273add9",
+        "encoded": "%3Carticle%20class=%22project-card%22%20data-color=%22#6B5BFF%22%3E",
+        "prevChunkIds": []
+      },
+      "388": {
+        "chunkId": "578acd",
+        "hash": "c2fd3327",
+        "encoded": "%3Cdiv%20class=%22project-image-wrapper%22%3E",
         "prevChunkIds": []
       },
       "389": {
-        "chunkId": "162db2",
-        "hash": "291b61d1",
-        "encoded": "%3C!--%20Featured%20Work%20--%3E",
+        "chunkId": "578acd",
+        "hash": "ea4e453e",
+        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background:%20linear-gradient(135deg,%20#667eea%200%25,%20#764ba2%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "390": {
-        "chunkId": "162db2",
-        "hash": "46b4a5ce",
-        "encoded": "%3Csection%20class=%22work-section%22%20id=%22work%22%20data-scroll-section%3E",
+        "chunkId": "578acd",
+        "hash": "0a1df948",
+        "encoded": "%3Cdiv%20class=%22project-number%22%3E01%3C/div%3E",
         "prevChunkIds": []
       },
       "391": {
-        "chunkId": "162db2",
-        "hash": "0d6a368b",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3ESelected%20Projects%3C/div%3E",
+        "chunkId": "578acd",
+        "hash": "3ed2bf6d",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "392": {
-        "chunkId": "162db2",
-        "hash": "c89d7b99",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3EFeatured%20Work%3C/h2%3E",
+        "chunkId": "578acd",
+        "hash": "444c31f5",
+        "encoded": "%3Cdiv%20class=%22project-info%22%3E",
+        "prevChunkIds": []
+      },
+      "393": {
+        "chunkId": "578acd",
+        "hash": "5731a96f",
+        "encoded": "%3Cdiv%20class=%22project-meta%22%3E",
         "prevChunkIds": []
       },
       "394": {
         "chunkId": "578acd",
-        "hash": "56b8ceff",
-        "encoded": "%3C!--%20Featured%20Work%20-%20Grid%20Style%20--%3E",
+        "hash": "e838305e",
+        "encoded": "%3Cspan%20class=%22project-year%22%3E2025%3C/span%3E",
         "prevChunkIds": []
       },
       "395": {
         "chunkId": "578acd",
-        "hash": "3ac9ffaf",
-        "encoded": "%3Csection%20class=%22work-section%22%20id=%22work%22%20data-scroll-section%3E",
+        "hash": "8b8385a2",
+        "encoded": "%3Cspan%20class=%22project-type%22%3EWebGL%20/%203D%3C/span%3E",
         "prevChunkIds": []
       },
       "396": {
         "chunkId": "578acd",
-        "hash": "ef6b1980",
-        "encoded": "%3Cdiv%20class=%22work-header%22%3E",
+        "hash": "2a9b1e7a",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "397": {
         "chunkId": "578acd",
-        "hash": "0212a851",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3ESelected%20Case%20Studies%3C/div%3E",
+        "hash": "125b1862",
+        "encoded": "%3Ch3%20class=%22project-title%22%3EImmersive%20Museum%20Experience%3C/h3%3E",
         "prevChunkIds": []
       },
       "398": {
         "chunkId": "578acd",
-        "hash": "d39b054c",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3ERecent%20Work%3C/h2%3E",
+        "hash": "084e47e3",
+        "encoded": "%3Cp%20class=%22project-desc%22%3EA%20virtual%20journey%20through%20art%20and%20history%20with%20real-time%203D%20environments%3C/p%3E",
         "prevChunkIds": []
       },
       "399": {
         "chunkId": "578acd",
-        "hash": "6cdc2915",
+        "hash": "e8269d6c",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22project-link%22%3EView%20Project%20%3Cspan%3E%E2%86%92%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "400": {
+        "chunkId": "578acd",
+        "hash": "57c7b891",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "401": {
         "chunkId": "578acd",
-        "hash": "ff3d9726",
-        "encoded": "%3C!--%20Project%20Grid%20--%3E",
-        "prevChunkIds": []
-      },
-      "402": {
-        "chunkId": "578acd",
-        "hash": "459de32a",
-        "encoded": "%3Cdiv%20class=%22projects-grid%22%3E",
+        "hash": "1cd6874b",
+        "encoded": "%3C/article%3E",
         "prevChunkIds": []
       },
       "403": {
         "chunkId": "578acd",
-        "hash": "bb3122e6",
-        "encoded": "%3Carticle%20class=%22project-card%22%20data-color=%22#6B5BFF%22%3E",
+        "hash": "d5cd1b3c",
+        "encoded": "%3Cspan%20class=%22project-year%22%3E2026%3C/span%3E",
         "prevChunkIds": []
       },
       "404": {
         "chunkId": "578acd",
-        "hash": "c62e6d47",
-        "encoded": "%3Cdiv%20class=%22project-image-wrapper%22%3E",
+        "hash": "bb2213b3",
+        "encoded": "%3Cspan%20class=%22project-type%22%3EAR%20/%20Mobile%3C/span%3E",
         "prevChunkIds": []
       },
       "405": {
-        "chunkId": "578acd",
-        "hash": "927afde7",
-        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background:%20linear-gradient(135deg,%20#667eea%200%25,%20#764ba2%20100%25);%22%3E%3C/div%3E",
+        "chunkId": "f9d181",
+        "hash": "4220f2cc",
+        "encoded": "%3C!--%20Interactive%20Wall%20Gallery%20--%3E",
         "prevChunkIds": []
       },
       "406": {
-        "chunkId": "578acd",
-        "hash": "df1270d7",
-        "encoded": "%3Cdiv%20class=%22project-number%22%3E01%3C/div%3E",
+        "chunkId": "f9d181",
+        "hash": "fedfaf7b",
+        "encoded": "%3Csection%20class=%22interactive-wall-section%22%20id=%22interactiveWall%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "407": {
-        "chunkId": "578acd",
-        "hash": "57130231",
-        "encoded": "%3C/div%3E",
+        "chunkId": "f9d181",
+        "hash": "a0efbf68",
+        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Craft%3C/div%3E",
         "prevChunkIds": []
       },
       "408": {
-        "chunkId": "578acd",
-        "hash": "97165e4b",
-        "encoded": "%3Cdiv%20class=%22project-info%22%3E",
-        "prevChunkIds": []
-      },
-      "409": {
-        "chunkId": "578acd",
-        "hash": "7733bfb9",
-        "encoded": "%3Cdiv%20class=%22project-meta%22%3E",
+        "chunkId": "f9d181",
+        "hash": "0e6bb9b3",
+        "encoded": "%3Ch2%20class=%22section-heading%22%3EMoments%20in%20Motion%3C/h2%3E",
         "prevChunkIds": []
       },
       "410": {
-        "chunkId": "578acd",
-        "hash": "1e8c8b1a",
-        "encoded": "%3Cspan%20class=%22project-year%22%3E2025%3C/span%3E",
+        "chunkId": "f9d181",
+        "hash": "6f8b6f8a",
+        "encoded": "%3Cdiv%20class=%22interactive-wall-container%22%20id=%22wallContainer%22%3E",
         "prevChunkIds": []
       },
       "411": {
-        "chunkId": "578acd",
-        "hash": "46849c4d",
-        "encoded": "%3Cspan%20class=%22project-type%22%3EWebGL%20/%203D%3C/span%3E",
+        "chunkId": "f9d181",
+        "hash": "5792ff09",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2210%22%20data-y=%2215%22%3E",
         "prevChunkIds": []
       },
       "412": {
-        "chunkId": "578acd",
-        "hash": "0510227e",
-        "encoded": "%3C/div%3E",
+        "chunkId": "f9d181",
+        "hash": "5e6e64b2",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "413": {
-        "chunkId": "578acd",
-        "hash": "90b9e03c",
-        "encoded": "%3Ch3%20class=%22project-title%22%3EImmersive%20Museum%20Experience%3C/h3%3E",
+        "chunkId": "f9d181",
+        "hash": "0c9b3d3b",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "414": {
-        "chunkId": "578acd",
-        "hash": "aa6c1f11",
-        "encoded": "%3Cp%20class=%22project-desc%22%3EA%20virtual%20journey%20through%20art%20and%20history%20with%20real-time%203D%20environments%3C/p%3E",
+        "chunkId": "f9d181",
+        "hash": "eca648fc",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2235%22%20data-y=%2225%22%3E",
         "prevChunkIds": []
       },
       "415": {
-        "chunkId": "578acd",
-        "hash": "a2d93763",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22project-link%22%3EView%20Project%20%3Cspan%3E%E2%86%92%3C/span%3E%3C/a%3E",
+        "chunkId": "f9d181",
+        "hash": "f28f7028",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "416": {
-        "chunkId": "578acd",
+        "chunkId": "f9d181",
         "hash": "0e7bc15c",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "417": {
-        "chunkId": "578acd",
-        "hash": "2f732000",
-        "encoded": "%3C/article%3E",
+        "chunkId": "bb00ae",
+        "hash": "51224e92",
+        "encoded": "%3C!--%20Contact%20with%20Liquid%20Blob%20--%3E",
+        "prevChunkIds": []
+      },
+      "418": {
+        "chunkId": "bb00ae",
+        "hash": "7959e572",
+        "encoded": "%3Csection%20class=%22contact-section%22%20id=%22contact%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "419": {
-        "chunkId": "578acd",
-        "hash": "6c8f84d6",
-        "encoded": "%3Cspan%20class=%22project-year%22%3E2026%3C/span%3E",
+        "chunkId": "bb00ae",
+        "hash": "bea0fe12",
+        "encoded": "%3Cdiv%20class=%22liquid-blob-container%22%3E",
         "prevChunkIds": []
       },
       "420": {
-        "chunkId": "578acd",
-        "hash": "5fcfd4e1",
-        "encoded": "%3Cspan%20class=%22project-type%22%3EAR%20/%20Mobile%3C/span%3E",
+        "chunkId": "bb00ae",
+        "hash": "cc783a18",
+        "encoded": "%3Csvg%20class=%22liquid-blob%22%20viewBox=%220%200%20500%20500%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E",
         "prevChunkIds": []
       },
       "421": {
-        "chunkId": "f9d181",
-        "hash": "661d961c",
-        "encoded": "%3C!--%20Interactive%20Wall%20Gallery%20--%3E",
+        "chunkId": "bb00ae",
+        "hash": "6b8c9d25",
+        "encoded": "%3Cdefs%3E",
         "prevChunkIds": []
       },
       "422": {
-        "chunkId": "f9d181",
-        "hash": "0d2ac501",
-        "encoded": "%3Csection%20class=%22interactive-wall-section%22%20id=%22interactiveWall%22%20data-scroll-section%3E",
+        "chunkId": "bb00ae",
+        "hash": "b6f04c70",
+        "encoded": "%3ClinearGradient%20id=%22blobGradient%22%20x1=%220%25%22%20y1=%220%25%22%20x2=%22100%25%22%20y2=%22100%25%22%3E",
         "prevChunkIds": []
       },
       "423": {
-        "chunkId": "f9d181",
-        "hash": "67782534",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Craft%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "0888cbe6",
+        "encoded": "%3Cstop%20offset=%220%25%22%20style=%22stop-color:#6B5BFF;stop-opacity:0.4%22%20/%3E",
         "prevChunkIds": []
       },
       "424": {
-        "chunkId": "f9d181",
-        "hash": "9b3389aa",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3EMoments%20in%20Motion%3C/h2%3E",
+        "chunkId": "bb00ae",
+        "hash": "87d0a53c",
+        "encoded": "%3Cstop%20offset=%2250%25%22%20style=%22stop-color:#FF6B9D;stop-opacity:0.3%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "425": {
+        "chunkId": "bb00ae",
+        "hash": "36247ba7",
+        "encoded": "%3Cstop%20offset=%22100%25%22%20style=%22stop-color:#4ECDC4;stop-opacity:0.4%22%20/%3E",
         "prevChunkIds": []
       },
       "426": {
-        "chunkId": "f9d181",
-        "hash": "e101f056",
-        "encoded": "%3Cdiv%20class=%22interactive-wall-container%22%20id=%22wallContainer%22%3E",
+        "chunkId": "bb00ae",
+        "hash": "7528c653",
+        "encoded": "%3C/linearGradient%3E",
         "prevChunkIds": []
       },
       "427": {
-        "chunkId": "f9d181",
-        "hash": "abf27602",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2210%22%20data-y=%2215%22%3E",
+        "chunkId": "bb00ae",
+        "hash": "4f347e1b",
+        "encoded": "%3Cfilter%20id=%22goo%22%3E",
         "prevChunkIds": []
       },
       "428": {
-        "chunkId": "f9d181",
-        "hash": "136d8f17",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "22b05ada",
+        "encoded": "%3CfeGaussianBlur%20in=%22SourceGraphic%22%20stdDeviation=%2210%22%20result=%22blur%22%20/%3E",
         "prevChunkIds": []
       },
       "429": {
-        "chunkId": "f9d181",
-        "hash": "1173c071",
-        "encoded": "%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "de3f6054",
+        "encoded": "%3CfeColorMatrix%20in=%22blur%22%20mode=%22matrix%22%20values=%221%200%200%200%200%20%200%201%200%200%200%20%200%200%201%200%200%20%200%200%200%2018%20-7%22%20result=%22goo%22%20/%3E",
         "prevChunkIds": []
       },
       "430": {
-        "chunkId": "f9d181",
-        "hash": "73a2dc87",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2235%22%20data-y=%2225%22%3E",
+        "chunkId": "bb00ae",
+        "hash": "5a760123",
+        "encoded": "%3CfeBlend%20in=%22SourceGraphic%22%20in2=%22goo%22%20/%3E",
         "prevChunkIds": []
       },
       "431": {
-        "chunkId": "f9d181",
-        "hash": "542c1f78",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "37f16ddd",
+        "encoded": "%3C/filter%3E",
         "prevChunkIds": []
       },
       "432": {
-        "chunkId": "f9d181",
-        "hash": "eca11392",
-        "encoded": "%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "4e722c3b",
+        "encoded": "%3C/defs%3E",
         "prevChunkIds": []
       },
       "433": {
-        "chunkId": "f9d181",
-        "hash": "70a10612",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2265%22%20data-y=%2210%22%3E",
+        "chunkId": "bb00ae",
+        "hash": "f8751128",
+        "encoded": "%3Cpath%20class=%22blob-path%22%20fill=%22url(#blobGradient)%22%20filter=%22url(#goo)%22%3E",
         "prevChunkIds": []
       },
       "434": {
-        "chunkId": "f9d181",
-        "hash": "3709eadd",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "f851dfd1",
+        "encoded": "%3Canimate%20attributeName=%22d%22%20dur=%2210s%22%20repeatCount=%22indefinite%22",
         "prevChunkIds": []
       },
       "435": {
-        "chunkId": "f9d181",
-        "hash": "c266e0c4",
-        "encoded": "%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "013e4213",
+        "encoded": "values=%22M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;",
         "prevChunkIds": []
       },
       "436": {
-        "chunkId": "f9d181",
-        "hash": "5a9a6b9f",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2220%22%20data-y=%2255%22%3E",
+        "chunkId": "bb00ae",
+        "hash": "2874bbd4",
+        "encoded": "M453.78747,319.98894Q416.97789,389.97789,353.96683,436.87838Q290.95577,483.77887,223.95577,447.43366Q156.95577,411.08845,105.64373,365.97789Q54.33169,320.86732,62.67444,252.61056Q71.01719,184.3538,113.01965,135.21007Q155.02211,86.06634,220.52211,66.46683Q286.02211,46.86732,335.5,91.94472Q384.97789,137.02211,437.78747,193.51106Q490.59704,250,453.78747,319.98894Z;",
         "prevChunkIds": []
       },
       "437": {
-        "chunkId": "f9d181",
-        "hash": "0cc73915",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "b815c626",
+        "encoded": "M411.39826,313.90633Q402.59677,377.81265,342.92059,407.63957Q283.24442,437.46649,215.13648,432.5428Q147.02853,427.61911,82.23325,380.9572Q17.43796,334.29529,20.45223,250.83809Q23.46649,167.38089,82.5856,115.05707Q141.70471,62.73325,212.19045,63.73015Q282.67618,64.72705,352.67308,84.79839Q422.66998,104.86972,421.43486,177.43486Q420.19974,250,411.39826,313.90633Z;",
         "prevChunkIds": []
       },
       "438": {
-        "chunkId": "f9d181",
-        "hash": "a8ea829b",
-        "encoded": "%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "4c9bfa59",
+        "encoded": "M440.5,320.5Q418,391,355.5,442.5Q293,494,226,450.5Q159,407,99,367Q39,327,31.5,247.5Q24,168,89,125.5Q154,83,219.5,68Q285,53,335.5,94.5Q386,136,424.5,193Q463,250,440.5,320.5Z;%22/%3E",
         "prevChunkIds": []
       },
       "439": {
-        "chunkId": "f9d181",
-        "hash": "62d54a06",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2250%22%20data-y=%2250%22%3E",
+        "chunkId": "bb00ae",
+        "hash": "d45d7999",
+        "encoded": "%3C/path%3E",
         "prevChunkIds": []
       },
       "440": {
-        "chunkId": "f9d181",
-        "hash": "75098881",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "68d947b7",
+        "encoded": "%3C/svg%3E",
         "prevChunkIds": []
       },
       "441": {
-        "chunkId": "f9d181",
+        "chunkId": "bb00ae",
         "hash": "dfa5d616",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "442": {
-        "chunkId": "f9d181",
-        "hash": "669b272d",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2275%22%20data-y=%2260%22%3E",
-        "prevChunkIds": []
-      },
-      "443": {
-        "chunkId": "f9d181",
-        "hash": "5af2f0b6",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "d101a8f4",
+        "encoded": "%3Cdiv%20class=%22contact-3d-container%22%20id=%22contact3D%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "444": {
-        "chunkId": "f9d181",
-        "hash": "c1a8ca76",
-        "encoded": "%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "07bcf05e",
+        "encoded": "%3Cdiv%20class=%22contact-content%22%3E",
         "prevChunkIds": []
       },
       "445": {
-        "chunkId": "f9d181",
-        "hash": "c5aeae12",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2215%22%20data-y=%2280%22%3E",
+        "chunkId": "bb00ae",
+        "hash": "f259d8e2",
+        "encoded": "%3Ch2%20class=%22contact-heading%22%3ELet's%20build%20something%20immersive%3C/h2%3E",
         "prevChunkIds": []
       },
       "446": {
-        "chunkId": "f9d181",
-        "hash": "83d87fca",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "a86c693b",
+        "encoded": "%3Ca%20href=%22mailto:hello@novastudio.com%22%20class=%22contact-cta%20magnetic-btn%22%3E",
         "prevChunkIds": []
       },
       "447": {
-        "chunkId": "f9d181",
-        "hash": "6a19d6b6",
-        "encoded": "%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "13353457",
+        "encoded": "%3Cspan%20class=%22btn-text%22%3EGet%20in%20Touch%3C/span%3E",
         "prevChunkIds": []
       },
       "448": {
-        "chunkId": "f9d181",
-        "hash": "f92a7aa5",
-        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2260%22%20data-y=%2285%22%3E",
+        "chunkId": "bb00ae",
+        "hash": "22f40c0a",
+        "encoded": "%3Cspan%20class=%22btn-text%22%3EGet%20in%20Touch%3C/span%3E",
         "prevChunkIds": []
       },
       "449": {
-        "chunkId": "f9d181",
-        "hash": "b7cb2a1e",
-        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1559028012-481c04fa702d?w=400&q=80');%22%3E%3C/div%3E",
+        "chunkId": "bb00ae",
+        "hash": "4e3ba560",
+        "encoded": "%3C/a%3E",
         "prevChunkIds": []
       },
       "450": {
-        "chunkId": "f9d181",
+        "chunkId": "bb00ae",
         "hash": "4334fe6e",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "451": {
-        "chunkId": "f9d181",
-        "hash": "10a20fa6",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "452": {
-        "chunkId": "f9d181",
-        "hash": "3a22f12a",
+        "chunkId": "bb00ae",
+        "hash": "14eaa119",
         "encoded": "%3C/section%3E",
         "prevChunkIds": []
       },
-      "457": {
-        "chunkId": "578acd",
-        "hash": "2013e15d",
-        "encoded": "%3Ch3%20class=%22project-title%22%3EAugmented%20Reality%20Experience%3C/h3%3E",
-        "prevChunkIds": []
-      },
-      "458": {
-        "chunkId": "578acd",
-        "hash": "172dc508",
-        "encoded": "%3Cp%20class=%22project-desc%22%3EMobile%20AR%20application%20blending%20physical%20and%20digital%20worlds%3C/p%3E",
-        "prevChunkIds": []
-      },
-      "459": {
-        "chunkId": "578acd",
-        "hash": "af1c1d20",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22project-link%22%3EView%20Project%20%3Cspan%3E%E2%86%92%3C/span%3E%3C/a%3E",
-        "prevChunkIds": []
-      },
-      "460": {
-        "chunkId": "578acd",
-        "hash": "0ad5491d",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "461": {
-        "chunkId": "578acd",
-        "hash": "f29cb5bd",
-        "encoded": "%3C/article%3E",
-        "prevChunkIds": []
-      },
-      "462": {
-        "chunkId": "578acd",
-        "hash": "324caed4",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "463": {
-        "chunkId": "578acd",
-        "hash": "d61962fb",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "464": {
-        "chunkId": "578acd",
-        "hash": "9bba515a",
-        "encoded": "%3C!--%20Keep%20original%20carousel%20for%20360%20demo%20--%3E",
-        "prevChunkIds": []
-      },
-      "465": {
-        "chunkId": "578acd",
-        "hash": "fc5cc69e",
-        "encoded": "%3Cdiv%20class=%22carousel-container%22%20style=%22margin-top:%20100px;%22%3E",
-        "prevChunkIds": []
-      },
-      "466": {
-        "chunkId": "578acd",
-        "hash": "049ff621",
-        "encoded": "%3Ch3%20style=%22text-align:%20center;%20margin-bottom:%2040px;%20font-size:%2032px;%22%3EInteractive%20360%C2%B0%20Demo%3C/h3%3E",
-        "prevChunkIds": []
-      },
-      "467": {
-        "chunkId": "578acd",
-        "hash": "8092ed56",
-        "encoded": "%3Cdiv%20class=%22carousel-track%22%20id=%22carouselTrack%22%3E",
-        "prevChunkIds": []
-      },
-      "468": {
-        "chunkId": "578acd",
-        "hash": "725fc6a6",
-        "encoded": "%3C/article%3E",
-        "prevChunkIds": []
-      },
-      "470": {
-        "chunkId": "578acd",
-        "hash": "84c99617",
-        "encoded": "%3Carticle%20class=%22project-card%22%20data-color=%22#4ECDC4%22%3E",
-        "prevChunkIds": []
-      },
-      "471": {
-        "chunkId": "578acd",
-        "hash": "1720c008",
-        "encoded": "%3Cdiv%20class=%22project-image-wrapper%22%3E",
-        "prevChunkIds": []
-      },
-      "472": {
-        "chunkId": "578acd",
-        "hash": "9a928676",
-        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background:%20linear-gradient(135deg,%20#4facfe%200%25,%20#00f2fe%20100%25);%22%3E%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "473": {
-        "chunkId": "578acd",
-        "hash": "a26b589e",
-        "encoded": "%3Cdiv%20class=%22project-number%22%3E03%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "474": {
-        "chunkId": "578acd",
-        "hash": "9232a11a",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
       "475": {
-        "chunkId": "578acd",
-        "hash": "56cd51aa",
-        "encoded": "%3Cdiv%20class=%22project-info%22%3E",
+        "chunkId": "f9d181",
+        "hash": "3913ca39",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "476": {
-        "chunkId": "578acd",
-        "hash": "7e9abde6",
-        "encoded": "%3Cdiv%20class=%22project-meta%22%3E",
+        "chunkId": "f9d181",
+        "hash": "f13906d4",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "477": {
-        "chunkId": "578acd",
-        "hash": "fadb9129",
-        "encoded": "%3Cspan%20class=%22project-year%22%3E2026%3C/span%3E",
+        "chunkId": "f9d181",
+        "hash": "7e716e7e",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2220%22%20data-y=%2255%22%3E",
         "prevChunkIds": []
       },
       "478": {
-        "chunkId": "578acd",
-        "hash": "c9d42af4",
-        "encoded": "%3Cspan%20class=%22project-type%22%3EBrand%20/%20Web%3C/span%3E",
+        "chunkId": "f9d181",
+        "hash": "fe33cc2a",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "479": {
-        "chunkId": "578acd",
+        "chunkId": "f9d181",
         "hash": "077ff4e6",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "480": {
-        "chunkId": "578acd",
-        "hash": "216b37ff",
-        "encoded": "%3Ch3%20class=%22project-title%22%3EDigital%20Brand%20Platform%3C/h3%3E",
+        "chunkId": "f9d181",
+        "hash": "f2e81674",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2250%22%20data-y=%2250%22%3E",
         "prevChunkIds": []
       },
       "481": {
-        "chunkId": "578acd",
-        "hash": "ad96127b",
-        "encoded": "%3Cp%20class=%22project-desc%22%3EComprehensive%20brand%20system%20with%20dynamic%20web%20presence%3C/p%3E",
+        "chunkId": "f9d181",
+        "hash": "e4fe1c7a",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "482": {
-        "chunkId": "578acd",
-        "hash": "0dd7b890",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22project-link%22%3EView%20Project%20%3Cspan%3E%E2%86%92%3C/span%3E%3C/a%3E",
+        "chunkId": "f9d181",
+        "hash": "3ae62988",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "483": {
-        "chunkId": "578acd",
-        "hash": "00f7fb22",
-        "encoded": "%3C/div%3E",
+        "chunkId": "f9d181",
+        "hash": "28b6298e",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2275%22%20data-y=%2260%22%3E",
         "prevChunkIds": []
       },
       "484": {
-        "chunkId": "578acd",
-        "hash": "0fe4f473",
-        "encoded": "%3C/article%3E",
+        "chunkId": "f9d181",
+        "hash": "0f8cd320",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80');%22%3E%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "485": {
+        "chunkId": "f9d181",
+        "hash": "ff873a3e",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "486": {
-        "chunkId": "578acd",
-        "hash": "b7aa2318",
-        "encoded": "%3Carticle%20class=%22project-card%22%20data-color=%22#FFD93D%22%3E",
+        "chunkId": "f9d181",
+        "hash": "c9ca4744",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2215%22%20data-y=%2280%22%3E",
         "prevChunkIds": []
       },
       "487": {
-        "chunkId": "578acd",
-        "hash": "06e0e8fd",
-        "encoded": "%3Cdiv%20class=%22project-image-wrapper%22%3E",
+        "chunkId": "f9d181",
+        "hash": "59e830cd",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "488": {
-        "chunkId": "578acd",
-        "hash": "ac65faa0",
-        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background:%20linear-gradient(135deg,%20#43e97b%200%25,%20#38f9d7%20100%25);%22%3E%3C/div%3E",
+        "chunkId": "f9d181",
+        "hash": "baff747c",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "489": {
-        "chunkId": "578acd",
-        "hash": "e7bd3b82",
-        "encoded": "%3Cdiv%20class=%22project-number%22%3E04%3C/div%3E",
+        "chunkId": "f9d181",
+        "hash": "37f2c258",
+        "encoded": "%3Cdiv%20class=%22wall-card%22%20data-x=%2260%22%20data-y=%2285%22%3E",
         "prevChunkIds": []
       },
       "490": {
-        "chunkId": "578acd",
-        "hash": "1ca7787a",
-        "encoded": "%3C/div%3E",
+        "chunkId": "f9d181",
+        "hash": "6a663402",
+        "encoded": "%3Cdiv%20class=%22wall-card-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1559028012-481c04fa702d?w=400&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "491": {
-        "chunkId": "578acd",
-        "hash": "b2d622d7",
-        "encoded": "%3Cdiv%20class=%22project-info%22%3E",
+        "chunkId": "f9d181",
+        "hash": "6bca317f",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "492": {
+        "chunkId": "f9d181",
+        "hash": "824f312e",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "493": {
+        "chunkId": "f9d181",
+        "hash": "b1dc5f14",
+        "encoded": "%3C/section%3E",
+        "prevChunkIds": []
+      },
+      "498": {
         "chunkId": "578acd",
-        "hash": "cbb0d078",
-        "encoded": "%3Cdiv%20class=%22project-meta%22%3E",
+        "hash": "7b829a72",
+        "encoded": "%3Ch3%20class=%22project-title%22%3EAugmented%20Reality%20Experience%3C/h3%3E",
         "prevChunkIds": []
       },
-      "547": {
-        "chunkId": "162db2",
-        "hash": "5289a145",
-        "encoded": "%3Cdiv%20class=%22carousel-track%22%20id=%22carouselTrack%22%3E",
+      "499": {
+        "chunkId": "578acd",
+        "hash": "d9936394",
+        "encoded": "%3Cp%20class=%22project-desc%22%3EMobile%20AR%20application%20blending%20physical%20and%20digital%20worlds%3C/p%3E",
         "prevChunkIds": []
       },
-      "548": {
-        "chunkId": "162db2",
-        "hash": "dc936ca1",
-        "encoded": "%3Cdiv%20class=%22carousel-slide%22%3E",
+      "500": {
+        "chunkId": "578acd",
+        "hash": "24bb5705",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22project-link%22%3EView%20Project%20%3Cspan%3E%E2%86%92%3C/span%3E%3C/a%3E",
         "prevChunkIds": []
       },
-      "549": {
-        "chunkId": "162db2",
-        "hash": "06f76f4c",
-        "encoded": "%3Cdiv%20class=%22slide-image%22%20style=%22background:%20linear-gradient(135deg,%20#667eea%200%25,%20#764ba2%20100%25);%22%3E%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "550": {
-        "chunkId": "162db2",
-        "hash": "4e0ac55b",
-        "encoded": "%3Cdiv%20class=%22slide-content%22%3E",
-        "prevChunkIds": []
-      },
-      "551": {
-        "chunkId": "162db2",
-        "hash": "2e032e0d",
-        "encoded": "%3Cspan%20class=%22slide-category%22%3EWebGL%20/%203D%3C/span%3E",
-        "prevChunkIds": []
-      },
-      "552": {
-        "chunkId": "162db2",
-        "hash": "10b05074",
-        "encoded": "%3Ch3%20class=%22slide-title%22%3EVirtual%20Museum%3C/h3%3E",
-        "prevChunkIds": []
-      },
-      "553": {
-        "chunkId": "162db2",
-        "hash": "3837c3f2",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22slide-cta%22%3EView%20Case%3C/a%3E",
-        "prevChunkIds": []
-      },
-      "554": {
-        "chunkId": "353604",
-        "hash": "df52ad23",
-        "encoded": "%3Cdiv%20class=%22carousel-slide%20has-360%22%20id=%22slide360%22%3E",
-        "prevChunkIds": []
-      },
-      "555": {
-        "chunkId": "353604",
-        "hash": "05f6314b",
-        "encoded": "%3Cdiv%20class=%22slide-360-container%22%20id=%22container360%22%3E",
-        "prevChunkIds": []
-      },
-      "556": {
-        "chunkId": "353604",
-        "hash": "5a750029",
-        "encoded": "%3Cdiv%20class=%22slide-360-label%22%3E",
-        "prevChunkIds": []
-      },
-      "557": {
-        "chunkId": "353604",
-        "hash": "fd50d0cd",
-        "encoded": "%3Cspan%3E%E2%86%90%20Drag%20to%20rotate%20360%C2%B0%20%E2%86%92%3C/span%3E",
-        "prevChunkIds": []
-      },
-      "558": {
-        "chunkId": "353604",
-        "hash": "0ffb6220",
-        "encoded": "%3Csvg%20class=%22rotate-icon%22%20width=%2220%22%20height=%2220%22%20viewBox=%220%200%2020%2020%22%3E",
-        "prevChunkIds": []
-      },
-      "559": {
-        "chunkId": "353604",
-        "hash": "200f1e39",
-        "encoded": "%3Ccircle%20cx=%2210%22%20cy=%2210%22%20r=%228%22%20stroke=%22currentColor%22%20fill=%22none%22%20stroke-width=%221.5%22/%3E",
-        "prevChunkIds": []
-      },
-      "560": {
-        "chunkId": "353604",
-        "hash": "0c612d88",
-        "encoded": "%3Cpath%20d=%22M14%2010%20L18%2010%20L16%208%20M18%2010%20L16%2012%22%20stroke=%22currentColor%22%20fill=%22none%22%20stroke-width=%221.5%22/%3E",
-        "prevChunkIds": []
-      },
-      "561": {
-        "chunkId": "353604",
-        "hash": "a1b0093c",
-        "encoded": "%3C/svg%3E",
-        "prevChunkIds": []
-      },
-      "562": {
-        "chunkId": "353604",
-        "hash": "f60cc02c",
+      "501": {
+        "chunkId": "578acd",
+        "hash": "21b41274",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "563": {
-        "chunkId": "353604",
-        "hash": "8537db76",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "564": {
-        "chunkId": "353604",
-        "hash": "6bca4544",
-        "encoded": "%3Cdiv%20class=%22slide-content%22%3E",
-        "prevChunkIds": []
-      },
-      "565": {
-        "chunkId": "353604",
-        "hash": "fd8acd14",
-        "encoded": "%3Cspan%20class=%22slide-category%22%3E360%C2%B0%20Interactive%20Demo%3C/span%3E",
-        "prevChunkIds": []
-      },
-      "566": {
-        "chunkId": "353604",
-        "hash": "88d9fb6d",
-        "encoded": "%3Ch3%20class=%22slide-title%22%3EExplore%20in%203D%20Space%3C/h3%3E",
-        "prevChunkIds": []
-      },
-      "567": {
-        "chunkId": "353604",
-        "hash": "d9be45ac",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "568": {
-        "chunkId": "353604",
-        "hash": "4e3510f5",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "569": {
-        "chunkId": "162db2",
-        "hash": "66a3cb25",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "571": {
-        "chunkId": "162db2",
-        "hash": "7b711c3a",
-        "encoded": "%3Cdiv%20class=%22carousel-slide%20has-360%22%20id=%22slide360%22%3E",
-        "prevChunkIds": []
-      },
-      "572": {
-        "chunkId": "162db2",
-        "hash": "fe71c2e3",
-        "encoded": "%3Cdiv%20class=%22slide-360-container%22%20id=%22container360%22%3E",
-        "prevChunkIds": []
-      },
-      "573": {
-        "chunkId": "162db2",
-        "hash": "9304e082",
-        "encoded": "%3Cdiv%20class=%22slide-360-label%22%3E",
-        "prevChunkIds": []
-      },
-      "574": {
-        "chunkId": "2dfdf4",
-        "hash": "60a1b013",
-        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
-        "prevChunkIds": []
-      },
-      "575": {
-        "chunkId": "2dfdf4",
-        "hash": "2e1da034",
-        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
-        "prevChunkIds": []
-      },
-      "576": {
-        "chunkId": "2dfdf4",
-        "hash": "bcd3794c",
-        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=600&q=80');%22%3E%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "577": {
-        "chunkId": "2dfdf4",
-        "hash": "b1c8c4ff",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "578": {
-        "chunkId": "2dfdf4",
-        "hash": "da36208c",
-        "encoded": "%3Cspan%20class=%22insight-category%22%3EWebGL%3C/span%3E",
-        "prevChunkIds": []
-      },
-      "579": {
-        "chunkId": "2dfdf4",
-        "hash": "39f7304d",
-        "encoded": "%3Ch3%20class=%22insight-title%22%3EThe%20Future%20of%203D%20on%20the%20Web%3C/h3%3E",
-        "prevChunkIds": []
-      },
-      "580": {
-        "chunkId": "2dfdf4",
-        "hash": "85824150",
-        "encoded": "%3Ctime%20class=%22insight-date%22%3EApr%2015,%202026%3C/time%3E",
-        "prevChunkIds": []
-      },
-      "581": {
-        "chunkId": "2dfdf4",
-        "hash": "1a1a1a3b",
+      "502": {
+        "chunkId": "578acd",
+        "hash": "3812ee59",
         "encoded": "%3C/article%3E",
         "prevChunkIds": []
       },
-      "582": {
-        "chunkId": "162db2",
-        "hash": "8e6d6189",
-        "encoded": "%3Csvg%20class=%22rotate-icon%22%20width=%2220%22%20height=%2220%22%20viewBox=%220%200%2020%2020%22%3E",
-        "prevChunkIds": []
-      },
-      "583": {
-        "chunkId": "162db2",
-        "hash": "5d44215f",
-        "encoded": "%3Cpath%20d=%22M10%202%20A8%208%200%201%201%2010%2018%20A8%208%200%200%201%2010%202%22%20stroke=%22currentColor%22%20fill=%22none%22%20stroke-width=%221.5%22/%3E",
-        "prevChunkIds": []
-      },
-      "584": {
-        "chunkId": "162db2",
-        "hash": "b785290d",
-        "encoded": "%3Cpath%20d=%22M14%2010%20L18%2010%20L16%208%20M18%2010%20L16%2012%22%20stroke=%22currentColor%22%20fill=%22none%22%20stroke-width=%221.5%22/%3E",
-        "prevChunkIds": []
-      },
-      "585": {
-        "chunkId": "162db2",
-        "hash": "b9ca2c9e",
-        "encoded": "%3C/svg%3E",
-        "prevChunkIds": []
-      },
-      "586": {
-        "chunkId": "162db2",
-        "hash": "18710fc0",
+      "503": {
+        "chunkId": "578acd",
+        "hash": "cea66ca5",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "587": {
-        "chunkId": "162db2",
-        "hash": "038f431b",
+      "504": {
+        "chunkId": "578acd",
+        "hash": "34c9c782",
         "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "505": {
+        "chunkId": "578acd",
+        "hash": "7821dfe7",
+        "encoded": "%3C!--%20Keep%20original%20carousel%20for%20360%20demo%20--%3E",
+        "prevChunkIds": []
+      },
+      "506": {
+        "chunkId": "578acd",
+        "hash": "812e9db1",
+        "encoded": "%3Cdiv%20class=%22carousel-container%22%20style=%22margin-top:%20100px;%22%3E",
+        "prevChunkIds": []
+      },
+      "507": {
+        "chunkId": "578acd",
+        "hash": "f57cebab",
+        "encoded": "%3Ch3%20style=%22text-align:%20center;%20margin-bottom:%2040px;%20font-size:%2032px;%22%3EInteractive%20360%C2%B0%20Demo%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "508": {
+        "chunkId": "578acd",
+        "hash": "ee794654",
+        "encoded": "%3Cdiv%20class=%22carousel-track%22%20id=%22carouselTrack%22%3E",
+        "prevChunkIds": []
+      },
+      "509": {
+        "chunkId": "578acd",
+        "hash": "78615a35",
+        "encoded": "%3C/article%3E",
+        "prevChunkIds": []
+      },
+      "511": {
+        "chunkId": "578acd",
+        "hash": "254a3e15",
+        "encoded": "%3Carticle%20class=%22project-card%22%20data-color=%22#4ECDC4%22%3E",
+        "prevChunkIds": []
+      },
+      "512": {
+        "chunkId": "578acd",
+        "hash": "d965e9df",
+        "encoded": "%3Cdiv%20class=%22project-image-wrapper%22%3E",
+        "prevChunkIds": []
+      },
+      "513": {
+        "chunkId": "578acd",
+        "hash": "8e833187",
+        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background:%20linear-gradient(135deg,%20#4facfe%200%25,%20#00f2fe%20100%25);%22%3E%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "514": {
+        "chunkId": "578acd",
+        "hash": "6c27ca4a",
+        "encoded": "%3Cdiv%20class=%22project-number%22%3E03%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "515": {
+        "chunkId": "578acd",
+        "hash": "cd0d7703",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "516": {
+        "chunkId": "578acd",
+        "hash": "6a1ba76c",
+        "encoded": "%3Cdiv%20class=%22project-info%22%3E",
+        "prevChunkIds": []
+      },
+      "517": {
+        "chunkId": "578acd",
+        "hash": "ffc0ded6",
+        "encoded": "%3Cdiv%20class=%22project-meta%22%3E",
+        "prevChunkIds": []
+      },
+      "518": {
+        "chunkId": "578acd",
+        "hash": "573d3cec",
+        "encoded": "%3Cspan%20class=%22project-year%22%3E2026%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "519": {
+        "chunkId": "578acd",
+        "hash": "cbaaef63",
+        "encoded": "%3Cspan%20class=%22project-type%22%3EBrand%20/%20Web%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "520": {
+        "chunkId": "578acd",
+        "hash": "b68acb4b",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "521": {
+        "chunkId": "578acd",
+        "hash": "94884161",
+        "encoded": "%3Ch3%20class=%22project-title%22%3EDigital%20Brand%20Platform%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "522": {
+        "chunkId": "578acd",
+        "hash": "3528ce49",
+        "encoded": "%3Cp%20class=%22project-desc%22%3EComprehensive%20brand%20system%20with%20dynamic%20web%20presence%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "523": {
+        "chunkId": "578acd",
+        "hash": "65f6bbf0",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22project-link%22%3EView%20Project%20%3Cspan%3E%E2%86%92%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "524": {
+        "chunkId": "578acd",
+        "hash": "8968b0b8",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "525": {
+        "chunkId": "578acd",
+        "hash": "7447af30",
+        "encoded": "%3C/article%3E",
+        "prevChunkIds": []
+      },
+      "527": {
+        "chunkId": "578acd",
+        "hash": "3143a552",
+        "encoded": "%3Carticle%20class=%22project-card%22%20data-color=%22#FFD93D%22%3E",
+        "prevChunkIds": []
+      },
+      "528": {
+        "chunkId": "578acd",
+        "hash": "b5fec634",
+        "encoded": "%3Cdiv%20class=%22project-image-wrapper%22%3E",
+        "prevChunkIds": []
+      },
+      "529": {
+        "chunkId": "578acd",
+        "hash": "fe0c43d2",
+        "encoded": "%3Cdiv%20class=%22project-image%22%20style=%22background:%20linear-gradient(135deg,%20#43e97b%200%25,%20#38f9d7%20100%25);%22%3E%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "530": {
+        "chunkId": "578acd",
+        "hash": "3dcce713",
+        "encoded": "%3Cdiv%20class=%22project-number%22%3E04%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "531": {
+        "chunkId": "578acd",
+        "hash": "e651d931",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "532": {
+        "chunkId": "578acd",
+        "hash": "988329d4",
+        "encoded": "%3Cdiv%20class=%22project-info%22%3E",
+        "prevChunkIds": []
+      },
+      "533": {
+        "chunkId": "578acd",
+        "hash": "0ae89c79",
+        "encoded": "%3Cdiv%20class=%22project-meta%22%3E",
         "prevChunkIds": []
       },
       "588": {
         "chunkId": "162db2",
-        "hash": "49f6f103",
-        "encoded": "%3Cdiv%20class=%22slide-content%22%3E",
+        "hash": "1c7a73b2",
+        "encoded": "%3Cdiv%20class=%22carousel-track%22%20id=%22carouselTrack%22%3E",
         "prevChunkIds": []
       },
       "589": {
         "chunkId": "162db2",
-        "hash": "06c5b72d",
-        "encoded": "%3Cspan%20class=%22slide-category%22%3E360%C2%B0%20/%20Interactive%3C/span%3E",
+        "hash": "44f0545d",
+        "encoded": "%3Cdiv%20class=%22carousel-slide%22%3E",
         "prevChunkIds": []
       },
       "590": {
-        "chunkId": "733364",
-        "hash": "13dd5c60",
-        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
+        "chunkId": "162db2",
+        "hash": "bbe6182a",
+        "encoded": "%3Cdiv%20class=%22slide-image%22%20style=%22background:%20linear-gradient(135deg,%20#667eea%200%25,%20#764ba2%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "591": {
-        "chunkId": "733364",
-        "hash": "8fc4b39e",
-        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
+        "chunkId": "162db2",
+        "hash": "1e5aa809",
+        "encoded": "%3Cdiv%20class=%22slide-content%22%3E",
         "prevChunkIds": []
       },
       "592": {
-        "chunkId": "733364",
-        "hash": "e6dde5d3",
-        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&q=80');%22%3E%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "88abf513",
+        "encoded": "%3Cspan%20class=%22slide-category%22%3EWebGL%20/%203D%3C/span%3E",
         "prevChunkIds": []
       },
       "593": {
-        "chunkId": "733364",
-        "hash": "b76efd12",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "7a77e346",
+        "encoded": "%3Ch3%20class=%22slide-title%22%3EVirtual%20Museum%3C/h3%3E",
         "prevChunkIds": []
       },
       "594": {
-        "chunkId": "733364",
-        "hash": "a1a0c654",
-        "encoded": "%3Cspan%20class=%22insight-category%22%3EMotion%3C/span%3E",
+        "chunkId": "162db2",
+        "hash": "e159dd96",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22slide-cta%22%3EView%20Case%3C/a%3E",
         "prevChunkIds": []
       },
       "595": {
-        "chunkId": "733364",
-        "hash": "6a7b2cec",
-        "encoded": "%3Ch3%20class=%22insight-title%22%3EScroll-Driven%20Animations%20Done%20Right%3C/h3%3E",
+        "chunkId": "353604",
+        "hash": "3b534c6b",
+        "encoded": "%3Cdiv%20class=%22carousel-slide%20has-360%22%20id=%22slide360%22%3E",
         "prevChunkIds": []
       },
       "596": {
-        "chunkId": "733364",
-        "hash": "dde4e071",
-        "encoded": "%3Ctime%20class=%22insight-date%22%3EMar%2028,%202026%3C/time%3E",
+        "chunkId": "353604",
+        "hash": "49339612",
+        "encoded": "%3Cdiv%20class=%22slide-360-container%22%20id=%22container360%22%3E",
         "prevChunkIds": []
       },
       "597": {
-        "chunkId": "733364",
-        "hash": "048f8ba7",
-        "encoded": "%3C/article%3E",
+        "chunkId": "353604",
+        "hash": "30b8763d",
+        "encoded": "%3Cdiv%20class=%22slide-360-label%22%3E",
         "prevChunkIds": []
       },
       "598": {
-        "chunkId": "162db2",
-        "hash": "40bf953f",
-        "encoded": "%3C/div%3E",
+        "chunkId": "353604",
+        "hash": "291d04be",
+        "encoded": "%3Cspan%3E%E2%86%90%20Drag%20to%20rotate%20360%C2%B0%20%E2%86%92%3C/span%3E",
         "prevChunkIds": []
       },
       "599": {
-        "chunkId": "162db2",
-        "hash": "dcfc0821",
-        "encoded": "%3C/div%3E",
+        "chunkId": "353604",
+        "hash": "e2a087d7",
+        "encoded": "%3Csvg%20class=%22rotate-icon%22%20width=%2220%22%20height=%2220%22%20viewBox=%220%200%2020%2020%22%3E",
         "prevChunkIds": []
       },
       "600": {
-        "chunkId": "162db2",
-        "hash": "a86a6b03",
-        "encoded": "%3C/div%3E",
+        "chunkId": "353604",
+        "hash": "240931cb",
+        "encoded": "%3Ccircle%20cx=%2210%22%20cy=%2210%22%20r=%228%22%20stroke=%22currentColor%22%20fill=%22none%22%20stroke-width=%221.5%22/%3E",
+        "prevChunkIds": []
+      },
+      "601": {
+        "chunkId": "353604",
+        "hash": "16f4b57d",
+        "encoded": "%3Cpath%20d=%22M14%2010%20L18%2010%20L16%208%20M18%2010%20L16%2012%22%20stroke=%22currentColor%22%20fill=%22none%22%20stroke-width=%221.5%22/%3E",
         "prevChunkIds": []
       },
       "602": {
-        "chunkId": "162db2",
-        "hash": "cdfd75b3",
-        "encoded": "%3Cdiv%20class=%22carousel-controls%22%3E",
+        "chunkId": "353604",
+        "hash": "acc54861",
+        "encoded": "%3C/svg%3E",
         "prevChunkIds": []
       },
       "603": {
-        "chunkId": "162db2",
-        "hash": "e70ed036",
-        "encoded": "%3Cbutton%20class=%22carousel-arrow%20carousel-prev%22%20id=%22carouselPrev%22%3E%E2%86%90%3C/button%3E",
+        "chunkId": "353604",
+        "hash": "707a224f",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "604": {
-        "chunkId": "162db2",
-        "hash": "8bb32e30",
-        "encoded": "%3Cdiv%20class=%22carousel-pagination%22%20id=%22carouselPagination%22%3E01%20/%2004%3C/div%3E",
+        "chunkId": "353604",
+        "hash": "378dd9b0",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "605": {
-        "chunkId": "162db2",
-        "hash": "ce47ef8b",
-        "encoded": "%3Cbutton%20class=%22carousel-arrow%20carousel-next%22%20id=%22carouselNext%22%3E%E2%86%92%3C/button%3E",
+        "chunkId": "353604",
+        "hash": "16b24e99",
+        "encoded": "%3Cdiv%20class=%22slide-content%22%3E",
         "prevChunkIds": []
       },
       "606": {
-        "chunkId": "5d2772",
-        "hash": "7ac81448",
-        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
+        "chunkId": "353604",
+        "hash": "59dda7d7",
+        "encoded": "%3Cspan%20class=%22slide-category%22%3E360%C2%B0%20Interactive%20Demo%3C/span%3E",
         "prevChunkIds": []
       },
       "607": {
-        "chunkId": "5d2772",
-        "hash": "7dbaa889",
-        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
+        "chunkId": "353604",
+        "hash": "2f05b915",
+        "encoded": "%3Ch3%20class=%22slide-title%22%3EExplore%20in%203D%20Space%3C/h3%3E",
         "prevChunkIds": []
       },
       "608": {
-        "chunkId": "5d2772",
-        "hash": "aa8b770d",
-        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&q=80');%22%3E%3C/div%3E",
+        "chunkId": "353604",
+        "hash": "f8a453b3",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "609": {
-        "chunkId": "5d2772",
+        "chunkId": "353604",
         "hash": "7ddb994b",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "610": {
-        "chunkId": "5d2772",
-        "hash": "b2c741a5",
-        "encoded": "%3Cspan%20class=%22insight-category%22%3EDesign%3C/span%3E",
-        "prevChunkIds": []
-      },
-      "611": {
-        "chunkId": "5d2772",
-        "hash": "0cfd1dcf",
-        "encoded": "%3Ch3%20class=%22insight-title%22%3EBuilding%20Immersive%20Brand%20Experiences%3C/h3%3E",
+        "chunkId": "162db2",
+        "hash": "63d4b0de",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "612": {
-        "chunkId": "5d2772",
-        "hash": "e2db5209",
-        "encoded": "%3Ctime%20class=%22insight-date%22%3EFeb%2012,%202026%3C/time%3E",
+        "chunkId": "162db2",
+        "hash": "2dd7a858",
+        "encoded": "%3Cdiv%20class=%22carousel-slide%20has-360%22%20id=%22slide360%22%3E",
         "prevChunkIds": []
       },
       "613": {
-        "chunkId": "5d2772",
-        "hash": "8fec94e1",
-        "encoded": "%3C/article%3E",
+        "chunkId": "162db2",
+        "hash": "f345aa0a",
+        "encoded": "%3Cdiv%20class=%22slide-360-container%22%20id=%22container360%22%3E",
         "prevChunkIds": []
       },
       "614": {
         "chunkId": "162db2",
-        "hash": "265fcae0",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22slide-cta%22%3EView%20Case%3C/a%3E",
+        "hash": "7be75b26",
+        "encoded": "%3Cdiv%20class=%22slide-360-label%22%3E",
         "prevChunkIds": []
       },
       "615": {
-        "chunkId": "162db2",
-        "hash": "71a8f37e",
-        "encoded": "%3Cdiv%20class=%22carousel-progress%22%3E",
+        "chunkId": "2dfdf4",
+        "hash": "505a60d2",
+        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
         "prevChunkIds": []
       },
       "616": {
-        "chunkId": "162db2",
-        "hash": "686c958b",
-        "encoded": "%3Cdiv%20class=%22carousel-progress-bar%22%20id=%22carouselProgressBar%22%3E%3C/div%3E",
+        "chunkId": "2dfdf4",
+        "hash": "5ee2b5e7",
+        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
         "prevChunkIds": []
       },
       "617": {
-        "chunkId": "162db2",
-        "hash": "6b5e7d05",
-        "encoded": "%3C/div%3E",
+        "chunkId": "2dfdf4",
+        "hash": "65d00cc3",
+        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=600&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "618": {
-        "chunkId": "162db2",
+        "chunkId": "2dfdf4",
         "hash": "2d78c060",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "619": {
-        "chunkId": "162db2",
-        "hash": "c23f8d4d",
-        "encoded": "%3C/section%3E",
+        "chunkId": "2dfdf4",
+        "hash": "926ba1b0",
+        "encoded": "%3Cspan%20class=%22insight-category%22%3EWebGL%3C/span%3E",
         "prevChunkIds": []
       },
       "620": {
-        "chunkId": "3482fe",
-        "hash": "d9909bcf",
-        "encoded": "%3C!--%20Scroll%20Image%20Gallery%20--%3E",
+        "chunkId": "2dfdf4",
+        "hash": "5a1f5be8",
+        "encoded": "%3Ch3%20class=%22insight-title%22%3EThe%20Future%20of%203D%20on%20the%20Web%3C/h3%3E",
         "prevChunkIds": []
       },
       "621": {
-        "chunkId": "3482fe",
-        "hash": "c812cce7",
-        "encoded": "%3Csection%20class=%22scroll-gallery-section%22%20id=%22scrollGallery%22%20data-scroll-section%3E",
+        "chunkId": "2dfdf4",
+        "hash": "c019cb65",
+        "encoded": "%3Ctime%20class=%22insight-date%22%3EApr%2015,%202026%3C/time%3E",
         "prevChunkIds": []
       },
       "622": {
-        "chunkId": "3482fe",
-        "hash": "d277a671",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Craft%3C/div%3E",
+        "chunkId": "2dfdf4",
+        "hash": "216b2c2f",
+        "encoded": "%3C/article%3E",
         "prevChunkIds": []
       },
       "623": {
-        "chunkId": "3482fe",
-        "hash": "99fa316a",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3EMoments%20in%20Motion%3C/h2%3E",
+        "chunkId": "162db2",
+        "hash": "3f5a0461",
+        "encoded": "%3Csvg%20class=%22rotate-icon%22%20width=%2220%22%20height=%2220%22%20viewBox=%220%200%2020%2020%22%3E",
+        "prevChunkIds": []
+      },
+      "624": {
+        "chunkId": "162db2",
+        "hash": "21bca069",
+        "encoded": "%3Cpath%20d=%22M10%202%20A8%208%200%201%201%2010%2018%20A8%208%200%200%201%2010%202%22%20stroke=%22currentColor%22%20fill=%22none%22%20stroke-width=%221.5%22/%3E",
         "prevChunkIds": []
       },
       "625": {
-        "chunkId": "3482fe",
-        "hash": "d2b4aba0",
-        "encoded": "%3Cdiv%20class=%22scroll-gallery-container%22%3E",
+        "chunkId": "162db2",
+        "hash": "f9f5c198",
+        "encoded": "%3Cpath%20d=%22M14%2010%20L18%2010%20L16%208%20M18%2010%20L16%2012%22%20stroke=%22currentColor%22%20fill=%22none%22%20stroke-width=%221.5%22/%3E",
         "prevChunkIds": []
       },
       "626": {
-        "chunkId": "3482fe",
-        "hash": "1af78622",
-        "encoded": "%3Cdiv%20class=%22scroll-gallery-track%22%20id=%22scrollGalleryTrack%22%3E",
+        "chunkId": "162db2",
+        "hash": "6c81af93",
+        "encoded": "%3C/svg%3E",
         "prevChunkIds": []
       },
       "627": {
-        "chunkId": "3482fe",
-        "hash": "975f8459",
-        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%220.8%22%3E",
+        "chunkId": "162db2",
+        "hash": "e2a5b292",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "628": {
-        "chunkId": "3482fe",
-        "hash": "98b5094d",
-        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#667eea%200%25,%20#764ba2%20100%25);%22%3E%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "5abc94d5",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "629": {
-        "chunkId": "3482fe",
-        "hash": "c2b7a547",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "ae5eaf4f",
+        "encoded": "%3Cdiv%20class=%22slide-content%22%3E",
         "prevChunkIds": []
       },
       "630": {
-        "chunkId": "3482fe",
-        "hash": "62e36110",
-        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%221.2%22%3E",
+        "chunkId": "162db2",
+        "hash": "1ad188c1",
+        "encoded": "%3Cspan%20class=%22slide-category%22%3E360%C2%B0%20/%20Interactive%3C/span%3E",
         "prevChunkIds": []
       },
       "631": {
-        "chunkId": "3482fe",
-        "hash": "4c5d26c5",
-        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#f093fb%200%25,%20#f5576c%20100%25);%22%3E%3C/div%3E",
+        "chunkId": "733364",
+        "hash": "d5aeff04",
+        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
         "prevChunkIds": []
       },
       "632": {
-        "chunkId": "3482fe",
-        "hash": "6e666047",
-        "encoded": "%3C/div%3E",
+        "chunkId": "733364",
+        "hash": "f89d5410",
+        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
         "prevChunkIds": []
       },
       "633": {
-        "chunkId": "3482fe",
-        "hash": "464c8ff7",
-        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%220.6%22%3E",
+        "chunkId": "733364",
+        "hash": "de92d2f5",
+        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "634": {
-        "chunkId": "3482fe",
-        "hash": "ea3dd3f7",
-        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#4facfe%200%25,%20#00f2fe%20100%25);%22%3E%3C/div%3E",
+        "chunkId": "733364",
+        "hash": "4aff1fad",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "635": {
-        "chunkId": "3482fe",
-        "hash": "b0f1bb7c",
-        "encoded": "%3C/div%3E",
+        "chunkId": "733364",
+        "hash": "f7935cc2",
+        "encoded": "%3Cspan%20class=%22insight-category%22%3EMotion%3C/span%3E",
         "prevChunkIds": []
       },
       "636": {
-        "chunkId": "3482fe",
-        "hash": "380a5660",
-        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%221.4%22%3E",
+        "chunkId": "733364",
+        "hash": "53052539",
+        "encoded": "%3Ch3%20class=%22insight-title%22%3EScroll-Driven%20Animations%20Done%20Right%3C/h3%3E",
         "prevChunkIds": []
       },
       "637": {
-        "chunkId": "3482fe",
-        "hash": "221b0485",
-        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#43e97b%200%25,%20#38f9d7%20100%25);%22%3E%3C/div%3E",
+        "chunkId": "733364",
+        "hash": "efeaec6c",
+        "encoded": "%3Ctime%20class=%22insight-date%22%3EMar%2028,%202026%3C/time%3E",
         "prevChunkIds": []
       },
       "638": {
-        "chunkId": "3482fe",
-        "hash": "618474db",
-        "encoded": "%3C/div%3E",
+        "chunkId": "733364",
+        "hash": "6cffff6d",
+        "encoded": "%3C/article%3E",
         "prevChunkIds": []
       },
       "639": {
-        "chunkId": "3482fe",
-        "hash": "fe75939c",
-        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%220.9%22%3E",
+        "chunkId": "162db2",
+        "hash": "a79d5e2e",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "640": {
-        "chunkId": "3482fe",
-        "hash": "2ad9196c",
-        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#fa709a%200%25,%20#fee140%20100%25);%22%3E%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "fbfb77b2",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "641": {
-        "chunkId": "3482fe",
+        "chunkId": "162db2",
         "hash": "22f0b4a4",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "642": {
-        "chunkId": "3482fe",
-        "hash": "343f8dc9",
-        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%221.1%22%3E",
-        "prevChunkIds": []
-      },
       "643": {
-        "chunkId": "3482fe",
-        "hash": "3b759d62",
-        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#30cfd0%200%25,%20#330867%20100%25);%22%3E%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "20b9b4e8",
+        "encoded": "%3Cdiv%20class=%22carousel-controls%22%3E",
         "prevChunkIds": []
       },
       "644": {
-        "chunkId": "3482fe",
-        "hash": "8647f0b6",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "d27e76a1",
+        "encoded": "%3Cbutton%20class=%22carousel-arrow%20carousel-prev%22%20id=%22carouselPrev%22%3E%E2%86%90%3C/button%3E",
         "prevChunkIds": []
       },
       "645": {
-        "chunkId": "3482fe",
-        "hash": "3c127f67",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "2f60fcf8",
+        "encoded": "%3Cdiv%20class=%22carousel-pagination%22%20id=%22carouselPagination%22%3E01%20/%2004%3C/div%3E",
         "prevChunkIds": []
       },
       "646": {
-        "chunkId": "3482fe",
-        "hash": "90769df5",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "38514e88",
+        "encoded": "%3Cbutton%20class=%22carousel-arrow%20carousel-next%22%20id=%22carouselNext%22%3E%E2%86%92%3C/button%3E",
         "prevChunkIds": []
       },
       "647": {
-        "chunkId": "3482fe",
-        "hash": "f77e7f90",
-        "encoded": "%3C/section%3E",
+        "chunkId": "5d2772",
+        "hash": "6af878c3",
+        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
+        "prevChunkIds": []
+      },
+      "648": {
+        "chunkId": "5d2772",
+        "hash": "42543997",
+        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
         "prevChunkIds": []
       },
       "649": {
-        "chunkId": "3482fe",
-        "hash": "10869926",
-        "encoded": "%3C!--%20Approach%20--%3E",
+        "chunkId": "5d2772",
+        "hash": "46dfc549",
+        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background-image:%20url('https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&q=80');%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "650": {
-        "chunkId": "3482fe",
-        "hash": "643daa24",
-        "encoded": "%3Csection%20class=%22approach-section%22%20id=%22approach%22%20data-scroll-section%3E",
+        "chunkId": "5d2772",
+        "hash": "3c88cc69",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "651": {
-        "chunkId": "3482fe",
-        "hash": "b92887b1",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Process%3C/div%3E",
+        "chunkId": "5d2772",
+        "hash": "1b9641e3",
+        "encoded": "%3Cspan%20class=%22insight-category%22%3EDesign%3C/span%3E",
         "prevChunkIds": []
       },
       "652": {
-        "chunkId": "3482fe",
-        "hash": "64c6bde7",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3EHow%20We%20Work%3C/h2%3E",
+        "chunkId": "5d2772",
+        "hash": "31a2a3ea",
+        "encoded": "%3Ch3%20class=%22insight-title%22%3EBuilding%20Immersive%20Brand%20Experiences%3C/h3%3E",
         "prevChunkIds": []
       },
       "653": {
-        "chunkId": "162db2",
-        "hash": "3f0f6b69",
-        "encoded": "%3C!--%20Approach%20--%3E",
+        "chunkId": "5d2772",
+        "hash": "060b5d63",
+        "encoded": "%3Ctime%20class=%22insight-date%22%3EFeb%2012,%202026%3C/time%3E",
         "prevChunkIds": []
       },
       "654": {
-        "chunkId": "162db2",
-        "hash": "bfbdf0be",
-        "encoded": "%3Csection%20class=%22approach-section%22%20id=%22approach%22%20data-scroll-section%3E",
+        "chunkId": "5d2772",
+        "hash": "04f8d8dd",
+        "encoded": "%3C/article%3E",
         "prevChunkIds": []
       },
       "655": {
         "chunkId": "162db2",
-        "hash": "94bc7a04",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Process%3C/div%3E",
+        "hash": "b5a768c5",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22slide-cta%22%3EView%20Case%3C/a%3E",
         "prevChunkIds": []
       },
       "656": {
         "chunkId": "162db2",
-        "hash": "7b6a34c1",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3EHow%20We%20Work%3C/h2%3E",
+        "hash": "f854eceb",
+        "encoded": "%3Cdiv%20class=%22carousel-progress%22%3E",
+        "prevChunkIds": []
+      },
+      "657": {
+        "chunkId": "162db2",
+        "hash": "954b188e",
+        "encoded": "%3Cdiv%20class=%22carousel-progress-bar%22%20id=%22carouselProgressBar%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "658": {
         "chunkId": "162db2",
-        "hash": "26c81b6e",
-        "encoded": "%3Cdiv%20class=%22process-timeline%22%3E",
+        "hash": "a3f25643",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "659": {
         "chunkId": "162db2",
-        "hash": "83ea5c95",
-        "encoded": "%3Csvg%20class=%22timeline-line%22%20viewBox=%220%200%204%20400%22%20preserveAspectRatio=%22none%22%3E",
+        "hash": "f6d965d7",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "660": {
         "chunkId": "162db2",
-        "hash": "423d8838",
-        "encoded": "%3Cpath%20d=%22M2%200%20L2%20400%22%20stroke=%22var(--color-primary)%22%20stroke-width=%222%22%20fill=%22none%22%20stroke-dasharray=%22400%22%20stroke-dashoffset=%22400%22%20id=%22timelinePath%22/%3E",
+        "hash": "786fc950",
+        "encoded": "%3C/section%3E",
         "prevChunkIds": []
       },
       "661": {
-        "chunkId": "162db2",
-        "hash": "14612224",
-        "encoded": "%3C/svg%3E",
+        "chunkId": "3482fe",
+        "hash": "2149fd2b",
+        "encoded": "%3C!--%20Scroll%20Image%20Gallery%20--%3E",
+        "prevChunkIds": []
+      },
+      "662": {
+        "chunkId": "3482fe",
+        "hash": "c20ffef7",
+        "encoded": "%3Csection%20class=%22scroll-gallery-section%22%20id=%22scrollGallery%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "663": {
-        "chunkId": "162db2",
-        "hash": "bdf0cdb7",
-        "encoded": "%3Cdiv%20class=%22process-steps%22%3E",
+        "chunkId": "3482fe",
+        "hash": "90733755",
+        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Craft%3C/div%3E",
         "prevChunkIds": []
       },
       "664": {
-        "chunkId": "162db2",
-        "hash": "07968aba",
-        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%221%22%3E",
-        "prevChunkIds": []
-      },
-      "665": {
-        "chunkId": "162db2",
-        "hash": "44412273",
-        "encoded": "%3Cdiv%20class=%22step-number%22%3E01%3C/div%3E",
+        "chunkId": "3482fe",
+        "hash": "bb808797",
+        "encoded": "%3Ch2%20class=%22section-heading%22%3EMoments%20in%20Motion%3C/h2%3E",
         "prevChunkIds": []
       },
       "666": {
-        "chunkId": "162db2",
-        "hash": "e4010877",
-        "encoded": "%3Ch3%20class=%22step-title%22%3EDiscover%3C/h3%3E",
+        "chunkId": "3482fe",
+        "hash": "5f2d5fe0",
+        "encoded": "%3Cdiv%20class=%22scroll-gallery-container%22%3E",
         "prevChunkIds": []
       },
       "667": {
-        "chunkId": "162db2",
-        "hash": "d6c7ef5b",
-        "encoded": "%3Cp%20class=%22step-desc%22%3EDeep%20dive%20into%20your%20vision,%20audience,%20and%20goals%3C/p%3E",
+        "chunkId": "3482fe",
+        "hash": "92c0cc41",
+        "encoded": "%3Cdiv%20class=%22scroll-gallery-track%22%20id=%22scrollGalleryTrack%22%3E",
         "prevChunkIds": []
       },
       "668": {
-        "chunkId": "162db2",
-        "hash": "09283fb9",
-        "encoded": "%3C/div%3E",
+        "chunkId": "3482fe",
+        "hash": "508975e1",
+        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%220.8%22%3E",
+        "prevChunkIds": []
+      },
+      "669": {
+        "chunkId": "3482fe",
+        "hash": "0ff2b5d4",
+        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#667eea%200%25,%20#764ba2%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "670": {
-        "chunkId": "162db2",
-        "hash": "b21156e2",
-        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%222%22%3E",
+        "chunkId": "3482fe",
+        "hash": "9c8b718e",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "671": {
-        "chunkId": "162db2",
-        "hash": "d232736a",
-        "encoded": "%3Cdiv%20class=%22step-number%22%3E02%3C/div%3E",
+        "chunkId": "3482fe",
+        "hash": "b4347926",
+        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%221.2%22%3E",
         "prevChunkIds": []
       },
       "672": {
-        "chunkId": "162db2",
-        "hash": "7ea04009",
-        "encoded": "%3Ch3%20class=%22step-title%22%3EDesign%3C/h3%3E",
+        "chunkId": "3482fe",
+        "hash": "d7d7e4c5",
+        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#f093fb%200%25,%20#f5576c%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "673": {
-        "chunkId": "162db2",
-        "hash": "5158e892",
-        "encoded": "%3Cp%20class=%22step-desc%22%3ECraft%20immersive%20concepts%20and%20visual%20systems%3C/p%3E",
+        "chunkId": "3482fe",
+        "hash": "6f3d10e2",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "674": {
-        "chunkId": "162db2",
-        "hash": "d581f747",
-        "encoded": "%3C/div%3E",
+        "chunkId": "3482fe",
+        "hash": "8b232a5d",
+        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%220.6%22%3E",
+        "prevChunkIds": []
+      },
+      "675": {
+        "chunkId": "3482fe",
+        "hash": "9676eac3",
+        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#4facfe%200%25,%20#00f2fe%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "676": {
-        "chunkId": "162db2",
-        "hash": "c79609d6",
-        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%223%22%3E",
-        "prevChunkIds": []
-      },
-      "677": {
-        "chunkId": "162db2",
-        "hash": "455a2f30",
-        "encoded": "%3Cdiv%20class=%22step-number%22%3E03%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "678": {
-        "chunkId": "162db2",
-        "hash": "9a820fa0",
-        "encoded": "%3Ch3%20class=%22step-title%22%3EDevelop%3C/h3%3E",
-        "prevChunkIds": []
-      },
-      "679": {
-        "chunkId": "162db2",
-        "hash": "24c73955",
-        "encoded": "%3Cp%20class=%22step-desc%22%3EBuild%20with%20cutting-edge%20tech%20and%20craft%3C/p%3E",
-        "prevChunkIds": []
-      },
-      "680": {
-        "chunkId": "162db2",
-        "hash": "322a8f75",
+        "chunkId": "3482fe",
+        "hash": "9583d31e",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
+      "677": {
+        "chunkId": "3482fe",
+        "hash": "80c65022",
+        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%221.4%22%3E",
+        "prevChunkIds": []
+      },
+      "678": {
+        "chunkId": "3482fe",
+        "hash": "955bacda",
+        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#43e97b%200%25,%20#38f9d7%20100%25);%22%3E%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "679": {
+        "chunkId": "3482fe",
+        "hash": "94be2f73",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "680": {
+        "chunkId": "3482fe",
+        "hash": "63dfb599",
+        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%220.9%22%3E",
+        "prevChunkIds": []
+      },
+      "681": {
+        "chunkId": "3482fe",
+        "hash": "760a66b9",
+        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#fa709a%200%25,%20#fee140%20100%25);%22%3E%3C/div%3E",
+        "prevChunkIds": []
+      },
       "682": {
-        "chunkId": "162db2",
-        "hash": "6eda26ea",
-        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%224%22%3E",
+        "chunkId": "3482fe",
+        "hash": "2eeb8c2d",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "683": {
-        "chunkId": "162db2",
-        "hash": "9789a529",
-        "encoded": "%3Cdiv%20class=%22step-number%22%3E04%3C/div%3E",
+        "chunkId": "3482fe",
+        "hash": "d399a4fb",
+        "encoded": "%3Cdiv%20class=%22scroll-gallery-item%22%20data-scroll-speed=%221.1%22%3E",
         "prevChunkIds": []
       },
       "684": {
-        "chunkId": "162db2",
-        "hash": "a012981c",
-        "encoded": "%3Ch3%20class=%22step-title%22%3EDeliver%3C/h3%3E",
+        "chunkId": "3482fe",
+        "hash": "59d89336",
+        "encoded": "%3Cdiv%20class=%22gallery-image%22%20style=%22background:%20linear-gradient(135deg,%20#30cfd0%200%25,%20#330867%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "685": {
-        "chunkId": "162db2",
-        "hash": "c9fca87f",
-        "encoded": "%3Cp%20class=%22step-desc%22%3ELaunch%20and%20optimize%20for%20maximum%20impact%3C/p%3E",
+        "chunkId": "3482fe",
+        "hash": "0b51cc6c",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "686": {
-        "chunkId": "162db2",
+        "chunkId": "3482fe",
         "hash": "3b603256",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "687": {
-        "chunkId": "162db2",
+        "chunkId": "3482fe",
         "hash": "bb829cd0",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "688": {
-        "chunkId": "162db2",
-        "hash": "ff7e81ce",
-        "encoded": "%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "689": {
-        "chunkId": "162db2",
-        "hash": "640f0cb5",
+        "chunkId": "3482fe",
+        "hash": "f3bcfa04",
         "encoded": "%3C/section%3E",
         "prevChunkIds": []
       },
+      "690": {
+        "chunkId": "3482fe",
+        "hash": "3cf79b51",
+        "encoded": "%3C!--%20Approach%20--%3E",
+        "prevChunkIds": []
+      },
       "691": {
-        "chunkId": "162db2",
-        "hash": "c6342b0c",
-        "encoded": "%3C!--%20Studio%20--%3E",
+        "chunkId": "3482fe",
+        "hash": "f75342c6",
+        "encoded": "%3Csection%20class=%22approach-section%22%20id=%22approach%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "692": {
-        "chunkId": "162db2",
-        "hash": "3f8f312b",
-        "encoded": "%3Csection%20class=%22studio-section%22%20id=%22studio%22%20data-scroll-section%3E",
+        "chunkId": "3482fe",
+        "hash": "bc65195a",
+        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Process%3C/div%3E",
         "prevChunkIds": []
       },
       "693": {
-        "chunkId": "162db2",
-        "hash": "c59cf720",
-        "encoded": "%3Cdiv%20class=%22studio-grid%22%3E",
+        "chunkId": "3482fe",
+        "hash": "6ec8f07f",
+        "encoded": "%3Ch2%20class=%22section-heading%22%3EHow%20We%20Work%3C/h2%3E",
         "prevChunkIds": []
       },
       "694": {
         "chunkId": "162db2",
-        "hash": "6ad645b9",
-        "encoded": "%3Cdiv%20class=%22studio-quote%22%3E",
+        "hash": "7c998e2b",
+        "encoded": "%3C!--%20Approach%20--%3E",
         "prevChunkIds": []
       },
       "695": {
         "chunkId": "162db2",
-        "hash": "ea772efa",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EAbout%20Nova%3C/div%3E",
+        "hash": "8fb800a9",
+        "encoded": "%3Csection%20class=%22approach-section%22%20id=%22approach%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "696": {
         "chunkId": "162db2",
-        "hash": "b3669632",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3EWe%20believe%20digital%20experiences%20should%20feel%20magical%3C/h2%3E",
+        "hash": "1f875695",
+        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EOur%20Process%3C/div%3E",
         "prevChunkIds": []
       },
       "697": {
         "chunkId": "162db2",
-        "hash": "1fe2e309",
-        "encoded": "%3Cp%20class=%22quote-text%22%3EOur%20team%20blends%20creative%20vision%20with%20technical%20expertise%20to%20build%20experiences%20that%20don't%20just%20look%20beautiful%20%E2%80%94%20they%20feel%20alive.%3C/p%3E",
+        "hash": "a0cbfbf0",
+        "encoded": "%3Ch2%20class=%22section-heading%22%3EHow%20We%20Work%3C/h2%3E",
         "prevChunkIds": []
       },
-      "698": {
+      "699": {
         "chunkId": "162db2",
-        "hash": "598b7cfc",
-        "encoded": "%3C/div%3E",
+        "hash": "41bc96d7",
+        "encoded": "%3Cdiv%20class=%22process-timeline%22%3E",
         "prevChunkIds": []
       },
       "700": {
         "chunkId": "162db2",
-        "hash": "ae3cabee",
-        "encoded": "%3Cdiv%20class=%22studio-gallery%22%3E",
+        "hash": "56b651ed",
+        "encoded": "%3Csvg%20class=%22timeline-line%22%20viewBox=%220%200%204%20400%22%20preserveAspectRatio=%22none%22%3E",
         "prevChunkIds": []
       },
       "701": {
         "chunkId": "162db2",
-        "hash": "59cfcaad",
-        "encoded": "%3Cdiv%20class=%22gallery-item%22%20data-speed=%220.5%22%3E",
+        "hash": "4c7960c3",
+        "encoded": "%3Cpath%20d=%22M2%200%20L2%20400%22%20stroke=%22var(--color-primary)%22%20stroke-width=%222%22%20fill=%22none%22%20stroke-dasharray=%22400%22%20stroke-dashoffset=%22400%22%20id=%22timelinePath%22/%3E",
         "prevChunkIds": []
       },
       "702": {
         "chunkId": "162db2",
-        "hash": "bdab500e",
-        "encoded": "%3Cdiv%20class=%22gallery-mask%22%20style=%22background:%20linear-gradient(135deg,%20#B087FF%200%25,%20#FFD074%20100%25);%22%3E%3C/div%3E",
-        "prevChunkIds": []
-      },
-      "703": {
-        "chunkId": "162db2",
-        "hash": "4465c8d4",
-        "encoded": "%3C/div%3E",
+        "hash": "aa42c54e",
+        "encoded": "%3C/svg%3E",
         "prevChunkIds": []
       },
       "704": {
         "chunkId": "162db2",
-        "hash": "4ba07919",
-        "encoded": "%3Cdiv%20class=%22gallery-item%22%20data-speed=%220.7%22%3E",
+        "hash": "c0a7a699",
+        "encoded": "%3Cdiv%20class=%22process-steps%22%3E",
         "prevChunkIds": []
       },
       "705": {
         "chunkId": "162db2",
-        "hash": "84dd4a51",
-        "encoded": "%3Cdiv%20class=%22gallery-mask%22%20style=%22background:%20linear-gradient(135deg,%20#FFD074%200%25,%20#B087FF%20100%25);%22%3E%3C/div%3E",
+        "hash": "4d16ef03",
+        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%221%22%3E",
         "prevChunkIds": []
       },
       "706": {
         "chunkId": "162db2",
-        "hash": "fdc7f85b",
-        "encoded": "%3C/div%3E",
+        "hash": "ca925b88",
+        "encoded": "%3Cdiv%20class=%22step-number%22%3E01%3C/div%3E",
         "prevChunkIds": []
       },
       "707": {
         "chunkId": "162db2",
-        "hash": "cd236e9c",
-        "encoded": "%3Cdiv%20class=%22gallery-item%22%20data-speed=%220.6%22%3E",
+        "hash": "024fbe8b",
+        "encoded": "%3Ch3%20class=%22step-title%22%3EDiscover%3C/h3%3E",
         "prevChunkIds": []
       },
       "708": {
         "chunkId": "162db2",
-        "hash": "86e39868",
-        "encoded": "%3Cdiv%20class=%22gallery-mask%22%20style=%22background:%20linear-gradient(135deg,%20#B087FF%2050%25,%20#FFD074%2050%25);%22%3E%3C/div%3E",
+        "hash": "438fd3b6",
+        "encoded": "%3Cp%20class=%22step-desc%22%3EDeep%20dive%20into%20your%20vision,%20audience,%20and%20goals%3C/p%3E",
         "prevChunkIds": []
       },
       "709": {
@@ -4033,106 +3967,94 @@
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "710": {
-        "chunkId": "162db2",
-        "hash": "2887c4ac",
-        "encoded": "%3Cdiv%20class=%22gallery-item%22%20data-speed=%220.8%22%3E",
-        "prevChunkIds": []
-      },
       "711": {
         "chunkId": "162db2",
-        "hash": "eddca29b",
-        "encoded": "%3Cdiv%20class=%22gallery-mask%22%20style=%22background:%20linear-gradient(135deg,%20#FFD074%200%25,%20#B087FF%20100%25);%22%3E%3C/div%3E",
+        "hash": "d0fc4569",
+        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%222%22%3E",
         "prevChunkIds": []
       },
       "712": {
         "chunkId": "162db2",
-        "hash": "f132be72",
-        "encoded": "%3C/div%3E",
+        "hash": "cdee8485",
+        "encoded": "%3Cdiv%20class=%22step-number%22%3E02%3C/div%3E",
         "prevChunkIds": []
       },
       "713": {
         "chunkId": "162db2",
-        "hash": "22b800a8",
-        "encoded": "%3C/div%3E",
+        "hash": "45c2f6b7",
+        "encoded": "%3Ch3%20class=%22step-title%22%3EDesign%3C/h3%3E",
         "prevChunkIds": []
       },
       "714": {
         "chunkId": "162db2",
-        "hash": "ad39e76d",
-        "encoded": "%3C/div%3E",
+        "hash": "d0cf63d0",
+        "encoded": "%3Cp%20class=%22step-desc%22%3ECraft%20immersive%20concepts%20and%20visual%20systems%3C/p%3E",
         "prevChunkIds": []
       },
-      "716": {
+      "715": {
         "chunkId": "162db2",
-        "hash": "2d8a823d",
-        "encoded": "%3Cdiv%20class=%22studio-stats%22%3E",
+        "hash": "924ec6fd",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "717": {
         "chunkId": "162db2",
-        "hash": "615bd7b4",
-        "encoded": "%3Cdiv%20class=%22stat-item%22%3E",
+        "hash": "2efc6946",
+        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%223%22%3E",
         "prevChunkIds": []
       },
       "718": {
         "chunkId": "162db2",
-        "hash": "c2a16cf6",
-        "encoded": "%3Cdiv%20class=%22stat-number%22%20data-count=%227%22%3E0%3C/div%3E",
+        "hash": "646380ed",
+        "encoded": "%3Cdiv%20class=%22step-number%22%3E03%3C/div%3E",
         "prevChunkIds": []
       },
       "719": {
         "chunkId": "162db2",
-        "hash": "904a54bf",
-        "encoded": "%3Cdiv%20class=%22stat-label%22%3EYears%20Active%3C/div%3E",
+        "hash": "a84b989b",
+        "encoded": "%3Ch3%20class=%22step-title%22%3EDevelop%3C/h3%3E",
         "prevChunkIds": []
       },
       "720": {
         "chunkId": "162db2",
-        "hash": "ab64effb",
-        "encoded": "%3C/div%3E",
+        "hash": "e32c8d8b",
+        "encoded": "%3Cp%20class=%22step-desc%22%3EBuild%20with%20cutting-edge%20tech%20and%20craft%3C/p%3E",
         "prevChunkIds": []
       },
       "721": {
         "chunkId": "162db2",
-        "hash": "ea32a5ca",
-        "encoded": "%3Cdiv%20class=%22stat-item%22%3E",
-        "prevChunkIds": []
-      },
-      "722": {
-        "chunkId": "162db2",
-        "hash": "53a73430",
-        "encoded": "%3Cdiv%20class=%22stat-number%22%20data-count=%22120%22%3E0%3C/div%3E",
+        "hash": "a3e62677",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "723": {
         "chunkId": "162db2",
-        "hash": "0b7a5cb5",
-        "encoded": "%3Cdiv%20class=%22stat-label%22%3EProjects%20Shipped%3C/div%3E",
+        "hash": "35a62a92",
+        "encoded": "%3Cdiv%20class=%22process-step%22%20data-step=%224%22%3E",
         "prevChunkIds": []
       },
       "724": {
         "chunkId": "162db2",
-        "hash": "8ee39d69",
-        "encoded": "%3C/div%3E",
+        "hash": "8ece162e",
+        "encoded": "%3Cdiv%20class=%22step-number%22%3E04%3C/div%3E",
         "prevChunkIds": []
       },
       "725": {
         "chunkId": "162db2",
-        "hash": "23f6fb34",
-        "encoded": "%3Cdiv%20class=%22stat-item%22%3E",
+        "hash": "a2033a28",
+        "encoded": "%3Ch3%20class=%22step-title%22%3EDeliver%3C/h3%3E",
         "prevChunkIds": []
       },
       "726": {
         "chunkId": "162db2",
-        "hash": "f3852eae",
-        "encoded": "%3Cdiv%20class=%22stat-number%22%20data-count=%2224%22%3E0%3C/div%3E",
+        "hash": "b12e79d1",
+        "encoded": "%3Cp%20class=%22step-desc%22%3ELaunch%20and%20optimize%20for%20maximum%20impact%3C/p%3E",
         "prevChunkIds": []
       },
       "727": {
         "chunkId": "162db2",
-        "hash": "0a127e2d",
-        "encoded": "%3Cdiv%20class=%22stat-label%22%3EAwards%20Won%3C/div%3E",
+        "hash": "347742a0",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "728": {
@@ -4155,98 +4077,104 @@
       },
       "732": {
         "chunkId": "162db2",
-        "hash": "0c8ccc55",
-        "encoded": "%3C!--%20Insights%20--%3E",
+        "hash": "1728560a",
+        "encoded": "%3C!--%20Studio%20--%3E",
         "prevChunkIds": []
       },
       "733": {
         "chunkId": "162db2",
-        "hash": "3593eca3",
-        "encoded": "%3Csection%20class=%22insights-section%22%20id=%22insights%22%20data-scroll-section%3E",
+        "hash": "fc6ffe0d",
+        "encoded": "%3Csection%20class=%22studio-section%22%20id=%22studio%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "734": {
         "chunkId": "162db2",
-        "hash": "9807fb23",
-        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3ELatest%20Thinking%3C/div%3E",
+        "hash": "637a0f61",
+        "encoded": "%3Cdiv%20class=%22studio-grid%22%3E",
         "prevChunkIds": []
       },
       "735": {
         "chunkId": "162db2",
-        "hash": "8f5f6d3d",
-        "encoded": "%3Ch2%20class=%22section-heading%22%3EInsights%3C/h2%3E",
+        "hash": "db02f877",
+        "encoded": "%3Cdiv%20class=%22studio-quote%22%3E",
+        "prevChunkIds": []
+      },
+      "736": {
+        "chunkId": "162db2",
+        "hash": "41b76438",
+        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3EAbout%20Nova%3C/div%3E",
         "prevChunkIds": []
       },
       "737": {
         "chunkId": "162db2",
-        "hash": "668bef3f",
-        "encoded": "%3Cdiv%20class=%22insights-grid%22%3E",
+        "hash": "219e4912",
+        "encoded": "%3Ch2%20class=%22section-heading%22%3EWe%20believe%20digital%20experiences%20should%20feel%20magical%3C/h2%3E",
         "prevChunkIds": []
       },
       "738": {
         "chunkId": "162db2",
-        "hash": "2e28937e",
-        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
+        "hash": "a1a9e37e",
+        "encoded": "%3Cp%20class=%22quote-text%22%3EOur%20team%20blends%20creative%20vision%20with%20technical%20expertise%20to%20build%20experiences%20that%20don't%20just%20look%20beautiful%20%E2%80%94%20they%20feel%20alive.%3C/p%3E",
         "prevChunkIds": []
       },
       "739": {
         "chunkId": "162db2",
-        "hash": "44882c3a",
-        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
-        "prevChunkIds": []
-      },
-      "740": {
-        "chunkId": "162db2",
-        "hash": "8b80ebf6",
-        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background:%20linear-gradient(135deg,%20#667eea%200%25,%20#764ba2%20100%25);%22%3E%3C/div%3E",
+        "hash": "f0e469a3",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "741": {
         "chunkId": "162db2",
-        "hash": "92152f36",
-        "encoded": "%3C/div%3E",
+        "hash": "1d520ccd",
+        "encoded": "%3Cdiv%20class=%22studio-gallery%22%3E",
         "prevChunkIds": []
       },
       "742": {
         "chunkId": "162db2",
-        "hash": "52d27652",
-        "encoded": "%3Cspan%20class=%22insight-category%22%3EWebGL%3C/span%3E",
+        "hash": "b34515f0",
+        "encoded": "%3Cdiv%20class=%22gallery-item%22%20data-speed=%220.5%22%3E",
         "prevChunkIds": []
       },
       "743": {
         "chunkId": "162db2",
-        "hash": "65a735c1",
-        "encoded": "%3Ch3%20class=%22insight-title%22%3EThe%20Future%20of%203D%20on%20the%20Web%3C/h3%3E",
+        "hash": "ba0ef197",
+        "encoded": "%3Cdiv%20class=%22gallery-mask%22%20style=%22background:%20linear-gradient(135deg,%20#B087FF%200%25,%20#FFD074%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "744": {
         "chunkId": "162db2",
-        "hash": "e6f68d52",
-        "encoded": "%3Ctime%20class=%22insight-date%22%3EApr%2015,%202026%3C/time%3E",
+        "hash": "66ce4897",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "745": {
         "chunkId": "162db2",
-        "hash": "b6455b86",
-        "encoded": "%3C/article%3E",
+        "hash": "d802d259",
+        "encoded": "%3Cdiv%20class=%22gallery-item%22%20data-speed=%220.7%22%3E",
+        "prevChunkIds": []
+      },
+      "746": {
+        "chunkId": "162db2",
+        "hash": "e3b7b092",
+        "encoded": "%3Cdiv%20class=%22gallery-mask%22%20style=%22background:%20linear-gradient(135deg,%20#FFD074%200%25,%20#B087FF%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "747": {
         "chunkId": "162db2",
-        "hash": "d23ead99",
-        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
+        "hash": "30b89e54",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "748": {
         "chunkId": "162db2",
-        "hash": "f21f4c1d",
-        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
+        "hash": "bcb7a6bb",
+        "encoded": "%3Cdiv%20class=%22gallery-item%22%20data-speed=%220.6%22%3E",
         "prevChunkIds": []
       },
       "749": {
         "chunkId": "162db2",
-        "hash": "3f0bd884",
-        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background:%20linear-gradient(135deg,%20#f093fb%200%25,%20#f5576c%20100%25);%22%3E%3C/div%3E",
+        "hash": "546edcfd",
+        "encoded": "%3Cdiv%20class=%22gallery-mask%22%20style=%22background:%20linear-gradient(135deg,%20#B087FF%2050%25,%20#FFD074%2050%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "750": {
@@ -4257,260 +4185,266 @@
       },
       "751": {
         "chunkId": "162db2",
-        "hash": "0e658d9f",
-        "encoded": "%3Cspan%20class=%22insight-category%22%3EMotion%3C/span%3E",
+        "hash": "940fde8a",
+        "encoded": "%3Cdiv%20class=%22gallery-item%22%20data-speed=%220.8%22%3E",
         "prevChunkIds": []
       },
       "752": {
         "chunkId": "162db2",
-        "hash": "ef556d23",
-        "encoded": "%3Ch3%20class=%22insight-title%22%3EScroll-Driven%20Animations%20Done%20Right%3C/h3%3E",
+        "hash": "b54f5102",
+        "encoded": "%3Cdiv%20class=%22gallery-mask%22%20style=%22background:%20linear-gradient(135deg,%20#FFD074%200%25,%20#B087FF%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "753": {
         "chunkId": "162db2",
-        "hash": "5463e784",
-        "encoded": "%3Ctime%20class=%22insight-date%22%3EMar%2028,%202026%3C/time%3E",
+        "hash": "9f6d131d",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "754": {
         "chunkId": "162db2",
-        "hash": "6506f111",
-        "encoded": "%3C/article%3E",
+        "hash": "f4937ae5",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "756": {
+      "755": {
         "chunkId": "162db2",
-        "hash": "b52ae6b8",
-        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
+        "hash": "6edaa14a",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "757": {
         "chunkId": "162db2",
-        "hash": "e5f9c3d2",
-        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
+        "hash": "5aa73375",
+        "encoded": "%3Cdiv%20class=%22studio-stats%22%3E",
         "prevChunkIds": []
       },
       "758": {
         "chunkId": "162db2",
-        "hash": "0d592d10",
-        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background:%20linear-gradient(135deg,%20#4facfe%200%25,%20#00f2fe%20100%25);%22%3E%3C/div%3E",
+        "hash": "51ce23e8",
+        "encoded": "%3Cdiv%20class=%22stat-item%22%3E",
         "prevChunkIds": []
       },
       "759": {
         "chunkId": "162db2",
-        "hash": "894c2e09",
-        "encoded": "%3C/div%3E",
+        "hash": "14ea8b53",
+        "encoded": "%3Cdiv%20class=%22stat-number%22%20data-count=%227%22%3E0%3C/div%3E",
         "prevChunkIds": []
       },
       "760": {
         "chunkId": "162db2",
-        "hash": "1fb85bb8",
-        "encoded": "%3Cspan%20class=%22insight-category%22%3EDesign%3C/span%3E",
+        "hash": "5ac8087d",
+        "encoded": "%3Cdiv%20class=%22stat-label%22%3EYears%20Active%3C/div%3E",
         "prevChunkIds": []
       },
       "761": {
         "chunkId": "162db2",
-        "hash": "f624bb44",
-        "encoded": "%3Ch3%20class=%22insight-title%22%3EBuilding%20Immersive%20Brand%20Experiences%3C/h3%3E",
+        "hash": "c4561542",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "762": {
         "chunkId": "162db2",
-        "hash": "33e444e0",
-        "encoded": "%3Ctime%20class=%22insight-date%22%3EFeb%2012,%202026%3C/time%3E",
+        "hash": "6b40b7fa",
+        "encoded": "%3Cdiv%20class=%22stat-item%22%3E",
         "prevChunkIds": []
       },
       "763": {
         "chunkId": "162db2",
-        "hash": "fdc5a8b3",
-        "encoded": "%3C/article%3E",
+        "hash": "1870cca7",
+        "encoded": "%3Cdiv%20class=%22stat-number%22%20data-count=%22120%22%3E0%3C/div%3E",
         "prevChunkIds": []
       },
       "764": {
         "chunkId": "162db2",
-        "hash": "8e16924c",
-        "encoded": "%3C/div%3E",
+        "hash": "9208cf27",
+        "encoded": "%3Cdiv%20class=%22stat-label%22%3EProjects%20Shipped%3C/div%3E",
         "prevChunkIds": []
       },
       "765": {
         "chunkId": "162db2",
-        "hash": "584257c7",
-        "encoded": "%3C/section%3E",
+        "hash": "2ab97e05",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "766": {
+        "chunkId": "162db2",
+        "hash": "93f6dcbb",
+        "encoded": "%3Cdiv%20class=%22stat-item%22%3E",
         "prevChunkIds": []
       },
       "767": {
         "chunkId": "162db2",
-        "hash": "9336c555",
-        "encoded": "%3C!--%20Contact%20--%3E",
+        "hash": "a4d809c0",
+        "encoded": "%3Cdiv%20class=%22stat-number%22%20data-count=%2224%22%3E0%3C/div%3E",
         "prevChunkIds": []
       },
       "768": {
         "chunkId": "162db2",
-        "hash": "69ed9e30",
-        "encoded": "%3Csection%20class=%22contact-section%22%20id=%22contact%22%20data-scroll-section%3E",
+        "hash": "5e60d63d",
+        "encoded": "%3Cdiv%20class=%22stat-label%22%3EAwards%20Won%3C/div%3E",
         "prevChunkIds": []
       },
       "769": {
         "chunkId": "162db2",
-        "hash": "86b742db",
-        "encoded": "%3Cdiv%20class=%22contact-3d-container%22%20id=%22contact3D%22%3E%3C/div%3E",
+        "hash": "89a80ce3",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "770": {
+        "chunkId": "162db2",
+        "hash": "3c7682b6",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "771": {
         "chunkId": "162db2",
-        "hash": "7d3b6416",
-        "encoded": "%3Cdiv%20class=%22contact-content%22%3E",
-        "prevChunkIds": []
-      },
-      "772": {
-        "chunkId": "162db2",
-        "hash": "ae9c92a6",
-        "encoded": "%3Ch2%20class=%22contact-heading%22%3ELet's%20build%20something%20immersive%3C/h2%3E",
+        "hash": "abae987f",
+        "encoded": "%3C/section%3E",
         "prevChunkIds": []
       },
       "773": {
         "chunkId": "162db2",
-        "hash": "1619f563",
-        "encoded": "%3Ca%20href=%22mailto:hello@novastudio.com%22%20class=%22contact-cta%20magnetic-btn%22%3E",
+        "hash": "f00eb24b",
+        "encoded": "%3C!--%20Insights%20--%3E",
         "prevChunkIds": []
       },
       "774": {
         "chunkId": "162db2",
-        "hash": "26c19791",
-        "encoded": "%3Cspan%20class=%22btn-text%22%3EGet%20in%20Touch%3C/span%3E",
+        "hash": "9a566f11",
+        "encoded": "%3Csection%20class=%22insights-section%22%20id=%22insights%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "775": {
         "chunkId": "162db2",
-        "hash": "93966a6a",
-        "encoded": "%3Cspan%20class=%22btn-text%22%3EGet%20in%20Touch%3C/span%3E",
+        "hash": "5b6ecc84",
+        "encoded": "%3Cdiv%20class=%22section-eyebrow%22%3ELatest%20Thinking%3C/div%3E",
         "prevChunkIds": []
       },
       "776": {
         "chunkId": "162db2",
-        "hash": "df46b7c1",
-        "encoded": "%3C/a%3E",
-        "prevChunkIds": []
-      },
-      "777": {
-        "chunkId": "162db2",
-        "hash": "b4c641ec",
-        "encoded": "%3C/div%3E",
+        "hash": "8ff5d50f",
+        "encoded": "%3Ch2%20class=%22section-heading%22%3EInsights%3C/h2%3E",
         "prevChunkIds": []
       },
       "778": {
         "chunkId": "162db2",
-        "hash": "3ff06145",
-        "encoded": "%3C/section%3E",
+        "hash": "6711f849",
+        "encoded": "%3Cdiv%20class=%22insights-grid%22%3E",
+        "prevChunkIds": []
+      },
+      "779": {
+        "chunkId": "162db2",
+        "hash": "faa66833",
+        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
         "prevChunkIds": []
       },
       "780": {
         "chunkId": "162db2",
-        "hash": "b3da0ef8",
-        "encoded": "%3C!--%20Footer%20--%3E",
+        "hash": "20e6d8cd",
+        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
         "prevChunkIds": []
       },
       "781": {
         "chunkId": "162db2",
-        "hash": "00c37ff3",
-        "encoded": "%3Cfooter%20class=%22main-footer%22%3E",
+        "hash": "fb20aa58",
+        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background:%20linear-gradient(135deg,%20#667eea%200%25,%20#764ba2%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "782": {
         "chunkId": "162db2",
-        "hash": "c50acb53",
-        "encoded": "%3Cdiv%20class=%22footer-wordmark%22%3ENOVA%3C/div%3E",
+        "hash": "fb75f23f",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "783": {
+        "chunkId": "162db2",
+        "hash": "0148fb74",
+        "encoded": "%3Cspan%20class=%22insight-category%22%3EWebGL%3C/span%3E",
         "prevChunkIds": []
       },
       "784": {
         "chunkId": "162db2",
-        "hash": "26d7105d",
-        "encoded": "%3Cdiv%20class=%22footer-grid%22%3E",
+        "hash": "a65d5854",
+        "encoded": "%3Ch3%20class=%22insight-title%22%3EThe%20Future%20of%203D%20on%20the%20Web%3C/h3%3E",
         "prevChunkIds": []
       },
       "785": {
         "chunkId": "162db2",
-        "hash": "ac145822",
-        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
+        "hash": "12d32ba9",
+        "encoded": "%3Ctime%20class=%22insight-date%22%3EApr%2015,%202026%3C/time%3E",
         "prevChunkIds": []
       },
       "786": {
         "chunkId": "162db2",
-        "hash": "1e1aa417",
-        "encoded": "%3Ch4%20class=%22footer-heading%22%3ESitemap%3C/h4%3E",
-        "prevChunkIds": []
-      },
-      "787": {
-        "chunkId": "162db2",
-        "hash": "fbae63e5",
-        "encoded": "%3Ca%20href=%22#hero%22%20class=%22footer-link%22%3EHome%3C/a%3E",
+        "hash": "924dd74a",
+        "encoded": "%3C/article%3E",
         "prevChunkIds": []
       },
       "788": {
         "chunkId": "162db2",
-        "hash": "5f1dd464",
-        "encoded": "%3Ca%20href=%22#work%22%20class=%22footer-link%22%3EWork%3C/a%3E",
+        "hash": "dd610229",
+        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
         "prevChunkIds": []
       },
       "789": {
         "chunkId": "162db2",
-        "hash": "73ceece6",
-        "encoded": "%3Ca%20href=%22#studio%22%20class=%22footer-link%22%3EStudio%3C/a%3E",
+        "hash": "632d55b5",
+        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
         "prevChunkIds": []
       },
       "790": {
         "chunkId": "162db2",
-        "hash": "10e7cda8",
-        "encoded": "%3Ca%20href=%22#insights%22%20class=%22footer-link%22%3EInsights%3C/a%3E",
+        "hash": "4957a51f",
+        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background:%20linear-gradient(135deg,%20#f093fb%200%25,%20#f5576c%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "791": {
         "chunkId": "162db2",
-        "hash": "1dc9f87f",
-        "encoded": "%3Ca%20href=%22#contact%22%20class=%22footer-link%22%3EContact%3C/a%3E",
+        "hash": "845931d4",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "792": {
         "chunkId": "162db2",
-        "hash": "b599d743",
-        "encoded": "%3C/div%3E",
+        "hash": "d952d559",
+        "encoded": "%3Cspan%20class=%22insight-category%22%3EMotion%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "793": {
+        "chunkId": "162db2",
+        "hash": "eae158b4",
+        "encoded": "%3Ch3%20class=%22insight-title%22%3EScroll-Driven%20Animations%20Done%20Right%3C/h3%3E",
         "prevChunkIds": []
       },
       "794": {
         "chunkId": "162db2",
-        "hash": "05405981",
-        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
+        "hash": "9b2fd289",
+        "encoded": "%3Ctime%20class=%22insight-date%22%3EMar%2028,%202026%3C/time%3E",
         "prevChunkIds": []
       },
       "795": {
         "chunkId": "162db2",
-        "hash": "47ccd791",
-        "encoded": "%3Ch4%20class=%22footer-heading%22%3ESocial%3C/h4%3E",
-        "prevChunkIds": []
-      },
-      "796": {
-        "chunkId": "162db2",
-        "hash": "59a55f83",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3EInstagram%3C/a%3E",
+        "hash": "c55dd8d2",
+        "encoded": "%3C/article%3E",
         "prevChunkIds": []
       },
       "797": {
         "chunkId": "162db2",
-        "hash": "ef9e075d",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3ETwitter%3C/a%3E",
+        "hash": "9f958472",
+        "encoded": "%3Carticle%20class=%22insight-card%22%3E",
         "prevChunkIds": []
       },
       "798": {
         "chunkId": "162db2",
-        "hash": "e68676c1",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3ELinkedIn%3C/a%3E",
+        "hash": "f8550a93",
+        "encoded": "%3Cdiv%20class=%22insight-image-wrapper%22%3E",
         "prevChunkIds": []
       },
       "799": {
         "chunkId": "162db2",
-        "hash": "d62cb094",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3EDribbble%3C/a%3E",
+        "hash": "cd053feb",
+        "encoded": "%3Cdiv%20class=%22insight-image%22%20style=%22background:%20linear-gradient(135deg,%20#4facfe%200%25,%20#00f2fe%20100%25);%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "800": {
@@ -4519,370 +4453,364 @@
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
+      "801": {
+        "chunkId": "162db2",
+        "hash": "4ecbdd1a",
+        "encoded": "%3Cspan%20class=%22insight-category%22%3EDesign%3C/span%3E",
+        "prevChunkIds": []
+      },
       "802": {
         "chunkId": "162db2",
-        "hash": "8cbe8d92",
-        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
+        "hash": "3235e84d",
+        "encoded": "%3Ch3%20class=%22insight-title%22%3EBuilding%20Immersive%20Brand%20Experiences%3C/h3%3E",
         "prevChunkIds": []
       },
       "803": {
         "chunkId": "162db2",
-        "hash": "5b0da3e1",
-        "encoded": "%3Ch4%20class=%22footer-heading%22%3EContact%3C/h4%3E",
+        "hash": "97b0a820",
+        "encoded": "%3Ctime%20class=%22insight-date%22%3EFeb%2012,%202026%3C/time%3E",
         "prevChunkIds": []
       },
       "804": {
         "chunkId": "162db2",
-        "hash": "e47faf29",
-        "encoded": "%3Ca%20href=%22mailto:hello@novastudio.com%22%20class=%22footer-link%22%3Ehello@novastudio.com%3C/a%3E",
+        "hash": "85328af7",
+        "encoded": "%3C/article%3E",
         "prevChunkIds": []
       },
       "805": {
         "chunkId": "162db2",
-        "hash": "029f69c9",
-        "encoded": "%3Ca%20href=%22tel:+1234567890%22%20class=%22footer-link%22%3E+1%20(234)%20567-890%3C/a%3E",
+        "hash": "0fdd0320",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "806": {
         "chunkId": "162db2",
-        "hash": "085ba5ec",
-        "encoded": "%3Cp%20class=%22footer-address%22%3E123%20Creative%20St%3Cbr%3EBrooklyn,%20NY%2011201%3C/p%3E",
-        "prevChunkIds": []
-      },
-      "807": {
-        "chunkId": "162db2",
-        "hash": "ec823546",
-        "encoded": "%3C/div%3E",
+        "hash": "5bef1bdf",
+        "encoded": "%3C/section%3E",
         "prevChunkIds": []
       },
       "808": {
-        "chunkId": "067fce",
-        "hash": "e379c8d2",
-        "encoded": "%3C!--%20Footer%20--%3E",
+        "chunkId": "162db2",
+        "hash": "ebcce12f",
+        "encoded": "%3C!--%20Contact%20--%3E",
         "prevChunkIds": []
       },
       "809": {
-        "chunkId": "067fce",
-        "hash": "e9965d1d",
-        "encoded": "%3Cfooter%20class=%22main-footer%22%3E",
+        "chunkId": "162db2",
+        "hash": "104d702f",
+        "encoded": "%3Csection%20class=%22contact-section%22%20id=%22contact%22%20data-scroll-section%3E",
         "prevChunkIds": []
       },
       "810": {
-        "chunkId": "067fce",
-        "hash": "6fb69e4f",
-        "encoded": "%3Cdiv%20class=%22footer-bg-blur%22%3E%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "51bc6575",
+        "encoded": "%3Cdiv%20class=%22contact-3d-container%22%20id=%22contact3D%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
-      "811": {
-        "chunkId": "067fce",
-        "hash": "691d0bab",
-        "encoded": "%3Cdiv%20class=%22footer-wordmark-large%22%3ENOVA%3C/div%3E",
+      "812": {
+        "chunkId": "162db2",
+        "hash": "1b9f39a2",
+        "encoded": "%3Cdiv%20class=%22contact-content%22%3E",
         "prevChunkIds": []
       },
       "813": {
-        "chunkId": "067fce",
-        "hash": "41a35698",
-        "encoded": "%3Cdiv%20class=%22footer-content%22%3E",
+        "chunkId": "162db2",
+        "hash": "b2e7dbf3",
+        "encoded": "%3Ch2%20class=%22contact-heading%22%3ELet's%20build%20something%20immersive%3C/h2%3E",
         "prevChunkIds": []
       },
       "814": {
-        "chunkId": "067fce",
-        "hash": "000dd090",
-        "encoded": "%3Cdiv%20class=%22footer-top%22%3E",
+        "chunkId": "162db2",
+        "hash": "d63290be",
+        "encoded": "%3Ca%20href=%22mailto:hello@novastudio.com%22%20class=%22contact-cta%20magnetic-btn%22%3E",
         "prevChunkIds": []
       },
       "815": {
-        "chunkId": "067fce",
-        "hash": "a76a36d3",
-        "encoded": "%3Cdiv%20class=%22footer-cta%22%3E",
+        "chunkId": "162db2",
+        "hash": "eac391a6",
+        "encoded": "%3Cspan%20class=%22btn-text%22%3EGet%20in%20Touch%3C/span%3E",
         "prevChunkIds": []
       },
       "816": {
-        "chunkId": "067fce",
-        "hash": "70a2c359",
-        "encoded": "%3Ch3%20class=%22footer-cta-text%22%3EReady%20to%20create%20something%20extraordinary?%3C/h3%3E",
+        "chunkId": "162db2",
+        "hash": "799ab459",
+        "encoded": "%3Cspan%20class=%22btn-text%22%3EGet%20in%20Touch%3C/span%3E",
         "prevChunkIds": []
       },
       "817": {
-        "chunkId": "067fce",
-        "hash": "31f6b51d",
-        "encoded": "%3Ca%20href=%22mailto:hello@novastudio.com%22%20class=%22footer-cta-btn%20magnetic-btn%22%3E",
-        "prevChunkIds": []
-      },
-      "818": {
-        "chunkId": "067fce",
-        "hash": "df6ac1d9",
-        "encoded": "%3Cspan%3EStart%20a%20Project%3C/span%3E",
-        "prevChunkIds": []
-      },
-      "819": {
-        "chunkId": "067fce",
-        "hash": "6690ec76",
+        "chunkId": "162db2",
+        "hash": "994002ae",
         "encoded": "%3C/a%3E",
         "prevChunkIds": []
       },
-      "820": {
-        "chunkId": "067fce",
-        "hash": "fd9ad348",
+      "818": {
+        "chunkId": "162db2",
+        "hash": "39c6d1f2",
         "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "819": {
+        "chunkId": "162db2",
+        "hash": "758f1473",
+        "encoded": "%3C/section%3E",
         "prevChunkIds": []
       },
       "821": {
-        "chunkId": "067fce",
-        "hash": "d1971c3a",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "6ff5d55a",
+        "encoded": "%3C!--%20Footer%20--%3E",
+        "prevChunkIds": []
+      },
+      "822": {
+        "chunkId": "162db2",
+        "hash": "d481d7ba",
+        "encoded": "%3Cfooter%20class=%22main-footer%22%3E",
         "prevChunkIds": []
       },
       "823": {
-        "chunkId": "067fce",
-        "hash": "2b552cbe",
-        "encoded": "%3Cdiv%20class=%22footer-grid%22%3E",
-        "prevChunkIds": []
-      },
-      "824": {
-        "chunkId": "067fce",
-        "hash": "2718415c",
-        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
+        "chunkId": "162db2",
+        "hash": "0b4f63c8",
+        "encoded": "%3Cdiv%20class=%22footer-wordmark%22%3ENOVA%3C/div%3E",
         "prevChunkIds": []
       },
       "825": {
-        "chunkId": "067fce",
-        "hash": "e9bd0ee7",
-        "encoded": "%3Cdiv%20class=%22footer-brand%22%3E",
+        "chunkId": "162db2",
+        "hash": "ed287a46",
+        "encoded": "%3Cdiv%20class=%22footer-grid%22%3E",
         "prevChunkIds": []
       },
       "826": {
-        "chunkId": "067fce",
-        "hash": "05ec36ca",
-        "encoded": "%3Ch2%20class=%22footer-wordmark%22%3ENOVA%3C/h2%3E",
+        "chunkId": "162db2",
+        "hash": "5d922e6e",
+        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
         "prevChunkIds": []
       },
       "827": {
-        "chunkId": "067fce",
-        "hash": "552490e2",
-        "encoded": "%3Cp%20class=%22footer-tagline%22%3ECrafting%20immersive%20digital%20experiences%3C/p%3E",
+        "chunkId": "162db2",
+        "hash": "73449c45",
+        "encoded": "%3Ch4%20class=%22footer-heading%22%3ESitemap%3C/h4%3E",
         "prevChunkIds": []
       },
       "828": {
-        "chunkId": "067fce",
-        "hash": "b84c8107",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "95ffae85",
+        "encoded": "%3Ca%20href=%22#hero%22%20class=%22footer-link%22%3EHome%3C/a%3E",
         "prevChunkIds": []
       },
       "829": {
-        "chunkId": "067fce",
-        "hash": "a7ffeccd",
-        "encoded": "%3C/div%3E",
+        "chunkId": "162db2",
+        "hash": "cf337653",
+        "encoded": "%3Ca%20href=%22#work%22%20class=%22footer-link%22%3EWork%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "830": {
+        "chunkId": "162db2",
+        "hash": "6c508fc7",
+        "encoded": "%3Ca%20href=%22#studio%22%20class=%22footer-link%22%3EStudio%3C/a%3E",
         "prevChunkIds": []
       },
       "831": {
-        "chunkId": "067fce",
-        "hash": "637b3282",
-        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
+        "chunkId": "162db2",
+        "hash": "e9199199",
+        "encoded": "%3Ca%20href=%22#insights%22%20class=%22footer-link%22%3EInsights%3C/a%3E",
         "prevChunkIds": []
       },
       "832": {
-        "chunkId": "067fce",
-        "hash": "a4a22ee9",
-        "encoded": "%3Ch4%20class=%22footer-heading%22%3ENavigate%3C/h4%3E",
+        "chunkId": "162db2",
+        "hash": "62a009d6",
+        "encoded": "%3Ca%20href=%22#contact%22%20class=%22footer-link%22%3EContact%3C/a%3E",
         "prevChunkIds": []
       },
       "833": {
-        "chunkId": "067fce",
-        "hash": "92c6724e",
-        "encoded": "%3Ca%20href=%22#hero%22%20class=%22footer-link%22%3E%3Cspan%3EHome%3C/span%3E%3C/a%3E",
-        "prevChunkIds": []
-      },
-      "834": {
-        "chunkId": "067fce",
-        "hash": "846339c3",
-        "encoded": "%3Ca%20href=%22#work%22%20class=%22footer-link%22%3E%3Cspan%3EWork%3C/span%3E%3C/a%3E",
-        "prevChunkIds": []
-      },
-      "835": {
-        "chunkId": "067fce",
-        "hash": "a9d832b7",
-        "encoded": "%3Ca%20href=%22#studio%22%20class=%22footer-link%22%3E%3Cspan%3EStudio%3C/span%3E%3C/a%3E",
-        "prevChunkIds": []
-      },
-      "836": {
-        "chunkId": "067fce",
-        "hash": "16722023",
-        "encoded": "%3Ca%20href=%22#insights%22%20class=%22footer-link%22%3E%3Cspan%3EInsights%3C/span%3E%3C/a%3E",
-        "prevChunkIds": []
-      },
-      "837": {
-        "chunkId": "067fce",
-        "hash": "0f2994d4",
-        "encoded": "%3Ca%20href=%22#contact%22%20class=%22footer-link%22%3E%3Cspan%3EContact%3C/span%3E%3C/a%3E",
-        "prevChunkIds": []
-      },
-      "838": {
-        "chunkId": "067fce",
-        "hash": "203c82aa",
+        "chunkId": "162db2",
+        "hash": "6c8b49bf",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "840": {
-        "chunkId": "067fce",
-        "hash": "cd681082",
+      "835": {
+        "chunkId": "162db2",
+        "hash": "cec2a697",
         "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
         "prevChunkIds": []
       },
-      "841": {
-        "chunkId": "067fce",
-        "hash": "932c13df",
-        "encoded": "%3Ch4%20class=%22footer-heading%22%3EConnect%3C/h4%3E",
+      "836": {
+        "chunkId": "162db2",
+        "hash": "e48687a6",
+        "encoded": "%3Ch4%20class=%22footer-heading%22%3ESocial%3C/h4%3E",
         "prevChunkIds": []
       },
-      "842": {
-        "chunkId": "067fce",
-        "hash": "087e02ef",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3EInstagram%3C/span%3E%3C/a%3E",
+      "837": {
+        "chunkId": "162db2",
+        "hash": "b2338dae",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3EInstagram%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "838": {
+        "chunkId": "162db2",
+        "hash": "0ca77fd3",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3ETwitter%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "839": {
+        "chunkId": "162db2",
+        "hash": "5f576282",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3ELinkedIn%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "840": {
+        "chunkId": "162db2",
+        "hash": "8168ceab",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3EDribbble%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "841": {
+        "chunkId": "162db2",
+        "hash": "d485faf2",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "843": {
-        "chunkId": "067fce",
-        "hash": "bcb5fcee",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3ETwitter%3C/span%3E%3C/a%3E",
+        "chunkId": "162db2",
+        "hash": "b96b2b27",
+        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
         "prevChunkIds": []
       },
       "844": {
-        "chunkId": "067fce",
-        "hash": "c2322f46",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3ELinkedIn%3C/span%3E%3C/a%3E",
+        "chunkId": "162db2",
+        "hash": "2106e8d9",
+        "encoded": "%3Ch4%20class=%22footer-heading%22%3EContact%3C/h4%3E",
         "prevChunkIds": []
       },
       "845": {
-        "chunkId": "067fce",
-        "hash": "0a99ee05",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3EDribbble%3C/span%3E%3C/a%3E",
+        "chunkId": "162db2",
+        "hash": "bc51475d",
+        "encoded": "%3Ca%20href=%22mailto:hello@novastudio.com%22%20class=%22footer-link%22%3Ehello@novastudio.com%3C/a%3E",
         "prevChunkIds": []
       },
       "846": {
-        "chunkId": "067fce",
-        "hash": "cdeab4a0",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3EBehance%3C/span%3E%3C/a%3E",
+        "chunkId": "162db2",
+        "hash": "60f6042c",
+        "encoded": "%3Ca%20href=%22tel:+1234567890%22%20class=%22footer-link%22%3E+1%20(234)%20567-890%3C/a%3E",
         "prevChunkIds": []
       },
       "847": {
-        "chunkId": "067fce",
-        "hash": "5d3ce6cc",
+        "chunkId": "162db2",
+        "hash": "0d254cbd",
+        "encoded": "%3Cp%20class=%22footer-address%22%3E123%20Creative%20St%3Cbr%3EBrooklyn,%20NY%2011201%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "848": {
+        "chunkId": "162db2",
+        "hash": "4a69a2e6",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "849": {
         "chunkId": "067fce",
-        "hash": "ff365ec9",
-        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
+        "hash": "2d106a39",
+        "encoded": "%3C!--%20Footer%20--%3E",
         "prevChunkIds": []
       },
       "850": {
         "chunkId": "067fce",
-        "hash": "f05f9d89",
-        "encoded": "%3Ch4%20class=%22footer-heading%22%3EGet%20in%20Touch%3C/h4%3E",
+        "hash": "3d3b77a3",
+        "encoded": "%3Cfooter%20class=%22main-footer%22%3E",
         "prevChunkIds": []
       },
       "851": {
         "chunkId": "067fce",
-        "hash": "d33ca482",
-        "encoded": "%3Ca%20href=%22mailto:hello@novastudio.com%22%20class=%22footer-link%20footer-email%22%3E%3Cspan%3Ehello@novastudio.com%3C/span%3E%3C/a%3E",
+        "hash": "cf4526c4",
+        "encoded": "%3Cdiv%20class=%22footer-bg-blur%22%3E%3C/div%3E",
         "prevChunkIds": []
       },
       "852": {
         "chunkId": "067fce",
-        "hash": "e59b1ec4",
-        "encoded": "%3Ca%20href=%22tel:+1234567890%22%20class=%22footer-link%22%3E%3Cspan%3E+1%20(234)%20567-890%3C/span%3E%3C/a%3E",
-        "prevChunkIds": []
-      },
-      "853": {
-        "chunkId": "067fce",
-        "hash": "d8056056",
-        "encoded": "%3Cdiv%20class=%22footer-address%22%3E",
+        "hash": "76ca600f",
+        "encoded": "%3Cdiv%20class=%22footer-wordmark-large%22%3ENOVA%3C/div%3E",
         "prevChunkIds": []
       },
       "854": {
         "chunkId": "067fce",
-        "hash": "128e5cf4",
-        "encoded": "%3Cp%3E123%20Creative%20Street%3C/p%3E",
+        "hash": "2771ee54",
+        "encoded": "%3Cdiv%20class=%22footer-content%22%3E",
         "prevChunkIds": []
       },
       "855": {
         "chunkId": "067fce",
-        "hash": "342ceaa4",
-        "encoded": "%3Cp%3EBrooklyn,%20NY%2011201%3C/p%3E",
+        "hash": "f46aee12",
+        "encoded": "%3Cdiv%20class=%22footer-top%22%3E",
         "prevChunkIds": []
       },
       "856": {
         "chunkId": "067fce",
-        "hash": "f279cb85",
-        "encoded": "%3Cp%3EUnited%20States%3C/p%3E",
+        "hash": "c64a03a6",
+        "encoded": "%3Cdiv%20class=%22footer-cta%22%3E",
         "prevChunkIds": []
       },
       "857": {
         "chunkId": "067fce",
-        "hash": "66befc4b",
-        "encoded": "%3C/div%3E",
+        "hash": "5179d0ff",
+        "encoded": "%3Ch3%20class=%22footer-cta-text%22%3EReady%20to%20create%20something%20extraordinary?%3C/h3%3E",
         "prevChunkIds": []
       },
       "858": {
         "chunkId": "067fce",
-        "hash": "ff9bf236",
-        "encoded": "%3C/div%3E",
+        "hash": "053a2b7d",
+        "encoded": "%3Ca%20href=%22mailto:hello@novastudio.com%22%20class=%22footer-cta-btn%20magnetic-btn%22%3E",
         "prevChunkIds": []
       },
       "859": {
         "chunkId": "067fce",
-        "hash": "220efca6",
-        "encoded": "%3C/div%3E",
+        "hash": "ac0c0d65",
+        "encoded": "%3Cspan%3EStart%20a%20Project%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "860": {
+        "chunkId": "067fce",
+        "hash": "06f8c526",
+        "encoded": "%3C/a%3E",
         "prevChunkIds": []
       },
       "861": {
         "chunkId": "067fce",
-        "hash": "c86b5dbc",
-        "encoded": "%3Cdiv%20class=%22footer-bottom%22%3E",
+        "hash": "76329e03",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "862": {
         "chunkId": "067fce",
-        "hash": "c050b00b",
-        "encoded": "%3Cp%20class=%22footer-copyright%22%3E%C2%A9%202026%20Nova%20Studio.%20All%20rights%20reserved.%3C/p%3E",
-        "prevChunkIds": []
-      },
-      "863": {
-        "chunkId": "067fce",
-        "hash": "a73a4769",
-        "encoded": "%3Cdiv%20class=%22footer-bottom-links%22%3E",
+        "hash": "6e2432a3",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "864": {
         "chunkId": "067fce",
-        "hash": "20597611",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-bottom-link%22%3EPrivacy%20Policy%3C/a%3E",
+        "hash": "02606ac9",
+        "encoded": "%3Cdiv%20class=%22footer-grid%22%3E",
         "prevChunkIds": []
       },
       "865": {
         "chunkId": "067fce",
-        "hash": "75ac652d",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-bottom-link%22%3ETerms%20of%20Service%3C/a%3E",
+        "hash": "7bb45315",
+        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
         "prevChunkIds": []
       },
       "866": {
         "chunkId": "067fce",
-        "hash": "8d0e6adf",
-        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-bottom-link%22%3ECookies%3C/a%3E",
+        "hash": "f39a05d0",
+        "encoded": "%3Cdiv%20class=%22footer-brand%22%3E",
         "prevChunkIds": []
       },
       "867": {
         "chunkId": "067fce",
-        "hash": "7962f068",
-        "encoded": "%3C/div%3E",
+        "hash": "c74c08fa",
+        "encoded": "%3Ch2%20class=%22footer-wordmark%22%3ENOVA%3C/h2%3E",
         "prevChunkIds": []
       },
       "868": {
         "chunkId": "067fce",
-        "hash": "2c211ad0",
-        "encoded": "%3C/div%3E",
+        "hash": "74d5fc9b",
+        "encoded": "%3Cp%20class=%22footer-tagline%22%3ECrafting%20immersive%20digital%20experiences%3C/p%3E",
         "prevChunkIds": []
       },
       "869": {
@@ -4891,109 +4819,331 @@
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
-      "871": {
+      "870": {
         "chunkId": "067fce",
-        "hash": "58303212",
-        "encoded": "%3Cbutton%20class=%22back-to-top%20magnetic-btn%22%20id=%22backToTop%22%20aria-label=%22Back%20to%20top%22%3E",
+        "hash": "abbca90c",
+        "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "872": {
         "chunkId": "067fce",
-        "hash": "d84c00f7",
-        "encoded": "%3Cspan%3E%E2%86%91%3C/span%3E",
+        "hash": "3ff2680b",
+        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
         "prevChunkIds": []
       },
       "873": {
         "chunkId": "067fce",
-        "hash": "79f80114",
-        "encoded": "%3C/button%3E",
+        "hash": "705ac8ad",
+        "encoded": "%3Ch4%20class=%22footer-heading%22%3ENavigate%3C/h4%3E",
         "prevChunkIds": []
       },
       "874": {
         "chunkId": "067fce",
-        "hash": "de1b44fb",
-        "encoded": "%3C/footer%3E",
+        "hash": "c8119cf2",
+        "encoded": "%3Ca%20href=%22#hero%22%20class=%22footer-link%22%3E%3Cspan%3EHome%3C/span%3E%3C/a%3E",
         "prevChunkIds": []
       },
-      "905": {
-        "chunkId": "162db2",
-        "hash": "409798fc",
-        "encoded": "%3Cbutton%20class=%22back-to-top%20magnetic-btn%22%20id=%22backToTop%22%3E",
+      "875": {
+        "chunkId": "067fce",
+        "hash": "0f3ce268",
+        "encoded": "%3Ca%20href=%22#work%22%20class=%22footer-link%22%3E%3Cspan%3EWork%3C/span%3E%3C/a%3E",
         "prevChunkIds": []
       },
-      "906": {
-        "chunkId": "162db2",
-        "hash": "450f756b",
-        "encoded": "%3Cspan%3E%E2%86%91%3C/span%3E",
+      "876": {
+        "chunkId": "067fce",
+        "hash": "376334f8",
+        "encoded": "%3Ca%20href=%22#studio%22%20class=%22footer-link%22%3E%3Cspan%3EStudio%3C/span%3E%3C/a%3E",
         "prevChunkIds": []
       },
-      "907": {
-        "chunkId": "162db2",
-        "hash": "efb0ffc3",
-        "encoded": "%3C/button%3E",
+      "877": {
+        "chunkId": "067fce",
+        "hash": "6d57eb21",
+        "encoded": "%3Ca%20href=%22#insights%22%20class=%22footer-link%22%3E%3Cspan%3EInsights%3C/span%3E%3C/a%3E",
         "prevChunkIds": []
       },
-      "909": {
-        "chunkId": "162db2",
-        "hash": "a12df150",
+      "878": {
+        "chunkId": "067fce",
+        "hash": "440d60a1",
+        "encoded": "%3Ca%20href=%22#contact%22%20class=%22footer-link%22%3E%3Cspan%3EContact%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "879": {
+        "chunkId": "067fce",
+        "hash": "9278b598",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "881": {
+        "chunkId": "067fce",
+        "hash": "ecfd9ddb",
+        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
+        "prevChunkIds": []
+      },
+      "882": {
+        "chunkId": "067fce",
+        "hash": "5446dea8",
+        "encoded": "%3Ch4%20class=%22footer-heading%22%3EConnect%3C/h4%3E",
+        "prevChunkIds": []
+      },
+      "883": {
+        "chunkId": "067fce",
+        "hash": "0522dbee",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3EInstagram%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "884": {
+        "chunkId": "067fce",
+        "hash": "0b300f39",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3ETwitter%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "885": {
+        "chunkId": "067fce",
+        "hash": "9ecba5fc",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3ELinkedIn%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "886": {
+        "chunkId": "067fce",
+        "hash": "c1b432ac",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3EDribbble%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "887": {
+        "chunkId": "067fce",
+        "hash": "2bfd5219",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-link%22%3E%3Cspan%3EBehance%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "888": {
+        "chunkId": "067fce",
+        "hash": "cd5047a0",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "890": {
+        "chunkId": "067fce",
+        "hash": "9fda16a3",
+        "encoded": "%3Cdiv%20class=%22footer-col%22%3E",
+        "prevChunkIds": []
+      },
+      "891": {
+        "chunkId": "067fce",
+        "hash": "3b22ce56",
+        "encoded": "%3Ch4%20class=%22footer-heading%22%3EGet%20in%20Touch%3C/h4%3E",
+        "prevChunkIds": []
+      },
+      "892": {
+        "chunkId": "067fce",
+        "hash": "7fcbe5bb",
+        "encoded": "%3Ca%20href=%22mailto:hello@novastudio.com%22%20class=%22footer-link%20footer-email%22%3E%3Cspan%3Ehello@novastudio.com%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "893": {
+        "chunkId": "067fce",
+        "hash": "95378f5d",
+        "encoded": "%3Ca%20href=%22tel:+1234567890%22%20class=%22footer-link%22%3E%3Cspan%3E+1%20(234)%20567-890%3C/span%3E%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "894": {
+        "chunkId": "067fce",
+        "hash": "80943a60",
+        "encoded": "%3Cdiv%20class=%22footer-address%22%3E",
+        "prevChunkIds": []
+      },
+      "895": {
+        "chunkId": "067fce",
+        "hash": "eab43810",
+        "encoded": "%3Cp%3E123%20Creative%20Street%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "896": {
+        "chunkId": "067fce",
+        "hash": "6f6c02a9",
+        "encoded": "%3Cp%3EBrooklyn,%20NY%2011201%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "897": {
+        "chunkId": "067fce",
+        "hash": "ab166d79",
+        "encoded": "%3Cp%3EUnited%20States%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "898": {
+        "chunkId": "067fce",
+        "hash": "c0141159",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "899": {
+        "chunkId": "067fce",
+        "hash": "80ba9e38",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "900": {
+        "chunkId": "067fce",
+        "hash": "db824909",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "902": {
+        "chunkId": "067fce",
+        "hash": "6d2e331a",
         "encoded": "%3Cdiv%20class=%22footer-bottom%22%3E",
         "prevChunkIds": []
       },
-      "910": {
-        "chunkId": "162db2",
-        "hash": "98ebdc6a",
-        "encoded": "%3Cp%3E%C2%A9%202026%20Nova%20Studio.%20All%20rights%20reserved.%3C/p%3E",
+      "903": {
+        "chunkId": "067fce",
+        "hash": "9b9117a7",
+        "encoded": "%3Cp%20class=%22footer-copyright%22%3E%C2%A9%202026%20Nova%20Studio.%20All%20rights%20reserved.%3C/p%3E",
         "prevChunkIds": []
       },
-      "911": {
-        "chunkId": "162db2",
-        "hash": "4e482d85",
+      "904": {
+        "chunkId": "067fce",
+        "hash": "d249c974",
+        "encoded": "%3Cdiv%20class=%22footer-bottom-links%22%3E",
+        "prevChunkIds": []
+      },
+      "905": {
+        "chunkId": "067fce",
+        "hash": "ab10b5fc",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-bottom-link%22%3EPrivacy%20Policy%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "906": {
+        "chunkId": "067fce",
+        "hash": "4eda0d6b",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-bottom-link%22%3ETerms%20of%20Service%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "907": {
+        "chunkId": "067fce",
+        "hash": "5f82ab62",
+        "encoded": "%3Ca%20href=%22#%22%20class=%22footer-bottom-link%22%3ECookies%3C/a%3E",
+        "prevChunkIds": []
+      },
+      "908": {
+        "chunkId": "067fce",
+        "hash": "839f718d",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "909": {
+        "chunkId": "067fce",
+        "hash": "bc1d96a5",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "910": {
+        "chunkId": "067fce",
+        "hash": "8831d10c",
         "encoded": "%3C/div%3E",
         "prevChunkIds": []
       },
       "912": {
-        "chunkId": "162db2",
-        "hash": "109338e3",
-        "encoded": "%3C/footer%3E",
+        "chunkId": "067fce",
+        "hash": "b9e433c2",
+        "encoded": "%3Cbutton%20class=%22back-to-top%20magnetic-btn%22%20id=%22backToTop%22%20aria-label=%22Back%20to%20top%22%3E",
+        "prevChunkIds": []
+      },
+      "913": {
+        "chunkId": "067fce",
+        "hash": "6c635250",
+        "encoded": "%3Cspan%3E%E2%86%91%3C/span%3E",
         "prevChunkIds": []
       },
       "914": {
-        "chunkId": "162db2",
-        "hash": "364d7fdf",
-        "encoded": "%3Cscript%20src=%22https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js%22%3E%3C/script%3E",
+        "chunkId": "067fce",
+        "hash": "0c65dd0a",
+        "encoded": "%3C/button%3E",
         "prevChunkIds": []
       },
       "915": {
+        "chunkId": "067fce",
+        "hash": "c5bdb33e",
+        "encoded": "%3C/footer%3E",
+        "prevChunkIds": []
+      },
+      "946": {
         "chunkId": "162db2",
-        "hash": "7cef00d4",
+        "hash": "ac97d2fa",
+        "encoded": "%3Cbutton%20class=%22back-to-top%20magnetic-btn%22%20id=%22backToTop%22%3E",
+        "prevChunkIds": []
+      },
+      "947": {
+        "chunkId": "162db2",
+        "hash": "cc9b0a90",
+        "encoded": "%3Cspan%3E%E2%86%91%3C/span%3E",
+        "prevChunkIds": []
+      },
+      "948": {
+        "chunkId": "162db2",
+        "hash": "b3afc5bd",
+        "encoded": "%3C/button%3E",
+        "prevChunkIds": []
+      },
+      "950": {
+        "chunkId": "162db2",
+        "hash": "d84db418",
+        "encoded": "%3Cdiv%20class=%22footer-bottom%22%3E",
+        "prevChunkIds": []
+      },
+      "951": {
+        "chunkId": "162db2",
+        "hash": "6d829c84",
+        "encoded": "%3Cp%3E%C2%A9%202026%20Nova%20Studio.%20All%20rights%20reserved.%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "952": {
+        "chunkId": "162db2",
+        "hash": "a70933c5",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "953": {
+        "chunkId": "162db2",
+        "hash": "3a2071af",
+        "encoded": "%3C/footer%3E",
+        "prevChunkIds": []
+      },
+      "955": {
+        "chunkId": "162db2",
+        "hash": "00733b40",
+        "encoded": "%3Cscript%20src=%22https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js%22%3E%3C/script%3E",
+        "prevChunkIds": []
+      },
+      "956": {
+        "chunkId": "162db2",
+        "hash": "e1159786",
         "encoded": "%3Cscript%20src=%22https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js%22%3E%3C/script%3E",
         "prevChunkIds": []
       },
-      "916": {
+      "957": {
         "chunkId": "162db2",
-        "hash": "9e6fd361",
+        "hash": "943a90e6",
         "encoded": "%3Cscript%20src=%22https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js%22%3E%3C/script%3E",
         "prevChunkIds": []
       },
-      "917": {
+      "958": {
         "chunkId": "162db2",
-        "hash": "c97b0eeb",
+        "hash": "2aea6584",
         "encoded": "%3Cscript%20src=%22nova-studio.js%22%3E%3C/script%3E",
         "prevChunkIds": []
       },
-      "918": {
+      "959": {
         "chunkId": "162db2",
-        "hash": "341f998d",
+        "hash": "4ee6312c",
         "encoded": "%3C/body%3E",
         "prevChunkIds": []
       },
-      "919": {
+      "960": {
         "chunkId": "162db2",
-        "hash": "7198fce2",
+        "hash": "ebea808e",
         "encoded": "%3C/html%3E",
         "prevChunkIds": []
       }
     },
-    "_prevLineCount": 520
+    "_prevLineCount": 527
   }
 }

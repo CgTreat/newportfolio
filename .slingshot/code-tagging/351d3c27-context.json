@@ -6,6 +6,12 @@
   "promptMessage": {
     "b32d1eb8": {
       "value": "Discover, Design, Develop & Deliver, should come in four column horizontally. Moments in motion section images looks randomly placed think some better way to position them, animate all of them based on the cursor position. Imagine like all cards shifts a bit when cursor moves. every section should have scroll reveal or slide animation. \"We craft digital experiences\" is the main hero, this should have some reveal animation, some interactive cursor animation, elements should react based on cursor "
+    },
+    "6e1c909a": {
+      "value": "Capabilities section scroll card animation is too slow and glitchy. Cards should have subtle angle to give 3d depth. Run animation on scroll a bit faster so user don't get stuck on capabiliites section. recent work cards are too big, make them three in one row. I can't see next section. Let's build something and footer looks good. Can we add some liquid display effect somewhere?"
+    },
+    "846f7d37": {
+      "value": "check some section are not visible. make sure all section loads properly and."
     }
   },
   "localPrompts": {},
