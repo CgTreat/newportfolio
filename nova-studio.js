@@ -330,127 +330,7 @@ if (servicesTrack) {
     });
 }
 
-// ========================================
-// CAROUSEL
-// ========================================
 
-const carouselTrack = document.getElementById('carouselTrack');
-const carouselPrev = document.getElementById('carouselPrev');
-const carouselNext = document.getElementById('carouselNext');
-const carouselPagination = document.getElementById('carouselPagination');
-const carouselProgressBar = document.getElementById('carouselProgressBar');
-
-let currentSlide = 0;
-const totalSlides = document.querySelectorAll('.carousel-slide').length;
-
-function updateCarousel() {
-    const slideWidth = carouselTrack.querySelector('.carousel-slide').offsetWidth + 30;
-    carouselTrack.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
-    carouselPagination.textContent = `${String(currentSlide + 1).padStart(2, '0')} / ${String(totalSlides).padStart(2, '0')}`;
-    carouselProgressBar.style.width = `${((currentSlide + 1) / totalSlides) * 100}%`;
-}
-
-carouselNext.addEventListener('click', () => {
-    currentSlide = (currentSlide + 1) % totalSlides;
-    updateCarousel();
-});
-
-carouselPrev.addEventListener('click', () => {
-    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-    updateCarousel();
-});
-
-// Drag to scroll carousel
-let carouselDragging = false;
-let carouselStartX;
-let carouselScrollLeft;
-
-carouselTrack.addEventListener('mousedown', (e) => {
-    carouselDragging = true;
-    carouselStartX = e.pageX;
-    carouselScrollLeft = carouselTrack.scrollLeft;
-});
-
-carouselTrack.addEventListener('mousemove', (e) => {
-    if (!carouselDragging) return;
-    const x = e.pageX;
-    const walk = (carouselStartX - x) * 2;
-    
-    if (Math.abs(walk) > 50) {
-        if (walk > 0 && currentSlide < totalSlides - 1) {
-            currentSlide++;
-        } else if (walk < 0 && currentSlide > 0) {
-            currentSlide--;
-        }
-        updateCarousel();
-        carouselDragging = false;
-    }
-});
-
-carouselTrack.addEventListener('mouseup', () => {
-    carouselDragging = false;
-});
-
-// ========================================
-// 360° INTERACTIVE
-// ========================================
-
-const container360 = document.getElementById('container360');
-
-if (container360) {
-    const scene360 = new THREE.Scene();
-    const camera360 = new THREE.PerspectiveCamera(
-        75,
-        container360.offsetWidth / container360.offsetHeight,
-        0.1,
-        1000
-    );
-    
-    const renderer360 = new THREE.WebGLRenderer({ alpha: false, antialias: true });
-    renderer360.setSize(container360.offsetWidth, container360.offsetHeight);
-    renderer360.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    container360.appendChild(renderer360.domElement);
-    
-    // Create sphere for 360° view
-    const geometry360 = new THREE.SphereGeometry(5, 32, 32);
-    const material360 = new THREE.MeshBasicMaterial({
-        color: 0xf5576c,
-        wireframe: true
-    });
-    const sphere360 = new THREE.Mesh(geometry360, material360);
-    scene360.add(sphere360);
-    
-    camera360.position.z = 0.1;
-    
-    // Drag to rotate
-    let is360Dragging = false;
-    let prev360X = 0;
-    let rotation360Y = 0;
-    
-    container360.addEventListener('mousedown', (e) => {
-        is360Dragging = true;
-        prev360X = e.clientX;
-    });
-    
-    container360.addEventListener('mousemove', (e) => {
-        if (!is360Dragging) return;
-        const deltaX = e.clientX - prev360X;
-        rotation360Y += deltaX * 0.01;
-        prev360X = e.clientX;
-    });
-    
-    container360.addEventListener('mouseup', () => {
-        is360Dragging = false;
-    });
-    
-    function animate360() {
-        requestAnimationFrame(animate360);
-        sphere360.rotation.y = rotation360Y;
-        renderer360.render(scene360, camera360);
-    }
-    
-    animate360();
-}
 
 // ========================================
 // PROJECT CARDS 3D WHEEL ANIMATION
@@ -475,43 +355,72 @@ if (projectCards.length > 0) {
 }
 
 // ========================================
-// SCROLL GALLERY ANIMATIONS
+// INTERACTIVE WALL GALLERY
 // ========================================
 
-const scrollGalleryItems = document.querySelectorAll('.scroll-gallery-item');
+const wallContainer = document.getElementById('wallContainer');
+const wallCards = document.querySelectorAll('.wall-card');
 
-if (scrollGalleryItems.length > 0) {
-    const observerOptions = {
-        threshold: 0.2,
-        rootMargin: '0px 0px -100px 0px'
-    };
+if (wallContainer && wallCards.length > 0) {
+    // Position cards based on data attributes
+    wallCards.forEach(card => {
+        const x = card.dataset.x;
+        const y = card.dataset.y;
+        card.style.left = `${x}%`;
+        card.style.top = `${y}%`;
+    });
     
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry, index) => {
+    // Scroll-triggered reveal
+    const wallObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
             if (entry.isIntersecting) {
-                setTimeout(() => {
-                    entry.target.classList.add('in-view');
-                }, index * 100);
-                observer.unobserve(entry.target);
+                wallCards.forEach(card => {
+                    card.classList.add('visible');
+                });
+                wallObserver.unobserve(entry.target);
             }
         });
-    }, observerOptions);
+    }, {
+        threshold: 0.3
+    });
     
-    scrollGalleryItems.forEach(item => observer.observe(item));
+    wallObserver.observe(wallContainer);
     
-    // Parallax scroll effect for gallery items
-    scrollGalleryItems.forEach(item => {
-        const speed = parseFloat(item.dataset.scrollSpeed) || 1;
+    // Magnetic cursor effect
+    wallContainer.addEventListener('mousemove', (e) => {
+        const rect = wallContainer.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const mouseY = e.clientY - rect.top;
         
-        gsap.to(item, {
-            y: () => -50 * (speed - 1),
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.scroll-gallery-section',
-                start: 'top bottom',
-                end: 'bottom top',
-                scrub: 1
+        wallCards.forEach(card => {
+            const cardRect = card.getBoundingClientRect();
+            const cardCenterX = cardRect.left + cardRect.width / 2 - rect.left;
+            const cardCenterY = cardRect.top + cardRect.height / 2 - rect.top;
+            
+            const deltaX = mouseX - cardCenterX;
+            const deltaY = mouseY - cardCenterY;
+            const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+            
+            const magneticRadius = 200;
+            
+            if (distance < magneticRadius) {
+                const strength = 1 - (distance / magneticRadius);
+                const moveX = deltaX * strength * 0.15;
+                const moveY = deltaY * strength * 0.15;
+                
+                card.classList.add('magnetic');
+                card.style.transform = `translate(calc(-50% + ${moveX}px), calc(-50% + ${moveY}px)) scale(${1 + strength * 0.1}) rotateY(0deg)`;
+            } else {
+                card.classList.remove('magnetic');
+                card.style.transform = '';
             }
+        });
+    });
+    
+    wallContainer.addEventListener('mouseleave', () => {
+        wallCards.forEach(card => {
+            card.classList.remove('magnetic');
+            card.style.transform = '';
         });
     });
 }

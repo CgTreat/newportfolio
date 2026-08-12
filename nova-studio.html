@@ -143,45 +143,57 @@
         <div class="services-container">
             <div class="services-track" id="servicesTrack">
                 <div class="service-card" style="--accent: var(--color-primary)">
-                    <div class="service-number">01</div>
-                    <div class="service-icon">🌐</div>
-                    <h3 class="service-title">Immersive Web</h3>
-                    <p class="service-desc">WebGL-powered experiences that push the boundaries of the browser</p>
+                    <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80');"></div>
+                    <div class="service-content">
+                        <div class="service-number">01</div>
+                        <h3 class="service-title">Immersive Web</h3>
+                        <p class="service-desc">WebGL-powered experiences that push the boundaries of the browser</p>
+                    </div>
                 </div>
                 
                 <div class="service-card" style="--accent: var(--color-secondary)">
-                    <div class="service-number">02</div>
-                    <div class="service-icon">📦</div>
-                    <h3 class="service-title">3D & WebGL</h3>
-                    <p class="service-desc">Stunning three-dimensional interfaces and product visualizations</p>
+                    <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&q=80');"></div>
+                    <div class="service-content">
+                        <div class="service-number">02</div>
+                        <h3 class="service-title">3D & WebGL</h3>
+                        <p class="service-desc">Stunning three-dimensional interfaces and product visualizations</p>
+                    </div>
                 </div>
                 
                 <div class="service-card" style="--accent: var(--color-primary)">
-                    <div class="service-number">03</div>
-                    <div class="service-icon">🎬</div>
-                    <h3 class="service-title">360° Experiences</h3>
-                    <p class="service-desc">Interactive panoramic tours and virtual reality content</p>
+                    <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=600&q=80');"></div>
+                    <div class="service-content">
+                        <div class="service-number">03</div>
+                        <h3 class="service-title">360° Experiences</h3>
+                        <p class="service-desc">Interactive panoramic tours and virtual reality content</p>
+                    </div>
                 </div>
                 
                 <div class="service-card" style="--accent: var(--color-secondary)">
-                    <div class="service-number">04</div>
-                    <div class="service-icon">✨</div>
-                    <h3 class="service-title">Motion Design</h3>
-                    <p class="service-desc">Fluid animations that bring digital products to life</p>
+                    <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&q=80');"></div>
+                    <div class="service-content">
+                        <div class="service-number">04</div>
+                        <h3 class="service-title">Motion Design</h3>
+                        <p class="service-desc">Fluid animations that bring digital products to life</p>
+                    </div>
                 </div>
                 
                 <div class="service-card" style="--accent: var(--color-primary)">
-                    <div class="service-number">05</div>
-                    <div class="service-icon">🎨</div>
-                    <h3 class="service-title">Brand Systems</h3>
-                    <p class="service-desc">Cohesive visual identities for the digital age</p>
+                    <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80');"></div>
+                    <div class="service-content">
+                        <div class="service-number">05</div>
+                        <h3 class="service-title">Brand Systems</h3>
+                        <p class="service-desc">Cohesive visual identities for the digital age</p>
+                    </div>
                 </div>
                 
                 <div class="service-card" style="--accent: var(--color-secondary)">
-                    <div class="service-number">06</div>
-                    <div class="service-icon">🚀</div>
-                    <h3 class="service-title">Creative Dev</h3>
-                    <p class="service-desc">Custom-coded solutions that blend art and technology</p>
+                    <div class="service-card-image" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80');"></div>
+                    <div class="service-content">
+                        <div class="service-number">06</div>
+                        <h3 class="service-title">Creative Dev</h3>
+                        <p class="service-desc">Custom-coded solutions that blend art and technology</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -263,73 +275,38 @@
             </article>
         </div>
         
-        <!-- Keep original carousel for 360 demo -->
-        <div class="carousel-container" style="margin-top: 100px;">
-            <h3 style="text-align: center; margin-bottom: 40px; font-size: 32px;">Interactive 360° Demo</h3>
-            <div class="carousel-track" id="carouselTrack">
-                <div class="carousel-slide">
-                    <div class="slide-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
-                    <div class="slide-content">
-                        <span class="slide-category">WebGL / 3D</span>
-                        <h3 class="slide-title">Virtual Museum</h3>
-                        <a href="#" class="slide-cta">View Case</a>
-                    </div>
-                </div>
-                
-                <div class="carousel-slide has-360" id="slide360">
-                    <div class="slide-360-container" id="container360">
-                        <div class="slide-360-label">
-                            <span>← Drag to rotate 360° →</span>
-                            <svg class="rotate-icon" width="20" height="20" viewBox="0 0 20 20">
-                                <circle cx="10" cy="10" r="8" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                                <path d="M14 10 L18 10 L16 8 M18 10 L16 12" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="slide-content">
-                        <span class="slide-category">360° Interactive Demo</span>
-                        <h3 class="slide-title">Explore in 3D Space</h3>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="carousel-controls">
-                <button class="carousel-arrow carousel-prev" id="carouselPrev">←</button>
-                <div class="carousel-pagination" id="carouselPagination">01 / 04</div>
-                <button class="carousel-arrow carousel-next" id="carouselNext">→</button>
-            </div>
-            
-            <div class="carousel-progress">
-                <div class="carousel-progress-bar" id="carouselProgressBar"></div>
-            </div>
-        </div>
+
     </section>
 
-    <!-- Scroll Image Gallery -->
-    <section class="scroll-gallery-section" id="scrollGallery" data-scroll-section>
+    <!-- Interactive Wall Gallery -->
+    <section class="interactive-wall-section" id="interactiveWall" data-scroll-section>
         <div class="section-eyebrow">Our Craft</div>
         <h2 class="section-heading">Moments in Motion</h2>
         
-        <div class="scroll-gallery-container">
-            <div class="scroll-gallery-track" id="scrollGalleryTrack">
-                <div class="scroll-gallery-item" data-scroll-speed="0.8">
-                    <div class="gallery-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
-                </div>
-                <div class="scroll-gallery-item" data-scroll-speed="1.2">
-                    <div class="gallery-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
-                </div>
-                <div class="scroll-gallery-item" data-scroll-speed="0.6">
-                    <div class="gallery-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
-                </div>
-                <div class="scroll-gallery-item" data-scroll-speed="1.4">
-                    <div class="gallery-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
-                </div>
-                <div class="scroll-gallery-item" data-scroll-speed="0.9">
-                    <div class="gallery-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
-                </div>
-                <div class="scroll-gallery-item" data-scroll-speed="1.1">
-                    <div class="gallery-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);"></div>
-                </div>
+        <div class="interactive-wall-container" id="wallContainer">
+            <div class="wall-card" data-x="10" data-y="15">
+                <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=400&q=80');"></div>
+            </div>
+            <div class="wall-card" data-x="35" data-y="25">
+                <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400&q=80');"></div>
+            </div>
+            <div class="wall-card" data-x="65" data-y="10">
+                <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=400&q=80');"></div>
+            </div>
+            <div class="wall-card" data-x="20" data-y="55">
+                <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&q=80');"></div>
+            </div>
+            <div class="wall-card" data-x="50" data-y="50">
+                <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=400&q=80');"></div>
+            </div>
+            <div class="wall-card" data-x="75" data-y="60">
+                <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80');"></div>
+            </div>
+            <div class="wall-card" data-x="15" data-y="80">
+                <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&q=80');"></div>
+            </div>
+            <div class="wall-card" data-x="60" data-y="85">
+                <div class="wall-card-image" style="background-image: url('https://images.unsplash.com/photo-1559028012-481c04fa702d?w=400&q=80');"></div>
             </div>
         </div>
     </section>
@@ -421,7 +398,7 @@
         <div class="insights-grid">
             <article class="insight-card">
                 <div class="insight-image-wrapper">
-                    <div class="insight-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="insight-image" style="background-image: url('https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=600&q=80');"></div>
                 </div>
                 <span class="insight-category">WebGL</span>
                 <h3 class="insight-title">The Future of 3D on the Web</h3>
@@ -430,7 +407,7 @@
             
             <article class="insight-card">
                 <div class="insight-image-wrapper">
-                    <div class="insight-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="insight-image" style="background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&q=80');"></div>
                 </div>
                 <span class="insight-category">Motion</span>
                 <h3 class="insight-title">Scroll-Driven Animations Done Right</h3>
@@ -439,7 +416,7 @@
             
             <article class="insight-card">
                 <div class="insight-image-wrapper">
-                    <div class="insight-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="insight-image" style="background-image: url('https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&q=80');"></div>
                 </div>
                 <span class="insight-category">Design</span>
                 <h3 class="insight-title">Building Immersive Brand Experiences</h3>

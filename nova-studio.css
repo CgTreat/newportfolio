@@ -590,7 +590,6 @@ body:hover .mouse-gradient {
 .service-card {
     flex-shrink: 0;
     width: 500px;
-    padding: 60px;
     background: var(--color-card-bg);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 32px;
@@ -602,6 +601,23 @@ body:hover .mouse-gradient {
 .service-card:hover {
     border-color: var(--color-accent-purple);
     transform: translateY(-5px);
+}
+
+.service-card-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px 24px 0 0;
+    transition: transform 0.6s;
+}
+
+.service-card:hover .service-card-image {
+    transform: scale(1.05);
+}
+
+.service-content {
+    padding: 40px;
 }
 
 .service-number {
@@ -1225,6 +1241,8 @@ body:hover .mouse-gradient {
 .insight-image {
     width: 100%;
     height: 300px;
+    background-size: cover;
+    background-position: center;
     transform: scale(1);
     transition: transform 0.6s var(--ease-smooth);
 }
@@ -1325,72 +1343,74 @@ body:hover .mouse-gradient {
     transform: translate(-50%, -50%);
 }
 
-/* SCROLL GALLERY */
-.scroll-gallery-section {
-    padding: 120px 0;
+/* INTERACTIVE WALL GALLERY */
+.interactive-wall-section {
+    padding: 120px 40px;
     overflow: hidden;
     position: relative;
+    min-height: 100vh;
+    background: var(--color-bg);
+    text-align: center;
 }
 
-.scroll-gallery-section::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(ellipse at center, rgba(176, 135, 255, 0.03) 0%, transparent 70%);
-    pointer-events: none;
-}
-
-.scroll-gallery-container {
-    padding: 60px 40px;
-}
-
-.scroll-gallery-track {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.scroll-gallery-item {
+.interactive-wall-container {
     position: relative;
-    opacity: 0;
-    transform: translateY(60px) scale(0.95);
-    will-change: transform, opacity;
-}
-
-.scroll-gallery-item.in-view {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    transition: all 1.2s var(--ease-expo);
-}
-
-.gallery-image {
     width: 100%;
-    height: 500px;
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.6s var(--ease-smooth);
-    box-shadow: 0 20px 60px rgba(20, 18, 15, 0.1);
+    max-width: 1400px;
+    height: 800px;
+    margin: 60px auto 0;
+    perspective: 1000px;
 }
 
-.scroll-gallery-item:hover .gallery-image {
-    transform: scale(1.05) translateY(-10px);
-    box-shadow: 0 30px 80px rgba(20, 18, 15, 0.15);
-}
-
-.gallery-image::after {
-    content: '';
+.wall-card {
     position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, transparent 0%, rgba(20, 18, 15, 0.3) 100%);
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
     opacity: 0;
-    transition: opacity 0.4s;
+    transform: translate(-50%, -50%) scale(0.5) rotateY(-90deg);
+    transition: all 0.6s var(--ease-poppr);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    will-change: transform;
 }
 
-.scroll-gallery-item:hover .gallery-image::after {
+.wall-card.visible {
     opacity: 1;
+    transform: translate(-50%, -50%) scale(1) rotateY(0deg);
+}
+
+.wall-card:nth-child(1) { transition-delay: 0s; }
+.wall-card:nth-child(2) { transition-delay: 0.1s; }
+.wall-card:nth-child(3) { transition-delay: 0.2s; }
+.wall-card:nth-child(4) { transition-delay: 0.3s; }
+.wall-card:nth-child(5) { transition-delay: 0.4s; }
+.wall-card:nth-child(6) { transition-delay: 0.5s; }
+.wall-card:nth-child(7) { transition-delay: 0.6s; }
+.wall-card:nth-child(8) { transition-delay: 0.7s; }
+
+.wall-card:hover {
+    z-index: 10;
+    transform: translate(-50%, -50%) scale(1.1) rotateY(0deg);
+    box-shadow: 0 30px 80px rgba(107, 91, 255, 0.4);
+}
+
+.wall-card-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.6s;
+}
+
+.wall-card:hover .wall-card-image {
+    transform: scale(1.1);
+}
+
+/* Magnetic effect when cursor is near */
+.wall-card.magnetic {
+    transition: all 0.15s ease-out;
 }
 
 /* FOOTER */
@@ -1673,8 +1693,13 @@ body:hover .mouse-gradient {
         grid-template-columns: 1fr 1fr;
     }
     
-    .scroll-gallery-track {
-        grid-template-columns: repeat(2, 1fr);
+    .interactive-wall-container {
+        height: 600px;
+    }
+    
+    .wall-card {
+        width: 180px;
+        height: 250px;
     }
     
     .service-card {
