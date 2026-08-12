@@ -80,6 +80,10 @@ class DigitalThread {
     }
     
     buildEntranceSequence() {
+        // First, make sure all words are visible immediately
+        const allWords = this.heroHeadline.querySelectorAll('.headline-word');
+        gsap.set(allWords, { opacity: 1 });
+        
         this.timeline = gsap.timeline({
             onComplete: () => {
                 this.startIdleState();
@@ -258,8 +262,8 @@ class DigitalThread {
         
         console.log('Found words:', words.length); // Debug log
         
-        // Set initial state for all words to be hidden
-        gsap.set(words, { opacity: 0 });
+        // Set initial state for all words to be visible (animation will enhance from there)
+        gsap.set(words, { opacity: 1, y: 0 });
         
         // "We" - First word
         if (words[0]) {
@@ -528,10 +532,9 @@ class DigitalThread {
 
 // Initialize when ready
 if (typeof gsap !== 'undefined') {
-    window.addEventListener('load', () => {
-        setTimeout(() => {
-            const digitalThread = new DigitalThread();
-            digitalThread.init();
-        }, 2000); // Wait for preloader
+    // Listen for custom event from preloader
+    window.addEventListener('preloaderComplete', () => {
+        const digitalThread = new DigitalThread();
+        digitalThread.init();
     });
 }

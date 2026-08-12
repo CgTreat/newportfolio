@@ -6,23 +6,67 @@
 gsap.registerPlugin(ScrollTrigger);
 
 // ========================================
-// PRELOADER
+// PRELOADER - MORPHING SHAPES
 // ========================================
 
 const preloader = document.getElementById('preloader');
 const loaderCounter = document.getElementById('loaderCounter');
+const loaderShapes = document.querySelectorAll('.loader-shape');
 
 let progress = 0;
+
+// Animate shapes
+if (loaderShapes.length > 0) {
+    gsap.to('.shape-1', {
+        rotation: 360,
+        borderRadius: '50%',
+        duration: 2,
+        repeat: -1,
+        ease: 'linear'
+    });
+    
+    gsap.to('.shape-2', {
+        rotation: -360,
+        scale: 1.2,
+        duration: 1.5,
+        repeat: -1,
+        yoyo: true,
+        ease: 'sine.inOut'
+    });
+    
+    gsap.to('.shape-3', {
+        rotation: 360,
+        borderRadius: '30%',
+        duration: 1.8,
+        repeat: -1,
+        yoyo: true,
+        ease: 'power1.inOut'
+    });
+}
+
 const preloaderInterval = setInterval(() => {
-    progress += Math.random() * 15;
+    progress += Math.random() * 12;
     if (progress >= 100) {
         progress = 100;
         clearInterval(preloaderInterval);
         
         setTimeout(() => {
-            preloader.classList.add('hidden');
-            document.body.style.overflow = 'auto';
-            initAnimations();
+            // Fade out with scale
+            gsap.to(preloader, {
+                opacity: 0,
+                scale: 1.1,
+                duration: 0.8,
+                ease: 'power2.inOut',
+                onComplete: () => {
+                    preloader.classList.add('hidden');
+                    document.body.style.overflow = 'auto';
+                    
+                    // Dispatch event for Digital Thread
+                    window.dispatchEvent(new Event('preloaderComplete'));
+                    
+                    initAnimations();
+                }
+            });
         }, 500);
     }
     loaderCounter.textContent = Math.floor(progress) + '%';
