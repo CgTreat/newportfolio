@@ -303,7 +303,7 @@ body:hover .mouse-gradient {
     transition: transform 0.3s, opacity 0.3s;
 }
 
-/* HERO - Poppr Style */
+/* HERO - Poppr Style with Digital Thread */
 .hero {
     position: relative;
     min-height: 100vh;
@@ -314,6 +314,23 @@ body:hover .mouse-gradient {
     padding: 120px 40px 80px;
     overflow: hidden;
     perspective: 1500px;
+    --hero-glow: 0;
+}
+
+/* Atmospheric background glow */
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        circle at 65% 35%,
+        rgba(107, 91, 255, calc(0.08 * var(--hero-glow))),
+        transparent 60%
+    );
+    opacity: var(--hero-glow);
+    transition: opacity 0.3s ease-out;
+    pointer-events: none;
+    z-index: 0;
 }
 
 /* Animated cursor-following blur orb */
@@ -325,16 +342,9 @@ body:hover .mouse-gradient {
     background: radial-gradient(circle, rgba(139, 10, 40, 0.25) 0%, rgba(80, 5, 25, 0.15) 40%, transparent 70%);
     filter: blur(60px);
     pointer-events: none;
-    transition: all 0.3s ease-out;
     z-index: 0;
     opacity: 0;
-    animation: orb-fade-in 2s ease-out 0.5s forwards;
-}
-
-@keyframes orb-fade-in {
-    to {
-        opacity: 1;
-    }
+    will-change: transform;
 }
 
 .hero::after {
@@ -435,34 +445,22 @@ body:hover .mouse-gradient {
 .headline-word {
     display: inline-block;
     opacity: 0;
-    filter: blur(20px);
-    transform: translateY(30px);
-    animation: word-blur-reveal 1.4s var(--ease-expo) forwards;
+    will-change: transform, opacity;
 }
 
-.headline-word[data-word="1"] { animation-delay: 0.2s; }
-.headline-word[data-word="2"] { animation-delay: 0.4s; }
-.headline-word[data-word="3"] { animation-delay: 0.7s; }
-.headline-word[data-word="4"] { animation-delay: 1s; }
-
-@keyframes word-blur-reveal {
-    0% {
-        opacity: 0;
-        filter: blur(20px);
-        transform: translateY(30px);
-    }
-    100% {
-        opacity: 1;
-        filter: blur(0px);
-        transform: translateY(0);
-    }
+.headline-word span {
+    display: inline-block;
+    will-change: transform, opacity;
 }
 
 .headline-word.accent {
-    background: linear-gradient(135deg, var(--color-accent-purple) 0%, var(--color-accent-pink) 100%);
+    background: linear-gradient(135deg, var(--color-accent-purple) 0%, var(--color-accent-pink) 50%, var(--color-accent-cyan) 100%);
+    background-size: 200% auto;
+    background-position: 0% center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    will-change: background-position;
 }
 
 .hero-footer-text {
@@ -505,8 +503,13 @@ body:hover .mouse-gradient {
     width: 200px;
     height: 200px;
     opacity: 0;
-    animation: fade-in 1s var(--ease-smooth) 1s forwards;
     filter: drop-shadow(0 20px 40px rgba(107, 91, 255, 0.4));
+    will-change: transform, opacity;
+    transition: filter 0.4s ease;
+}
+
+.hero-3d-small:hover {
+    filter: drop-shadow(0 25px 50px rgba(107, 91, 255, 0.6));
 }
 
 .scroll-cue {

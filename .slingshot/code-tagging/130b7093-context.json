@@ -1,0 +1,15 @@
+{
+  "filename": "hero-digital-thread.js",
+  "path": "hero-digital-thread.js",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "bb7eaada": {
+      "value": "# World-Class Hero Animation — “The Digital Thread”\n\nCreate a premium, award-winning digital studio website hero animation based on the supplied visual reference.\n\n## Core visual direction\n\nPreserve the existing hero composition and visual identity:\n\n* Near-black / charcoal background\n* Large oversized white typography\n* Gradient purple-to-pink word “digital”\n* Small uppercase eyebrow text: “BROOKLYN BASED DIGITAL STUDIO”\n* Purple 3D abstract knot / twisted digital sculpture positioned toward th"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

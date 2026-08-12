@@ -1,0 +1,2646 @@
+{
+  "hero-digital-thread.js": {
+    "filename": "hero-digital-thread.js",
+    "path": "hero-digital-thread.js",
+    "version": "1.2",
+    "contextFile": "130b7093-context.json",
+    "chunks": {
+      "cbf294": {
+        "user": "Narendra Keshkar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1786537247,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "bb7eaada"
+        },
+        "hash": "fc769a04",
+        "messageId": "system_129396b0-9648-11f1-960a-19d1076f7b80",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Narendra Keshkar\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/12/2026, 5:50:47 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "cbf294",
+        "hash": "ff26f9f6",
+        "encoded": "//%20========================================",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "cbf294",
+        "hash": "0f1a580c",
+        "encoded": "//%20THE%20DIGITAL%20THREAD%20-%20World-Class%20Hero%20Animation",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "cbf294",
+        "hash": "13697dc1",
+        "encoded": "//%20Award-winning%20entrance%20sequence%20for%20Nova%20Studio",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "cbf294",
+        "hash": "8ebdf6ba",
+        "encoded": "//%20========================================",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "cbf294",
+        "hash": "55f71b8e",
+        "encoded": "class%20DigitalThread%20%7B",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "cbf294",
+        "hash": "ec16ae93",
+        "encoded": "constructor()%20%7B",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "cbf294",
+        "hash": "2a755ef7",
+        "encoded": "this.hero%20=%20document.querySelector('.hero');",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "cbf294",
+        "hash": "5235f7bc",
+        "encoded": "this.heroHeadline%20=%20document.getElementById('heroHeadline');",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "cbf294",
+        "hash": "545254bc",
+        "encoded": "this.hero3D%20=%20document.getElementById('hero3D');",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "cbf294",
+        "hash": "4fd74dc5",
+        "encoded": "this.heroOrb%20=%20document.getElementById('heroOrb');",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "cbf294",
+        "hash": "db7f14f0",
+        "encoded": "this.mouse%20=%20%7B%20x:%200.5,%20y:%200.5%20%7D;",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "cbf294",
+        "hash": "b50f5bff",
+        "encoded": "this.mouseSmooth%20=%20%7B%20x:%200.5,%20y:%200.5%20%7D;",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "cbf294",
+        "hash": "7f74062c",
+        "encoded": "this.timeline%20=%20null;",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "cbf294",
+        "hash": "b220a8b1",
+        "encoded": "this.particles%20=%20%5B%5D;",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "cbf294",
+        "hash": "13354e0b",
+        "encoded": "this.threadPath%20=%20%5B%5D;",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "cbf294",
+        "hash": "5db566bb",
+        "encoded": "this.isReady%20=%20false;",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "cbf294",
+        "hash": "ee39c532",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "cbf294",
+        "hash": "51e3b804",
+        "encoded": "init()%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "cbf294",
+        "hash": "1cc1dec2",
+        "encoded": "if%20(!this.hero)%20return;",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "cbf294",
+        "hash": "62d9e5e2",
+        "encoded": "//%20Create%20particle%20canvas",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "cbf294",
+        "hash": "1bf9b0a4",
+        "encoded": "this.createParticleCanvas();",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "cbf294",
+        "hash": "ed87329e",
+        "encoded": "//%20Setup%20mouse%20tracking",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "cbf294",
+        "hash": "b7318275",
+        "encoded": "this.setupMouseTracking();",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "cbf294",
+        "hash": "9ac99846",
+        "encoded": "//%20Build%20entrance%20timeline",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "cbf294",
+        "hash": "cbaddbb6",
+        "encoded": "this.buildEntranceSequence();",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "cbf294",
+        "hash": "246889e8",
+        "encoded": "//%20Setup%20parallax%20layers",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "cbf294",
+        "hash": "8183e779",
+        "encoded": "this.setupParallax();",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "cbf294",
+        "hash": "666acdda",
+        "encoded": "//%20Setup%20scroll%20interaction",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "cbf294",
+        "hash": "078ac544",
+        "encoded": "this.setupScrollInteraction();",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "cbf294",
+        "hash": "9dc01548",
+        "encoded": "this.isReady%20=%20true;",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "cbf294",
+        "hash": "792377b1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "cbf294",
+        "hash": "17a339de",
+        "encoded": "createParticleCanvas()%20%7B",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "cbf294",
+        "hash": "bb81df66",
+        "encoded": "this.particleCanvas%20=%20document.createElement('canvas');",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "cbf294",
+        "hash": "b1db9c5e",
+        "encoded": "this.particleCanvas.style.position%20=%20'absolute';",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "cbf294",
+        "hash": "25561707",
+        "encoded": "this.particleCanvas.style.top%20=%20'0';",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "cbf294",
+        "hash": "d5f1141b",
+        "encoded": "this.particleCanvas.style.left%20=%20'0';",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "cbf294",
+        "hash": "cd3e93cb",
+        "encoded": "this.particleCanvas.style.width%20=%20'100%25';",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "cbf294",
+        "hash": "ad0a006d",
+        "encoded": "this.particleCanvas.style.height%20=%20'100%25';",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "cbf294",
+        "hash": "08921d30",
+        "encoded": "this.particleCanvas.style.pointerEvents%20=%20'none';",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "cbf294",
+        "hash": "4eade869",
+        "encoded": "this.particleCanvas.style.zIndex%20=%20'1';",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "cbf294",
+        "hash": "f46f7f9f",
+        "encoded": "this.hero.insertBefore(this.particleCanvas,%20this.hero.firstChild);",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "cbf294",
+        "hash": "9a4d7684",
+        "encoded": "this.ctx%20=%20this.particleCanvas.getContext('2d');",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "cbf294",
+        "hash": "a6b999ed",
+        "encoded": "this.resizeCanvas();",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "cbf294",
+        "hash": "95ea4382",
+        "encoded": "window.addEventListener('resize',%20()%20=%3E%20this.resizeCanvas());",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "cbf294",
+        "hash": "cdb7b2a0",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "cbf294",
+        "hash": "824ca66c",
+        "encoded": "resizeCanvas()%20%7B",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "cbf294",
+        "hash": "a938406f",
+        "encoded": "const%20rect%20=%20this.hero.getBoundingClientRect();",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "cbf294",
+        "hash": "954e3ad3",
+        "encoded": "this.particleCanvas.width%20=%20rect.width;",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "cbf294",
+        "hash": "105a47e7",
+        "encoded": "this.particleCanvas.height%20=%20rect.height;",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "cbf294",
+        "hash": "646a8e84",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "cbf294",
+        "hash": "5bc52f82",
+        "encoded": "setupMouseTracking()%20%7B",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "cbf294",
+        "hash": "bc5241ac",
+        "encoded": "this.hero.addEventListener('mousemove',%20(e)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "cbf294",
+        "hash": "70dd5894",
+        "encoded": "const%20rect%20=%20this.hero.getBoundingClientRect();",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "cbf294",
+        "hash": "3411ad40",
+        "encoded": "this.mouse.x%20=%20(e.clientX%20-%20rect.left)%20/%20rect.width;",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "cbf294",
+        "hash": "4f30d5e4",
+        "encoded": "this.mouse.y%20=%20(e.clientY%20-%20rect.top)%20/%20rect.height;",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "cbf294",
+        "hash": "abd57649",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "cbf294",
+        "hash": "2fec0883",
+        "encoded": "//%20Smooth%20mouse%20interpolation",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "cbf294",
+        "hash": "1a581d0c",
+        "encoded": "const%20smoothMouse%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "cbf294",
+        "hash": "5c6fd55f",
+        "encoded": "const%20ease%20=%200.05;",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "cbf294",
+        "hash": "c5df6d36",
+        "encoded": "this.mouseSmooth.x%20+=%20(this.mouse.x%20-%20this.mouseSmooth.x)%20*%20ease;",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "cbf294",
+        "hash": "89527091",
+        "encoded": "this.mouseSmooth.y%20+=%20(this.mouse.y%20-%20this.mouseSmooth.y)%20*%20ease;",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "cbf294",
+        "hash": "547ea3ab",
+        "encoded": "requestAnimationFrame(smoothMouse);",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "cbf294",
+        "hash": "12aee0ed",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "cbf294",
+        "hash": "147b4ee1",
+        "encoded": "smoothMouse();",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "cbf294",
+        "hash": "8aac2494",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "cbf294",
+        "hash": "cbf03be3",
+        "encoded": "buildEntranceSequence()%20%7B",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "cbf294",
+        "hash": "44cd4c22",
+        "encoded": "this.timeline%20=%20gsap.timeline(%7B",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "cbf294",
+        "hash": "c9f0633b",
+        "encoded": "onComplete:%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "cbf294",
+        "hash": "f51529e1",
+        "encoded": "this.startIdleState();",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "cbf294",
+        "hash": "7bb00016",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "cbf294",
+        "hash": "82716009",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "cbf294",
+        "hash": "80bfb3e6",
+        "encoded": "//%200.0-0.3s:%20Atmospheric%20glow",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "cbf294",
+        "hash": "985e44ad",
+        "encoded": "this.timeline.to(this.hero,%20%7B",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "cbf294",
+        "hash": "b5edb217",
+        "encoded": "'--hero-glow':%201,",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "cbf294",
+        "hash": "0979cf09",
+        "encoded": "duration:%200.3,",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "cbf294",
+        "hash": "b7d2d3e6",
+        "encoded": "ease:%20'power1.out'",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "cbf294",
+        "hash": "dda69ae3",
+        "encoded": "%7D,%200);",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "cbf294",
+        "hash": "b46e35de",
+        "encoded": "//%200.3-0.8s:%20Spawn%20particles",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "cbf294",
+        "hash": "7f4bec6b",
+        "encoded": "this.timeline.add(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "cbf294",
+        "hash": "39004b01",
+        "encoded": "this.spawnParticles();",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "cbf294",
+        "hash": "e76717f6",
+        "encoded": "%7D,%200.3);",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "cbf294",
+        "hash": "48db476c",
+        "encoded": "//%200.7-1.5s:%20Draw%20luminous%20thread",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "cbf294",
+        "hash": "95ec44db",
+        "encoded": "this.timeline.add(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "cbf294",
+        "hash": "80e3adc1",
+        "encoded": "this.drawThread();",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "cbf294",
+        "hash": "8eab0e3b",
+        "encoded": "%7D,%200.7);",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "cbf294",
+        "hash": "e1390bba",
+        "encoded": "//%201.2-2.0s:%20Construct%203D%20knot%20from%20thread",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "cbf294",
+        "hash": "20058d21",
+        "encoded": "if%20(this.hero3D)%20%7B",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "cbf294",
+        "hash": "126f2c24",
+        "encoded": "this.timeline.fromTo(this.hero3D,",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "cbf294",
+        "hash": "f146eee9",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "cbf294",
+        "hash": "7c92b2ae",
+        "encoded": "opacity:%200,",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "cbf294",
+        "hash": "7cf8aa36",
+        "encoded": "scale:%200.3,",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "cbf294",
+        "hash": "ba6d3e2f",
+        "encoded": "rotationY:%20-90",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "cbf294",
+        "hash": "18d108ec",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "cbf294",
+        "hash": "3378ea65",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "cbf294",
+        "hash": "8d11292e",
+        "encoded": "opacity:%201,",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "cbf294",
+        "hash": "5586d969",
+        "encoded": "scale:%201,",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "cbf294",
+        "hash": "13f4a185",
+        "encoded": "rotationY:%200,",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "cbf294",
+        "hash": "3157c375",
+        "encoded": "duration:%200.8,",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "cbf294",
+        "hash": "1f73b74a",
+        "encoded": "ease:%20'power2.out'",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "cbf294",
+        "hash": "bf6db6a5",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "cbf294",
+        "hash": "625ee16f",
+        "encoded": "1.2",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "cbf294",
+        "hash": "d78daeb3",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "cbf294",
+        "hash": "2d0864bf",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "cbf294",
+        "hash": "d670e8e8",
+        "encoded": "//%20Typography%20reveals",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "cbf294",
+        "hash": "eed38457",
+        "encoded": "this.animateTypography();",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "cbf294",
+        "hash": "5513b7ee",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "cbf294",
+        "hash": "2289b6b9",
+        "encoded": "spawnParticles()%20%7B",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "cbf294",
+        "hash": "32775b7c",
+        "encoded": "const%20centerX%20=%20this.particleCanvas.width%20*%200.65;%20//%20Center-right",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "cbf294",
+        "hash": "4a1b7628",
+        "encoded": "const%20centerY%20=%20this.particleCanvas.height%20*%200.35;",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "cbf294",
+        "hash": "c2da4987",
+        "encoded": "const%20count%20=%2012;%20//%20Sparse%20and%20elegant",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "cbf294",
+        "hash": "fd813e64",
+        "encoded": "for%20(let%20i%20=%200;%20i%20%3C%20count;%20i++)%20%7B",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "cbf294",
+        "hash": "d8197d71",
+        "encoded": "setTimeout(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "cbf294",
+        "hash": "245d7083",
+        "encoded": "const%20angle%20=%20(i%20/%20count)%20*%20Math.PI%20*%202;",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "cbf294",
+        "hash": "fe593150",
+        "encoded": "const%20radius%20=%2030%20+%20Math.random()%20*%2040;",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "cbf294",
+        "hash": "f4f0d00b",
+        "encoded": "this.particles.push(%7B",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "cbf294",
+        "hash": "d2fb783c",
+        "encoded": "x:%20centerX%20+%20Math.cos(angle)%20*%20radius,",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "cbf294",
+        "hash": "928bde45",
+        "encoded": "y:%20centerY%20+%20Math.sin(angle)%20*%20radius,",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "cbf294",
+        "hash": "cf63f8ed",
+        "encoded": "vx:%20(Math.random()%20-%200.5)%20*%200.3,",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "cbf294",
+        "hash": "52f1139b",
+        "encoded": "vy:%20(Math.random()%20-%200.5)%20*%200.3,",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "cbf294",
+        "hash": "aadd0e6d",
+        "encoded": "size:%201.5%20+%20Math.random()%20*%202,",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "cbf294",
+        "hash": "efb7bd0f",
+        "encoded": "opacity:%200,",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "cbf294",
+        "hash": "e6ac6f56",
+        "encoded": "targetOpacity:%200.6%20+%20Math.random()%20*%200.4,",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "cbf294",
+        "hash": "fed19ad2",
+        "encoded": "life:%201",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "cbf294",
+        "hash": "23c6cd2d",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "cbf294",
+        "hash": "6f21c344",
+        "encoded": "%7D,%20i%20*%2040);",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "cbf294",
+        "hash": "44e12b83",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "cbf294",
+        "hash": "41a9bcf9",
+        "encoded": "this.animateParticles();",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "cbf294",
+        "hash": "bbf48fdf",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "cbf294",
+        "hash": "4bb44e53",
+        "encoded": "animateParticles()%20%7B",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "cbf294",
+        "hash": "f9b8b29c",
+        "encoded": "const%20animate%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "cbf294",
+        "hash": "14b6c142",
+        "encoded": "if%20(this.particles.length%20===%200)%20return;",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "cbf294",
+        "hash": "7835125c",
+        "encoded": "this.ctx.clearRect(0,%200,%20this.particleCanvas.width,%20this.particleCanvas.height);",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "cbf294",
+        "hash": "ce95e169",
+        "encoded": "this.particles%20=%20this.particles.filter(p%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "cbf294",
+        "hash": "6a56b1f3",
+        "encoded": "//%20Fade%20in",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "cbf294",
+        "hash": "a41c184f",
+        "encoded": "if%20(p.opacity%20%3C%20p.targetOpacity)%20%7B",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "cbf294",
+        "hash": "5367c4e8",
+        "encoded": "p.opacity%20+=%200.02;",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "cbf294",
+        "hash": "3e35702d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "cbf294",
+        "hash": "b1b00e03",
+        "encoded": "//%20Gentle%20drift",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "cbf294",
+        "hash": "e9c60d5d",
+        "encoded": "p.x%20+=%20p.vx;",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "cbf294",
+        "hash": "9a197527",
+        "encoded": "p.y%20+=%20p.vy;",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "cbf294",
+        "hash": "8d79594a",
+        "encoded": "p.life%20-=%200.003;",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "cbf294",
+        "hash": "6ccb70d3",
+        "encoded": "//%20Draw%20particle",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "cbf294",
+        "hash": "ff21af1f",
+        "encoded": "const%20gradient%20=%20this.ctx.createRadialGradient(p.x,%20p.y,%200,%20p.x,%20p.y,%20p.size%20*%203);",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "cbf294",
+        "hash": "8f723fe1",
+        "encoded": "gradient.addColorStop(0,%20%60rgba(107,%2091,%20255,%20$%7Bp.opacity%7D)%60);",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "cbf294",
+        "hash": "518fa9fb",
+        "encoded": "gradient.addColorStop(0.5,%20%60rgba(255,%20107,%20157,%20$%7Bp.opacity%20*%200.5%7D)%60);",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "cbf294",
+        "hash": "232ac47a",
+        "encoded": "gradient.addColorStop(1,%20'rgba(107,%2091,%20255,%200)');",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "cbf294",
+        "hash": "e780cbdf",
+        "encoded": "this.ctx.fillStyle%20=%20gradient;",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "cbf294",
+        "hash": "3378ec0f",
+        "encoded": "this.ctx.beginPath();",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "cbf294",
+        "hash": "dcf25634",
+        "encoded": "this.ctx.arc(p.x,%20p.y,%20p.size%20*%203,%200,%20Math.PI%20*%202);",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "cbf294",
+        "hash": "b0971dd3",
+        "encoded": "this.ctx.fill();",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "cbf294",
+        "hash": "b50cb276",
+        "encoded": "return%20p.life%20%3E%200;",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "cbf294",
+        "hash": "4607d1e0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "cbf294",
+        "hash": "b705ec30",
+        "encoded": "if%20(this.particles.length%20%3E%200)%20%7B",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "cbf294",
+        "hash": "7320d2f0",
+        "encoded": "requestAnimationFrame(animate);",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "cbf294",
+        "hash": "aab5eeb9",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "cbf294",
+        "hash": "eeec4a42",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "cbf294",
+        "hash": "9d7f7a52",
+        "encoded": "animate();",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "cbf294",
+        "hash": "0e2a48cb",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "cbf294",
+        "hash": "b69d8031",
+        "encoded": "drawThread()%20%7B",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "cbf294",
+        "hash": "44607920",
+        "encoded": "const%20startX%20=%20this.particleCanvas.width%20*%200.5;",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "cbf294",
+        "hash": "c9620ef8",
+        "encoded": "const%20startY%20=%20this.particleCanvas.height%20*%200.5;",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "cbf294",
+        "hash": "f09cd1f7",
+        "encoded": "const%20endX%20=%20this.particleCanvas.width%20*%200.75;",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "cbf294",
+        "hash": "98b90714",
+        "encoded": "const%20endY%20=%20this.particleCanvas.height%20*%200.25;",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "cbf294",
+        "hash": "494014c5",
+        "encoded": "//%20Create%20curved%20path",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "cbf294",
+        "hash": "77d448ec",
+        "encoded": "const%20points%20=%2050;",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "cbf294",
+        "hash": "96730c89",
+        "encoded": "for%20(let%20i%20=%200;%20i%20%3C=%20points;%20i++)%20%7B",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "cbf294",
+        "hash": "25aecd9e",
+        "encoded": "const%20t%20=%20i%20/%20points;",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "cbf294",
+        "hash": "aa47d002",
+        "encoded": "const%20curve%20=%20Math.sin(t%20*%20Math.PI)%20*%2050;%20//%20Organic%20curvature",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "cbf294",
+        "hash": "84dab606",
+        "encoded": "this.threadPath.push(%7B",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "cbf294",
+        "hash": "abdb4931",
+        "encoded": "x:%20startX%20+%20(endX%20-%20startX)%20*%20t%20+%20curve,",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "cbf294",
+        "hash": "1746ab19",
+        "encoded": "y:%20startY%20+%20(endY%20-%20startY)%20*%20t%20-%20curve,",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "cbf294",
+        "hash": "25b56039",
+        "encoded": "progress:%200,",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "cbf294",
+        "hash": "1f1e40bd",
+        "encoded": "targetProgress:%201",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "cbf294",
+        "hash": "67ae8097",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "cbf294",
+        "hash": "ae0130b5",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "cbf294",
+        "hash": "45a3da6d",
+        "encoded": "this.animateThread();",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "cbf294",
+        "hash": "b9f9adb8",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "216": {
+        "chunkId": "cbf294",
+        "hash": "2e1e5526",
+        "encoded": "animateThread()%20%7B",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "cbf294",
+        "hash": "d5efaca8",
+        "encoded": "let%20progress%20=%200;",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "cbf294",
+        "hash": "5f2f7f9a",
+        "encoded": "const%20duration%20=%20800;%20//%200.8%20seconds",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "cbf294",
+        "hash": "3db5c4c0",
+        "encoded": "const%20startTime%20=%20Date.now();",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "cbf294",
+        "hash": "3cb56971",
+        "encoded": "const%20animate%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "cbf294",
+        "hash": "ffa090c6",
+        "encoded": "const%20elapsed%20=%20Date.now()%20-%20startTime;",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "cbf294",
+        "hash": "eeaf8503",
+        "encoded": "progress%20=%20Math.min(elapsed%20/%20duration,%201);",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "cbf294",
+        "hash": "d9125c62",
+        "encoded": "this.ctx.clearRect(0,%200,%20this.particleCanvas.width,%20this.particleCanvas.height);",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "cbf294",
+        "hash": "d50333da",
+        "encoded": "//%20Draw%20thread",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "cbf294",
+        "hash": "6d67d643",
+        "encoded": "this.ctx.beginPath();",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "cbf294",
+        "hash": "2c3b69e7",
+        "encoded": "this.ctx.strokeStyle%20=%20%60rgba(107,%2091,%20255,%20$%7B0.8%20*%20progress%7D)%60;",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "cbf294",
+        "hash": "29fa8213",
+        "encoded": "this.ctx.lineWidth%20=%202;",
+        "prevChunkIds": []
+      },
+      "231": {
+        "chunkId": "cbf294",
+        "hash": "851316bc",
+        "encoded": "this.ctx.shadowBlur%20=%2010;",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "cbf294",
+        "hash": "0c130c65",
+        "encoded": "this.ctx.shadowColor%20=%20'rgba(107,%2091,%20255,%200.6)';",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "cbf294",
+        "hash": "1da75cb0",
+        "encoded": "const%20visiblePoints%20=%20Math.floor(this.threadPath.length%20*%20progress);",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "cbf294",
+        "hash": "4ff92d48",
+        "encoded": "for%20(let%20i%20=%200;%20i%20%3C%20visiblePoints;%20i++)%20%7B",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "cbf294",
+        "hash": "b97ac23d",
+        "encoded": "const%20point%20=%20this.threadPath%5Bi%5D;",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "cbf294",
+        "hash": "4a534c38",
+        "encoded": "if%20(i%20===%200)%20%7B",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "cbf294",
+        "hash": "a85d7ce1",
+        "encoded": "this.ctx.moveTo(point.x,%20point.y);",
+        "prevChunkIds": []
+      },
+      "240": {
+        "chunkId": "cbf294",
+        "hash": "df7acad3",
+        "encoded": "%7D%20else%20%7B",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "cbf294",
+        "hash": "6af8caeb",
+        "encoded": "this.ctx.lineTo(point.x,%20point.y);",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "cbf294",
+        "hash": "606d46a9",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "243": {
+        "chunkId": "cbf294",
+        "hash": "45f75c55",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "245": {
+        "chunkId": "cbf294",
+        "hash": "9a835a16",
+        "encoded": "this.ctx.stroke();",
+        "prevChunkIds": []
+      },
+      "247": {
+        "chunkId": "cbf294",
+        "hash": "e423897f",
+        "encoded": "if%20(progress%20%3C%201)%20%7B",
+        "prevChunkIds": []
+      },
+      "248": {
+        "chunkId": "cbf294",
+        "hash": "c679d114",
+        "encoded": "requestAnimationFrame(animate);",
+        "prevChunkIds": []
+      },
+      "249": {
+        "chunkId": "cbf294",
+        "hash": "2aa52ef0",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "250": {
+        "chunkId": "cbf294",
+        "hash": "9872915a",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "252": {
+        "chunkId": "cbf294",
+        "hash": "26542c77",
+        "encoded": "animate();",
+        "prevChunkIds": []
+      },
+      "253": {
+        "chunkId": "cbf294",
+        "hash": "c0a12feb",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "255": {
+        "chunkId": "cbf294",
+        "hash": "067b35a8",
+        "encoded": "animateTypography()%20%7B",
+        "prevChunkIds": []
+      },
+      "256": {
+        "chunkId": "cbf294",
+        "hash": "1f836d49",
+        "encoded": "const%20words%20=%20this.heroHeadline.querySelectorAll('.headline-word');",
+        "prevChunkIds": []
+      },
+      "258": {
+        "chunkId": "cbf294",
+        "hash": "b64eae80",
+        "encoded": "//%20%22We%20craft%22%20-%20Fast%20controlled%20entrance",
+        "prevChunkIds": []
+      },
+      "259": {
+        "chunkId": "cbf294",
+        "hash": "95133539",
+        "encoded": "this.timeline.fromTo(",
+        "prevChunkIds": []
+      },
+      "260": {
+        "chunkId": "cbf294",
+        "hash": "3e8f194e",
+        "encoded": "%5Bwords%5B0%5D,%20words%5B1%5D%5D,",
+        "prevChunkIds": []
+      },
+      "261": {
+        "chunkId": "cbf294",
+        "hash": "916b40b4",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "262": {
+        "chunkId": "cbf294",
+        "hash": "d267f2d8",
+        "encoded": "opacity:%200,",
+        "prevChunkIds": []
+      },
+      "263": {
+        "chunkId": "cbf294",
+        "hash": "e04db1cf",
+        "encoded": "y:%2020,",
+        "prevChunkIds": []
+      },
+      "264": {
+        "chunkId": "cbf294",
+        "hash": "a5a771d6",
+        "encoded": "scaleX:%200.92,",
+        "prevChunkIds": []
+      },
+      "265": {
+        "chunkId": "cbf294",
+        "hash": "6e2ce1e4",
+        "encoded": "filter:%20'blur(8px)'",
+        "prevChunkIds": []
+      },
+      "266": {
+        "chunkId": "cbf294",
+        "hash": "ad805368",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "267": {
+        "chunkId": "cbf294",
+        "hash": "0fcc1bad",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "268": {
+        "chunkId": "cbf294",
+        "hash": "59e8e5d9",
+        "encoded": "opacity:%201,",
+        "prevChunkIds": []
+      },
+      "269": {
+        "chunkId": "cbf294",
+        "hash": "b38776f9",
+        "encoded": "y:%200,",
+        "prevChunkIds": []
+      },
+      "270": {
+        "chunkId": "cbf294",
+        "hash": "d6dda687",
+        "encoded": "scaleX:%201,",
+        "prevChunkIds": []
+      },
+      "271": {
+        "chunkId": "cbf294",
+        "hash": "62c74379",
+        "encoded": "filter:%20'blur(0px)',",
+        "prevChunkIds": []
+      },
+      "272": {
+        "chunkId": "cbf294",
+        "hash": "47890aaf",
+        "encoded": "duration:%200.8,",
+        "prevChunkIds": []
+      },
+      "273": {
+        "chunkId": "cbf294",
+        "hash": "a40febd3",
+        "encoded": "ease:%20'expo.out',",
+        "prevChunkIds": []
+      },
+      "274": {
+        "chunkId": "cbf294",
+        "hash": "45f6d119",
+        "encoded": "stagger:%200.1",
+        "prevChunkIds": []
+      },
+      "275": {
+        "chunkId": "cbf294",
+        "hash": "7e32bf1c",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "276": {
+        "chunkId": "cbf294",
+        "hash": "4cf842a7",
+        "encoded": "1.8",
+        "prevChunkIds": []
+      },
+      "277": {
+        "chunkId": "cbf294",
+        "hash": "9d6b98de",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "279": {
+        "chunkId": "cbf294",
+        "hash": "16d31811",
+        "encoded": "//%20%22digital%22%20-%20Letter-by-letter%20kinetic%20reveal",
+        "prevChunkIds": []
+      },
+      "280": {
+        "chunkId": "cbf294",
+        "hash": "e1e78c0f",
+        "encoded": "const%20digitalWord%20=%20words%5B2%5D;",
+        "prevChunkIds": []
+      },
+      "281": {
+        "chunkId": "cbf294",
+        "hash": "e0f606f2",
+        "encoded": "if%20(digitalWord)%20%7B",
+        "prevChunkIds": []
+      },
+      "282": {
+        "chunkId": "cbf294",
+        "hash": "ad73dc81",
+        "encoded": "const%20letters%20=%20digitalWord.textContent.split('');",
+        "prevChunkIds": []
+      },
+      "283": {
+        "chunkId": "cbf294",
+        "hash": "02440840",
+        "encoded": "digitalWord.textContent%20=%20'';",
+        "prevChunkIds": []
+      },
+      "285": {
+        "chunkId": "cbf294",
+        "hash": "55d3cdf4",
+        "encoded": "letters.forEach((letter,%20i)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "286": {
+        "chunkId": "cbf294",
+        "hash": "d9536d89",
+        "encoded": "const%20span%20=%20document.createElement('span');",
+        "prevChunkIds": []
+      },
+      "287": {
+        "chunkId": "cbf294",
+        "hash": "f912e489",
+        "encoded": "span.textContent%20=%20letter;",
+        "prevChunkIds": []
+      },
+      "288": {
+        "chunkId": "cbf294",
+        "hash": "a7eeb9da",
+        "encoded": "span.style.display%20=%20'inline-block';",
+        "prevChunkIds": []
+      },
+      "289": {
+        "chunkId": "cbf294",
+        "hash": "a1a9db7a",
+        "encoded": "span.style.opacity%20=%20'0';",
+        "prevChunkIds": []
+      },
+      "290": {
+        "chunkId": "cbf294",
+        "hash": "5a44b11b",
+        "encoded": "digitalWord.appendChild(span);",
+        "prevChunkIds": []
+      },
+      "292": {
+        "chunkId": "cbf294",
+        "hash": "2ab332ca",
+        "encoded": "this.timeline.fromTo(",
+        "prevChunkIds": []
+      },
+      "293": {
+        "chunkId": "cbf294",
+        "hash": "75efea25",
+        "encoded": "span,",
+        "prevChunkIds": []
+      },
+      "294": {
+        "chunkId": "cbf294",
+        "hash": "3b51cf44",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "295": {
+        "chunkId": "cbf294",
+        "hash": "e6baee1c",
+        "encoded": "opacity:%200,",
+        "prevChunkIds": []
+      },
+      "296": {
+        "chunkId": "cbf294",
+        "hash": "34ea7ea7",
+        "encoded": "x:%20-15,",
+        "prevChunkIds": []
+      },
+      "297": {
+        "chunkId": "cbf294",
+        "hash": "0e11d2a0",
+        "encoded": "scaleX:%200.7,",
+        "prevChunkIds": []
+      },
+      "298": {
+        "chunkId": "cbf294",
+        "hash": "55a7ce15",
+        "encoded": "scaleY:%201.2",
+        "prevChunkIds": []
+      },
+      "299": {
+        "chunkId": "cbf294",
+        "hash": "5f16db43",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "300": {
+        "chunkId": "cbf294",
+        "hash": "4f407b6b",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "301": {
+        "chunkId": "cbf294",
+        "hash": "42cc148b",
+        "encoded": "opacity:%201,",
+        "prevChunkIds": []
+      },
+      "302": {
+        "chunkId": "cbf294",
+        "hash": "d868cc56",
+        "encoded": "x:%200,",
+        "prevChunkIds": []
+      },
+      "303": {
+        "chunkId": "cbf294",
+        "hash": "d9172bc7",
+        "encoded": "scaleX:%201,",
+        "prevChunkIds": []
+      },
+      "304": {
+        "chunkId": "cbf294",
+        "hash": "55de7a74",
+        "encoded": "scaleY:%201,",
+        "prevChunkIds": []
+      },
+      "305": {
+        "chunkId": "cbf294",
+        "hash": "afa21d2f",
+        "encoded": "duration:%200.5,",
+        "prevChunkIds": []
+      },
+      "306": {
+        "chunkId": "cbf294",
+        "hash": "a7b6ffcc",
+        "encoded": "ease:%20'expo.out'",
+        "prevChunkIds": []
+      },
+      "307": {
+        "chunkId": "cbf294",
+        "hash": "b0035217",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "308": {
+        "chunkId": "cbf294",
+        "hash": "7580b183",
+        "encoded": "2.3%20+%20(i%20*%200.08)",
+        "prevChunkIds": []
+      },
+      "309": {
+        "chunkId": "cbf294",
+        "hash": "d1972bb7",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "310": {
+        "chunkId": "cbf294",
+        "hash": "62e07d3d",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "312": {
+        "chunkId": "cbf294",
+        "hash": "b1a8947c",
+        "encoded": "//%20Subtle%20gradient%20movement",
+        "prevChunkIds": []
+      },
+      "313": {
+        "chunkId": "cbf294",
+        "hash": "eeeb5bcb",
+        "encoded": "this.timeline.to(",
+        "prevChunkIds": []
+      },
+      "314": {
+        "chunkId": "cbf294",
+        "hash": "15b63d1a",
+        "encoded": "digitalWord,",
+        "prevChunkIds": []
+      },
+      "315": {
+        "chunkId": "cbf294",
+        "hash": "d11f0b52",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "316": {
+        "chunkId": "cbf294",
+        "hash": "fc5148a5",
+        "encoded": "backgroundPosition:%20'200%25%20center',",
+        "prevChunkIds": []
+      },
+      "317": {
+        "chunkId": "cbf294",
+        "hash": "5204b026",
+        "encoded": "duration:%201.5,",
+        "prevChunkIds": []
+      },
+      "318": {
+        "chunkId": "cbf294",
+        "hash": "098d847a",
+        "encoded": "ease:%20'power1.inOut'",
+        "prevChunkIds": []
+      },
+      "319": {
+        "chunkId": "cbf294",
+        "hash": "b004b2b1",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "320": {
+        "chunkId": "cbf294",
+        "hash": "23288dac",
+        "encoded": "2.5",
+        "prevChunkIds": []
+      },
+      "321": {
+        "chunkId": "cbf294",
+        "hash": "9bf67b14",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "322": {
+        "chunkId": "cbf294",
+        "hash": "b752c9e4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "324": {
+        "chunkId": "cbf294",
+        "hash": "ab9a315a",
+        "encoded": "//%20%22experiences%22%20-%20Heavy,%20confident%20landing",
+        "prevChunkIds": []
+      },
+      "325": {
+        "chunkId": "cbf294",
+        "hash": "8c7fb891",
+        "encoded": "this.timeline.fromTo(",
+        "prevChunkIds": []
+      },
+      "326": {
+        "chunkId": "cbf294",
+        "hash": "c6ae4650",
+        "encoded": "words%5B3%5D,",
+        "prevChunkIds": []
+      },
+      "327": {
+        "chunkId": "cbf294",
+        "hash": "56ae9c2b",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "328": {
+        "chunkId": "cbf294",
+        "hash": "85ba4303",
+        "encoded": "opacity:%200,",
+        "prevChunkIds": []
+      },
+      "329": {
+        "chunkId": "cbf294",
+        "hash": "a3aa2d96",
+        "encoded": "y:%2040,",
+        "prevChunkIds": []
+      },
+      "330": {
+        "chunkId": "cbf294",
+        "hash": "10a826ee",
+        "encoded": "scale:%200.98",
+        "prevChunkIds": []
+      },
+      "331": {
+        "chunkId": "cbf294",
+        "hash": "354d7dbf",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "332": {
+        "chunkId": "cbf294",
+        "hash": "505c5379",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "333": {
+        "chunkId": "cbf294",
+        "hash": "99574781",
+        "encoded": "opacity:%201,",
+        "prevChunkIds": []
+      },
+      "334": {
+        "chunkId": "cbf294",
+        "hash": "fe9481c4",
+        "encoded": "y:%200,",
+        "prevChunkIds": []
+      },
+      "335": {
+        "chunkId": "cbf294",
+        "hash": "991dbc4d",
+        "encoded": "scale:%201,",
+        "prevChunkIds": []
+      },
+      "336": {
+        "chunkId": "cbf294",
+        "hash": "8800de40",
+        "encoded": "duration:%200.9,",
+        "prevChunkIds": []
+      },
+      "337": {
+        "chunkId": "cbf294",
+        "hash": "34c7f38a",
+        "encoded": "ease:%20'power3.out'",
+        "prevChunkIds": []
+      },
+      "338": {
+        "chunkId": "cbf294",
+        "hash": "0dce7895",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "339": {
+        "chunkId": "cbf294",
+        "hash": "2bb44fd9",
+        "encoded": "2.8",
+        "prevChunkIds": []
+      },
+      "340": {
+        "chunkId": "cbf294",
+        "hash": "9f859f97",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "342": {
+        "chunkId": "cbf294",
+        "hash": "c52e88c4",
+        "encoded": "//%20Eyebrow%20and%20footer%20text",
+        "prevChunkIds": []
+      },
+      "343": {
+        "chunkId": "cbf294",
+        "hash": "2afc74b5",
+        "encoded": "const%20eyebrow%20=%20document.querySelector('.hero-eyebrow');",
+        "prevChunkIds": []
+      },
+      "344": {
+        "chunkId": "cbf294",
+        "hash": "ca2e100c",
+        "encoded": "const%20footer%20=%20document.querySelector('.hero-footer-text');",
+        "prevChunkIds": []
+      },
+      "346": {
+        "chunkId": "cbf294",
+        "hash": "e08fee00",
+        "encoded": "if%20(eyebrow)%20%7B",
+        "prevChunkIds": []
+      },
+      "347": {
+        "chunkId": "cbf294",
+        "hash": "473ed613",
+        "encoded": "this.timeline.fromTo(",
+        "prevChunkIds": []
+      },
+      "348": {
+        "chunkId": "cbf294",
+        "hash": "2b0dea8e",
+        "encoded": "eyebrow,",
+        "prevChunkIds": []
+      },
+      "349": {
+        "chunkId": "cbf294",
+        "hash": "39fddcfb",
+        "encoded": "%7B%20opacity:%200,%20y:%20-10%20%7D,",
+        "prevChunkIds": []
+      },
+      "350": {
+        "chunkId": "cbf294",
+        "hash": "db9b7b65",
+        "encoded": "%7B%20opacity:%201,%20y:%200,%20duration:%200.6,%20ease:%20'power2.out'%20%7D,",
+        "prevChunkIds": []
+      },
+      "351": {
+        "chunkId": "cbf294",
+        "hash": "87713640",
+        "encoded": "2.0",
+        "prevChunkIds": []
+      },
+      "352": {
+        "chunkId": "cbf294",
+        "hash": "af78d28d",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "353": {
+        "chunkId": "cbf294",
+        "hash": "2f28c1af",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "355": {
+        "chunkId": "cbf294",
+        "hash": "63802f82",
+        "encoded": "if%20(footer)%20%7B",
+        "prevChunkIds": []
+      },
+      "356": {
+        "chunkId": "cbf294",
+        "hash": "b47714b7",
+        "encoded": "this.timeline.fromTo(",
+        "prevChunkIds": []
+      },
+      "357": {
+        "chunkId": "cbf294",
+        "hash": "5a001313",
+        "encoded": "footer,",
+        "prevChunkIds": []
+      },
+      "358": {
+        "chunkId": "cbf294",
+        "hash": "4d4befdc",
+        "encoded": "%7B%20opacity:%200,%20y:%2020%20%7D,",
+        "prevChunkIds": []
+      },
+      "359": {
+        "chunkId": "cbf294",
+        "hash": "798e8522",
+        "encoded": "%7B%20opacity:%201,%20y:%200,%20duration:%200.8,%20ease:%20'power2.out'%20%7D,",
+        "prevChunkIds": []
+      },
+      "360": {
+        "chunkId": "cbf294",
+        "hash": "21599e8f",
+        "encoded": "3.2",
+        "prevChunkIds": []
+      },
+      "361": {
+        "chunkId": "cbf294",
+        "hash": "6378f5ec",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "362": {
+        "chunkId": "cbf294",
+        "hash": "6841e645",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "363": {
+        "chunkId": "cbf294",
+        "hash": "b53124e3",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "365": {
+        "chunkId": "cbf294",
+        "hash": "896a6587",
+        "encoded": "setupParallax()%20%7B",
+        "prevChunkIds": []
+      },
+      "366": {
+        "chunkId": "cbf294",
+        "hash": "79b942ea",
+        "encoded": "const%20updateParallax%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "367": {
+        "chunkId": "cbf294",
+        "hash": "0da2fc46",
+        "encoded": "if%20(!this.isReady)%20return;",
+        "prevChunkIds": []
+      },
+      "369": {
+        "chunkId": "cbf294",
+        "hash": "4e9f50d2",
+        "encoded": "const%20x%20=%20(this.mouseSmooth.x%20-%200.5)%20*%202;",
+        "prevChunkIds": []
+      },
+      "370": {
+        "chunkId": "cbf294",
+        "hash": "69ce7c4b",
+        "encoded": "const%20y%20=%20(this.mouseSmooth.y%20-%200.5)%20*%202;",
+        "prevChunkIds": []
+      },
+      "372": {
+        "chunkId": "cbf294",
+        "hash": "e85aef61",
+        "encoded": "//%20Typography%20-%20subtle%20parallax%20(3-6px)",
+        "prevChunkIds": []
+      },
+      "373": {
+        "chunkId": "cbf294",
+        "hash": "50b6e283",
+        "encoded": "if%20(this.heroHeadline)%20%7B",
+        "prevChunkIds": []
+      },
+      "374": {
+        "chunkId": "cbf294",
+        "hash": "f846193e",
+        "encoded": "const%20moveX%20=%20x%20*%203;",
+        "prevChunkIds": []
+      },
+      "375": {
+        "chunkId": "cbf294",
+        "hash": "2ed4af17",
+        "encoded": "const%20moveY%20=%20y%20*%203;",
+        "prevChunkIds": []
+      },
+      "376": {
+        "chunkId": "cbf294",
+        "hash": "ba7b3c8b",
+        "encoded": "this.heroHeadline.style.transform%20=%20%60translate($%7BmoveX%7Dpx,%20$%7BmoveY%7Dpx)%60;",
+        "prevChunkIds": []
+      },
+      "377": {
+        "chunkId": "cbf294",
+        "hash": "53e09fdc",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "379": {
+        "chunkId": "cbf294",
+        "hash": "d597de12",
+        "encoded": "//%203D%20object%20-%20noticeable%20parallax%20with%20inertia%20(15-25px)",
+        "prevChunkIds": []
+      },
+      "380": {
+        "chunkId": "cbf294",
+        "hash": "e9928e62",
+        "encoded": "if%20(this.hero3D)%20%7B",
+        "prevChunkIds": []
+      },
+      "381": {
+        "chunkId": "cbf294",
+        "hash": "34b3c010",
+        "encoded": "const%20moveX%20=%20x%20*%2020;",
+        "prevChunkIds": []
+      },
+      "382": {
+        "chunkId": "cbf294",
+        "hash": "60ec0ddd",
+        "encoded": "const%20moveY%20=%20y%20*%2020;",
+        "prevChunkIds": []
+      },
+      "383": {
+        "chunkId": "cbf294",
+        "hash": "ddb6aa8b",
+        "encoded": "const%20rotateY%20=%20x%20*%208;",
+        "prevChunkIds": []
+      },
+      "384": {
+        "chunkId": "cbf294",
+        "hash": "e134566c",
+        "encoded": "const%20rotateX%20=%20-y%20*%208;",
+        "prevChunkIds": []
+      },
+      "386": {
+        "chunkId": "cbf294",
+        "hash": "7d1009d4",
+        "encoded": "gsap.to(this.hero3D,%20%7B",
+        "prevChunkIds": []
+      },
+      "387": {
+        "chunkId": "cbf294",
+        "hash": "f94e4f62",
+        "encoded": "x:%20moveX,",
+        "prevChunkIds": []
+      },
+      "388": {
+        "chunkId": "cbf294",
+        "hash": "04aaaf18",
+        "encoded": "y:%20moveY,",
+        "prevChunkIds": []
+      },
+      "389": {
+        "chunkId": "cbf294",
+        "hash": "3d1ced3d",
+        "encoded": "rotationY:%20rotateY,",
+        "prevChunkIds": []
+      },
+      "390": {
+        "chunkId": "cbf294",
+        "hash": "a67643b3",
+        "encoded": "rotationX:%20rotateX,",
+        "prevChunkIds": []
+      },
+      "391": {
+        "chunkId": "cbf294",
+        "hash": "3457b81d",
+        "encoded": "duration:%200.8,",
+        "prevChunkIds": []
+      },
+      "392": {
+        "chunkId": "cbf294",
+        "hash": "2f20e897",
+        "encoded": "ease:%20'power2.out'",
+        "prevChunkIds": []
+      },
+      "393": {
+        "chunkId": "cbf294",
+        "hash": "10a83eb5",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "394": {
+        "chunkId": "cbf294",
+        "hash": "de1ace9c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "396": {
+        "chunkId": "cbf294",
+        "hash": "ff222ac6",
+        "encoded": "//%20Background%20atmosphere%20(2-5px)",
+        "prevChunkIds": []
+      },
+      "397": {
+        "chunkId": "cbf294",
+        "hash": "e18951f5",
+        "encoded": "if%20(this.heroOrb)%20%7B",
+        "prevChunkIds": []
+      },
+      "398": {
+        "chunkId": "cbf294",
+        "hash": "60a5e2a9",
+        "encoded": "const%20moveX%20=%20x%20*%204;",
+        "prevChunkIds": []
+      },
+      "399": {
+        "chunkId": "cbf294",
+        "hash": "208f48c3",
+        "encoded": "const%20moveY%20=%20y%20*%204;",
+        "prevChunkIds": []
+      },
+      "400": {
+        "chunkId": "cbf294",
+        "hash": "183f31ab",
+        "encoded": "gsap.to(this.heroOrb,%20%7B",
+        "prevChunkIds": []
+      },
+      "401": {
+        "chunkId": "cbf294",
+        "hash": "e3630948",
+        "encoded": "x:%20moveX,",
+        "prevChunkIds": []
+      },
+      "402": {
+        "chunkId": "cbf294",
+        "hash": "3dfa74dd",
+        "encoded": "y:%20moveY,",
+        "prevChunkIds": []
+      },
+      "403": {
+        "chunkId": "cbf294",
+        "hash": "02ac9e31",
+        "encoded": "duration:%201.2,",
+        "prevChunkIds": []
+      },
+      "404": {
+        "chunkId": "cbf294",
+        "hash": "aebcb1ab",
+        "encoded": "ease:%20'power1.out'",
+        "prevChunkIds": []
+      },
+      "405": {
+        "chunkId": "cbf294",
+        "hash": "813e48de",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "406": {
+        "chunkId": "cbf294",
+        "hash": "35307010",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "408": {
+        "chunkId": "cbf294",
+        "hash": "38640a97",
+        "encoded": "requestAnimationFrame(updateParallax);",
+        "prevChunkIds": []
+      },
+      "409": {
+        "chunkId": "cbf294",
+        "hash": "737eba17",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "411": {
+        "chunkId": "cbf294",
+        "hash": "2ab912cf",
+        "encoded": "updateParallax();",
+        "prevChunkIds": []
+      },
+      "412": {
+        "chunkId": "cbf294",
+        "hash": "73772182",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "414": {
+        "chunkId": "cbf294",
+        "hash": "338be577",
+        "encoded": "startIdleState()%20%7B",
+        "prevChunkIds": []
+      },
+      "415": {
+        "chunkId": "cbf294",
+        "hash": "9934d0ad",
+        "encoded": "//%20Gentle%20breathing%20scale%20on%203D%20object",
+        "prevChunkIds": []
+      },
+      "416": {
+        "chunkId": "cbf294",
+        "hash": "ee9dd758",
+        "encoded": "if%20(this.hero3D)%20%7B",
+        "prevChunkIds": []
+      },
+      "417": {
+        "chunkId": "cbf294",
+        "hash": "6e08e2ca",
+        "encoded": "gsap.to(this.hero3D,%20%7B",
+        "prevChunkIds": []
+      },
+      "418": {
+        "chunkId": "cbf294",
+        "hash": "4c4fbc26",
+        "encoded": "scale:%201.02,",
+        "prevChunkIds": []
+      },
+      "419": {
+        "chunkId": "cbf294",
+        "hash": "a427f87e",
+        "encoded": "duration:%203,",
+        "prevChunkIds": []
+      },
+      "420": {
+        "chunkId": "cbf294",
+        "hash": "da6d2488",
+        "encoded": "ease:%20'sine.inOut',",
+        "prevChunkIds": []
+      },
+      "421": {
+        "chunkId": "cbf294",
+        "hash": "ada0c542",
+        "encoded": "yoyo:%20true,",
+        "prevChunkIds": []
+      },
+      "422": {
+        "chunkId": "cbf294",
+        "hash": "eba9a732",
+        "encoded": "repeat:%20-1",
+        "prevChunkIds": []
+      },
+      "423": {
+        "chunkId": "cbf294",
+        "hash": "2389c92b",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "424": {
+        "chunkId": "cbf294",
+        "hash": "a8c40013",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "426": {
+        "chunkId": "cbf294",
+        "hash": "56aae6fc",
+        "encoded": "//%20Micro-interaction%20for%203D%20object%20on%20hover",
+        "prevChunkIds": []
+      },
+      "427": {
+        "chunkId": "cbf294",
+        "hash": "3b6d2028",
+        "encoded": "if%20(this.hero3D)%20%7B",
+        "prevChunkIds": []
+      },
+      "428": {
+        "chunkId": "cbf294",
+        "hash": "86b850d5",
+        "encoded": "const%20hero3DEl%20=%20this.hero3D.querySelector('canvas');",
+        "prevChunkIds": []
+      },
+      "429": {
+        "chunkId": "cbf294",
+        "hash": "52f6418f",
+        "encoded": "if%20(hero3DEl)%20%7B",
+        "prevChunkIds": []
+      },
+      "430": {
+        "chunkId": "cbf294",
+        "hash": "fd13b0b7",
+        "encoded": "hero3DEl.addEventListener('mouseenter',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "431": {
+        "chunkId": "cbf294",
+        "hash": "fe7194f2",
+        "encoded": "gsap.to(this.hero3D,%20%7B",
+        "prevChunkIds": []
+      },
+      "432": {
+        "chunkId": "cbf294",
+        "hash": "9f4a426a",
+        "encoded": "scale:%201.08,",
+        "prevChunkIds": []
+      },
+      "433": {
+        "chunkId": "cbf294",
+        "hash": "5b6ec2bc",
+        "encoded": "duration:%200.4,",
+        "prevChunkIds": []
+      },
+      "434": {
+        "chunkId": "cbf294",
+        "hash": "b643f631",
+        "encoded": "ease:%20'power2.out'",
+        "prevChunkIds": []
+      },
+      "435": {
+        "chunkId": "cbf294",
+        "hash": "2c87a6b6",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "436": {
+        "chunkId": "cbf294",
+        "hash": "fe5a49a0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "438": {
+        "chunkId": "cbf294",
+        "hash": "4a09ef67",
+        "encoded": "hero3DEl.addEventListener('mouseleave',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "439": {
+        "chunkId": "cbf294",
+        "hash": "85e2518f",
+        "encoded": "gsap.to(this.hero3D,%20%7B",
+        "prevChunkIds": []
+      },
+      "440": {
+        "chunkId": "cbf294",
+        "hash": "925d8462",
+        "encoded": "scale:%201,",
+        "prevChunkIds": []
+      },
+      "441": {
+        "chunkId": "cbf294",
+        "hash": "dadf9cff",
+        "encoded": "duration:%200.6,",
+        "prevChunkIds": []
+      },
+      "442": {
+        "chunkId": "cbf294",
+        "hash": "90906ffc",
+        "encoded": "ease:%20'elastic.out(1,%200.5)'",
+        "prevChunkIds": []
+      },
+      "443": {
+        "chunkId": "cbf294",
+        "hash": "8e5b3577",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "444": {
+        "chunkId": "cbf294",
+        "hash": "ed270166",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "445": {
+        "chunkId": "cbf294",
+        "hash": "7341866d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "446": {
+        "chunkId": "cbf294",
+        "hash": "dca079a9",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "447": {
+        "chunkId": "cbf294",
+        "hash": "b523619f",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "449": {
+        "chunkId": "cbf294",
+        "hash": "09f3ff1d",
+        "encoded": "setupScrollInteraction()%20%7B",
+        "prevChunkIds": []
+      },
+      "450": {
+        "chunkId": "cbf294",
+        "hash": "ce1cdd1f",
+        "encoded": "gsap.to('.headline-word:nth-child(1),%20.headline-word:nth-child(2)',%20%7B",
+        "prevChunkIds": []
+      },
+      "451": {
+        "chunkId": "cbf294",
+        "hash": "2b4bdc09",
+        "encoded": "y:%20-50,",
+        "prevChunkIds": []
+      },
+      "452": {
+        "chunkId": "cbf294",
+        "hash": "50ab7608",
+        "encoded": "opacity:%200.3,",
+        "prevChunkIds": []
+      },
+      "453": {
+        "chunkId": "cbf294",
+        "hash": "97b2c71f",
+        "encoded": "scrollTrigger:%20%7B",
+        "prevChunkIds": []
+      },
+      "454": {
+        "chunkId": "cbf294",
+        "hash": "f7e7923b",
+        "encoded": "trigger:%20this.hero,",
+        "prevChunkIds": []
+      },
+      "455": {
+        "chunkId": "cbf294",
+        "hash": "d5f4133e",
+        "encoded": "start:%20'top%20top',",
+        "prevChunkIds": []
+      },
+      "456": {
+        "chunkId": "cbf294",
+        "hash": "4b6f14f0",
+        "encoded": "end:%20'+=300',",
+        "prevChunkIds": []
+      },
+      "457": {
+        "chunkId": "cbf294",
+        "hash": "93cdf80c",
+        "encoded": "scrub:%201",
+        "prevChunkIds": []
+      },
+      "458": {
+        "chunkId": "cbf294",
+        "hash": "4b64d3ef",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "459": {
+        "chunkId": "cbf294",
+        "hash": "e7fb60ee",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "461": {
+        "chunkId": "cbf294",
+        "hash": "8f16f0dc",
+        "encoded": "gsap.to('.headline-word.accent',%20%7B",
+        "prevChunkIds": []
+      },
+      "462": {
+        "chunkId": "cbf294",
+        "hash": "5f8669b5",
+        "encoded": "y:%20-70,",
+        "prevChunkIds": []
+      },
+      "463": {
+        "chunkId": "cbf294",
+        "hash": "b2a51108",
+        "encoded": "scaleX:%201.05,",
+        "prevChunkIds": []
+      },
+      "464": {
+        "chunkId": "cbf294",
+        "hash": "6e15e3ee",
+        "encoded": "scrollTrigger:%20%7B",
+        "prevChunkIds": []
+      },
+      "465": {
+        "chunkId": "cbf294",
+        "hash": "50a6e70e",
+        "encoded": "trigger:%20this.hero,",
+        "prevChunkIds": []
+      },
+      "466": {
+        "chunkId": "cbf294",
+        "hash": "b4ff1820",
+        "encoded": "start:%20'top%20top',",
+        "prevChunkIds": []
+      },
+      "467": {
+        "chunkId": "cbf294",
+        "hash": "5a189be5",
+        "encoded": "end:%20'+=300',",
+        "prevChunkIds": []
+      },
+      "468": {
+        "chunkId": "cbf294",
+        "hash": "61f58b72",
+        "encoded": "scrub:%201",
+        "prevChunkIds": []
+      },
+      "469": {
+        "chunkId": "cbf294",
+        "hash": "ac7d809c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "470": {
+        "chunkId": "cbf294",
+        "hash": "376a74d3",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "472": {
+        "chunkId": "cbf294",
+        "hash": "263528ae",
+        "encoded": "gsap.to('.headline-word:nth-child(4)',%20%7B",
+        "prevChunkIds": []
+      },
+      "473": {
+        "chunkId": "cbf294",
+        "hash": "f3d650b6",
+        "encoded": "y:%2040,",
+        "prevChunkIds": []
+      },
+      "474": {
+        "chunkId": "cbf294",
+        "hash": "34d52c0e",
+        "encoded": "opacity:%200.3,",
+        "prevChunkIds": []
+      },
+      "475": {
+        "chunkId": "cbf294",
+        "hash": "17dcaf43",
+        "encoded": "scrollTrigger:%20%7B",
+        "prevChunkIds": []
+      },
+      "476": {
+        "chunkId": "cbf294",
+        "hash": "eb202f3b",
+        "encoded": "trigger:%20this.hero,",
+        "prevChunkIds": []
+      },
+      "477": {
+        "chunkId": "cbf294",
+        "hash": "252bc37b",
+        "encoded": "start:%20'top%20top',",
+        "prevChunkIds": []
+      },
+      "478": {
+        "chunkId": "cbf294",
+        "hash": "a736e066",
+        "encoded": "end:%20'+=300',",
+        "prevChunkIds": []
+      },
+      "479": {
+        "chunkId": "cbf294",
+        "hash": "8ee89cfd",
+        "encoded": "scrub:%201",
+        "prevChunkIds": []
+      },
+      "480": {
+        "chunkId": "cbf294",
+        "hash": "5260c15f",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "481": {
+        "chunkId": "cbf294",
+        "hash": "9a8f8420",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "483": {
+        "chunkId": "cbf294",
+        "hash": "bc49b843",
+        "encoded": "if%20(this.hero3D)%20%7B",
+        "prevChunkIds": []
+      },
+      "484": {
+        "chunkId": "cbf294",
+        "hash": "39b3e1c1",
+        "encoded": "gsap.to(this.hero3D,%20%7B",
+        "prevChunkIds": []
+      },
+      "485": {
+        "chunkId": "cbf294",
+        "hash": "46d01914",
+        "encoded": "x:%20()%20=%3E%20window.innerWidth%20*%200.1,",
+        "prevChunkIds": []
+      },
+      "486": {
+        "chunkId": "cbf294",
+        "hash": "21cf01b9",
+        "encoded": "rotationY:%2050,",
+        "prevChunkIds": []
+      },
+      "487": {
+        "chunkId": "cbf294",
+        "hash": "21602cc3",
+        "encoded": "scale:%201.15,",
+        "prevChunkIds": []
+      },
+      "488": {
+        "chunkId": "cbf294",
+        "hash": "25b7bf3b",
+        "encoded": "opacity:%200,",
+        "prevChunkIds": []
+      },
+      "489": {
+        "chunkId": "cbf294",
+        "hash": "2390d97d",
+        "encoded": "scrollTrigger:%20%7B",
+        "prevChunkIds": []
+      },
+      "490": {
+        "chunkId": "cbf294",
+        "hash": "a8ab3929",
+        "encoded": "trigger:%20this.hero,",
+        "prevChunkIds": []
+      },
+      "491": {
+        "chunkId": "cbf294",
+        "hash": "018cf1d1",
+        "encoded": "start:%20'top%20top',",
+        "prevChunkIds": []
+      },
+      "492": {
+        "chunkId": "cbf294",
+        "hash": "52a7dba0",
+        "encoded": "end:%20'+=300',",
+        "prevChunkIds": []
+      },
+      "493": {
+        "chunkId": "cbf294",
+        "hash": "102ed949",
+        "encoded": "scrub:%201",
+        "prevChunkIds": []
+      },
+      "494": {
+        "chunkId": "cbf294",
+        "hash": "00a2eeb3",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "495": {
+        "chunkId": "cbf294",
+        "hash": "40b4fdd2",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "496": {
+        "chunkId": "cbf294",
+        "hash": "a4caa33e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "497": {
+        "chunkId": "cbf294",
+        "hash": "0d610599",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "498": {
+        "chunkId": "cbf294",
+        "hash": "1aadd2e8",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "500": {
+        "chunkId": "cbf294",
+        "hash": "26d09da0",
+        "encoded": "//%20Initialize%20when%20ready",
+        "prevChunkIds": []
+      },
+      "501": {
+        "chunkId": "cbf294",
+        "hash": "886047dc",
+        "encoded": "if%20(typeof%20gsap%20!==%20'undefined')%20%7B",
+        "prevChunkIds": []
+      },
+      "502": {
+        "chunkId": "cbf294",
+        "hash": "35039852",
+        "encoded": "window.addEventListener('load',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "503": {
+        "chunkId": "cbf294",
+        "hash": "46fef082",
+        "encoded": "setTimeout(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "504": {
+        "chunkId": "cbf294",
+        "hash": "5f69d6d4",
+        "encoded": "const%20digitalThread%20=%20new%20DigitalThread();",
+        "prevChunkIds": []
+      },
+      "505": {
+        "chunkId": "cbf294",
+        "hash": "82e9edf7",
+        "encoded": "digitalThread.init();",
+        "prevChunkIds": []
+      },
+      "506": {
+        "chunkId": "cbf294",
+        "hash": "5d838670",
+        "encoded": "%7D,%202000);%20//%20Wait%20for%20preloader",
+        "prevChunkIds": []
+      },
+      "507": {
+        "chunkId": "cbf294",
+        "hash": "b74862ee",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "508": {
+        "chunkId": "cbf294",
+        "hash": "f326e1f5",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
