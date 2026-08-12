@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova Studio — Immersive Digital Experiences</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://api.fontshare.com">
+    <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700,500,400,300,200,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="nova-studio.css">
 </head>
 <body>
@@ -243,6 +242,35 @@
         </div>
     </section>
 
+    <!-- Scroll Image Gallery -->
+    <section class="scroll-gallery-section" id="scrollGallery" data-scroll-section>
+        <div class="section-eyebrow">Our Craft</div>
+        <h2 class="section-heading">Moments in Motion</h2>
+        
+        <div class="scroll-gallery-container">
+            <div class="scroll-gallery-track" id="scrollGalleryTrack">
+                <div class="scroll-gallery-item" data-scroll-speed="0.8">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                </div>
+                <div class="scroll-gallery-item" data-scroll-speed="1.2">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                </div>
+                <div class="scroll-gallery-item" data-scroll-speed="0.6">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                </div>
+                <div class="scroll-gallery-item" data-scroll-speed="1.4">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                </div>
+                <div class="scroll-gallery-item" data-scroll-speed="0.9">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                </div>
+                <div class="scroll-gallery-item" data-scroll-speed="1.1">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Approach -->
     <section class="approach-section" id="approach" data-scroll-section>
         <div class="section-eyebrow">Our Process</div>
@@ -372,41 +400,70 @@
 
     <!-- Footer -->
     <footer class="main-footer">
-        <div class="footer-wordmark">NOVA</div>
+        <div class="footer-bg-blur"></div>
+        <div class="footer-wordmark-large">NOVA</div>
         
-        <div class="footer-grid">
-            <div class="footer-col">
-                <h4 class="footer-heading">Sitemap</h4>
-                <a href="#hero" class="footer-link">Home</a>
-                <a href="#work" class="footer-link">Work</a>
-                <a href="#studio" class="footer-link">Studio</a>
-                <a href="#insights" class="footer-link">Insights</a>
-                <a href="#contact" class="footer-link">Contact</a>
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-cta">
+                    <h3 class="footer-cta-text">Ready to create something extraordinary?</h3>
+                    <a href="mailto:hello@novastudio.com" class="footer-cta-btn magnetic-btn">
+                        <span>Start a Project</span>
+                    </a>
+                </div>
             </div>
             
-            <div class="footer-col">
-                <h4 class="footer-heading">Social</h4>
-                <a href="#" class="footer-link">Instagram</a>
-                <a href="#" class="footer-link">Twitter</a>
-                <a href="#" class="footer-link">LinkedIn</a>
-                <a href="#" class="footer-link">Dribbble</a>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <h2 class="footer-wordmark">NOVA</h2>
+                        <p class="footer-tagline">Crafting immersive digital experiences</p>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Navigate</h4>
+                    <a href="#hero" class="footer-link"><span>Home</span></a>
+                    <a href="#work" class="footer-link"><span>Work</span></a>
+                    <a href="#studio" class="footer-link"><span>Studio</span></a>
+                    <a href="#insights" class="footer-link"><span>Insights</span></a>
+                    <a href="#contact" class="footer-link"><span>Contact</span></a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Connect</h4>
+                    <a href="#" class="footer-link"><span>Instagram</span></a>
+                    <a href="#" class="footer-link"><span>Twitter</span></a>
+                    <a href="#" class="footer-link"><span>LinkedIn</span></a>
+                    <a href="#" class="footer-link"><span>Dribbble</span></a>
+                    <a href="#" class="footer-link"><span>Behance</span></a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Get in Touch</h4>
+                    <a href="mailto:hello@novastudio.com" class="footer-link footer-email"><span>hello@novastudio.com</span></a>
+                    <a href="tel:+1234567890" class="footer-link"><span>+1 (234) 567-890</span></a>
+                    <div class="footer-address">
+                        <p>123 Creative Street</p>
+                        <p>Brooklyn, NY 11201</p>
+                        <p>United States</p>
+                    </div>
+                </div>
             </div>
             
-            <div class="footer-col">
-                <h4 class="footer-heading">Contact</h4>
-                <a href="mailto:hello@novastudio.com" class="footer-link">hello@novastudio.com</a>
-                <a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a>
-                <p class="footer-address">123 Creative St<br>Brooklyn, NY 11201</p>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Nova Studio. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                    <a href="#" class="footer-bottom-link">Terms of Service</a>
+                    <a href="#" class="footer-bottom-link">Cookies</a>
+                </div>
             </div>
         </div>
         
-        <button class="back-to-top magnetic-btn" id="backToTop">
+        <button class="back-to-top magnetic-btn" id="backToTop" aria-label="Back to top">
             <span>↑</span>
         </button>
-        
-        <div class="footer-bottom">
-            <p>© 2026 Nova Studio. All rights reserved.</p>
-        </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>

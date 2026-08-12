@@ -57,8 +57,8 @@ function animateCursor() {
 
 animateCursor();
 
-// Cursor hover effects
-const hoverElements = document.querySelectorAll('a, button, .service-card, .carousel-slide');
+// Enhanced cursor hover effects with 3D
+const hoverElements = document.querySelectorAll('a, button, .service-card, .carousel-slide, .gallery-image, .insight-card');
 
 hoverElements.forEach(el => {
     el.addEventListener('mouseenter', () => {
@@ -66,6 +66,8 @@ hoverElements.forEach(el => {
         
         if (el.classList.contains('service-card') || el.classList.contains('carousel-slide')) {
             cursorLabel.textContent = 'View';
+        } else if (el.classList.contains('gallery-image')) {
+            cursorLabel.textContent = 'Explore';
         }
     });
     
@@ -73,6 +75,27 @@ hoverElements.forEach(el => {
         cursor.classList.remove('hover');
         cursorLabel.textContent = '';
     });
+    
+    // 3D tilt effect on hover
+    if (el.classList.contains('service-card') || el.classList.contains('gallery-image') || el.classList.contains('insight-card')) {
+        el.addEventListener('mousemove', (e) => {
+            const rect = el.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            
+            const rotateX = ((y - centerY) / centerY) * 8;
+            const rotateY = ((x - centerX) / centerX) * -8;
+            
+            el.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+        });
+        
+        el.addEventListener('mouseleave', () => {
+            el.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
+        });
+    }
 });
 
 // ========================================
@@ -413,6 +436,48 @@ if (container360) {
 }
 
 // ========================================
+// SCROLL GALLERY ANIMATIONS
+// ========================================
+
+const scrollGalleryItems = document.querySelectorAll('.scroll-gallery-item');
+
+if (scrollGalleryItems.length > 0) {
+    const observerOptions = {
+        threshold: 0.2,
+        rootMargin: '0px 0px -100px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add('in-view');
+                }, index * 100);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    
+    scrollGalleryItems.forEach(item => observer.observe(item));
+    
+    // Parallax scroll effect for gallery items
+    scrollGalleryItems.forEach(item => {
+        const speed = parseFloat(item.dataset.scrollSpeed) || 1;
+        
+        gsap.to(item, {
+            y: () => -50 * (speed - 1),
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.scroll-gallery-section',
+                start: 'top bottom',
+                end: 'bottom top',
+                scrub: 1
+            }
+        });
+    });
+}
+
+// ========================================
 // GSAP ANIMATIONS
 // ========================================
 
@@ -533,9 +598,55 @@ magneticBtns.forEach(btn => {
 
 const backToTop = document.getElementById('backToTop');
 
+// Show/hide back to top button
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 800) {
+        backToTop.classList.add('visible');
+    } else {
+        backToTop.classList.remove('visible');
+    }
+});
+
 backToTop.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+// ========================================
+// FOOTER ANIMATIONS
+// ========================================
+
+const footerLinks = document.querySelectorAll('.footer-link');
+
+footerLinks.forEach((link, index) => {
+    gsap.from(link, {
+        opacity: 0,
+        x: -20,
+        duration: 0.6,
+        delay: index * 0.05,
+        ease: 'power2.out',
+        scrollTrigger: {
+            trigger: '.main-footer',
+            start: 'top 80%',
+            once: true
+        }
+    });
+});
+
+// Footer CTA animation
+const footerCta = document.querySelector('.footer-cta');
+if (footerCta) {
+    gsap.from(footerCta, {
+        opacity: 0,
+        y: 40,
+        duration: 1,
+        ease: 'power3.out',
+        scrollTrigger: {
+            trigger: footerCta,
+            start: 'top 85%',
+            once: true
+        }
+    });
+}
 
 // ========================================
 // CONTACT 3D
