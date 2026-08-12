@@ -256,26 +256,54 @@ class DigitalThread {
     animateTypography() {
         const words = this.heroHeadline.querySelectorAll('.headline-word');
         
-        // "We craft" - Fast controlled entrance
-        this.timeline.fromTo(
-            [words[0], words[1]],
-            {
-                opacity: 0,
-                y: 20,
-                scaleX: 0.92,
-                filter: 'blur(8px)'
-            },
-            {
-                opacity: 1,
-                y: 0,
-                scaleX: 1,
-                filter: 'blur(0px)',
-                duration: 0.8,
-                ease: 'expo.out',
-                stagger: 0.1
-            },
-            1.8
-        );
+        console.log('Found words:', words.length); // Debug log
+        
+        // Set initial state for all words to be hidden
+        gsap.set(words, { opacity: 0 });
+        
+        // "We" - First word
+        if (words[0]) {
+            this.timeline.fromTo(
+                words[0],
+                {
+                    opacity: 0,
+                    y: 20,
+                    scaleX: 0.92,
+                    filter: 'blur(8px)'
+                },
+                {
+                    opacity: 1,
+                    y: 0,
+                    scaleX: 1,
+                    filter: 'blur(0px)',
+                    duration: 0.8,
+                    ease: 'expo.out'
+                },
+                1.8
+            );
+        }
+        
+        // "craft" - Second word
+        if (words[1]) {
+            this.timeline.fromTo(
+                words[1],
+                {
+                    opacity: 0,
+                    y: 20,
+                    scaleX: 0.92,
+                    filter: 'blur(8px)'
+                },
+                {
+                    opacity: 1,
+                    y: 0,
+                    scaleX: 1,
+                    filter: 'blur(0px)',
+                    duration: 0.8,
+                    ease: 'expo.out'
+                },
+                1.9 // Slight stagger
+            );
+        }
         
         // "digital" - Letter-by-letter kinetic reveal
         const digitalWord = words[2];
