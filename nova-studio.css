@@ -487,13 +487,11 @@ body:hover .mouse-gradient {
 
 .headline-word {
     display: inline-block;
-    opacity: 1;
     will-change: transform, opacity;
 }
 
 .headline-word span {
     display: inline-block;
-    opacity: 1;
     will-change: transform, opacity;
 }
 

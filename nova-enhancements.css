@@ -121,32 +121,42 @@
 }
 
 .headline-line {
-    overflow: hidden;
     margin-bottom: 10px;
+    line-height: 1.1;
 }
 
 .headline-word {
-    opacity: 1 !important;
-    transform: translateY(0) rotateX(0deg) !important;
-    will-change: transform, opacity;
-    animation: wordReveal 1s ease-out forwards;
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px) scale(0.9);
+    filter: blur(10px);
+    will-change: transform, opacity, filter;
+    animation: wordEmphasis 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-@keyframes wordReveal {
-    from {
+@keyframes wordEmphasis {
+    0% {
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateY(40px) scale(0.9);
+        filter: blur(10px);
     }
-    to {
+    50% {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(-5px) scale(1.05);
+        filter: blur(0px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0px);
     }
 }
 
-.headline-word[data-word="1"] { animation-delay: 0.2s; }
-.headline-word[data-word="2"] { animation-delay: 0.4s; }
-.headline-word[data-word="3"] { animation-delay: 0.6s; }
-.headline-word[data-word="4"] { animation-delay: 0.8s; }
+/* Staggered delays for emphasis - each word gets attention */
+.headline-word[data-word="1"] { animation-delay: 0.3s; }
+.headline-word[data-word="2"] { animation-delay: 0.8s; }
+.headline-word[data-word="3"] { animation-delay: 1.4s; }
+.headline-word[data-word="4"] { animation-delay: 2.0s; }
 
 @media (max-width: 1024px) {
     .process-grid {
