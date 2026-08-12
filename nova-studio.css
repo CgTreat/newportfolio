@@ -313,7 +313,28 @@ body:hover .mouse-gradient {
     justify-content: center;
     padding: 120px 40px 80px;
     overflow: hidden;
-    perspective: 1000px;
+    perspective: 1500px;
+}
+
+/* Animated cursor-following blur orb */
+.hero-orb {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(139, 10, 40, 0.25) 0%, rgba(80, 5, 25, 0.15) 40%, transparent 70%);
+    filter: blur(60px);
+    pointer-events: none;
+    transition: all 0.3s ease-out;
+    z-index: 0;
+    opacity: 0;
+    animation: orb-fade-in 2s ease-out 0.5s forwards;
+}
+
+@keyframes orb-fade-in {
+    to {
+        opacity: 1;
+    }
 }
 
 .hero::after {
@@ -414,18 +435,25 @@ body:hover .mouse-gradient {
 .headline-word {
     display: inline-block;
     opacity: 0;
-    transform: translateY(100px);
-    animation: word-reveal 1s var(--ease-poppr) forwards;
+    filter: blur(20px);
+    transform: translateY(30px);
+    animation: word-blur-reveal 1.4s var(--ease-expo) forwards;
 }
 
-.headline-word[data-word="1"] { animation-delay: 0.1s; }
-.headline-word[data-word="2"] { animation-delay: 0.2s; }
-.headline-word[data-word="3"] { animation-delay: 0.3s; }
-.headline-word[data-word="4"] { animation-delay: 0.4s; }
+.headline-word[data-word="1"] { animation-delay: 0.2s; }
+.headline-word[data-word="2"] { animation-delay: 0.4s; }
+.headline-word[data-word="3"] { animation-delay: 0.7s; }
+.headline-word[data-word="4"] { animation-delay: 1s; }
 
-@keyframes word-reveal {
-    to {
+@keyframes word-blur-reveal {
+    0% {
+        opacity: 0;
+        filter: blur(20px);
+        transform: translateY(30px);
+    }
+    100% {
         opacity: 1;
+        filter: blur(0px);
         transform: translateY(0);
     }
 }

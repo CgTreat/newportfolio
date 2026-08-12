@@ -419,13 +419,19 @@ if (processSteps.length > 0) {
 }
 
 // ========================================
-// HERO CURSOR INTERACTION
+// HERO CURSOR INTERACTION & ORB
 // ========================================
 
 const hero = document.querySelector('.hero');
 const heroHeadline = document.getElementById('heroHeadline');
+const heroOrb = document.getElementById('heroOrb');
 
 if (hero) {
+    let orbX = 0;
+    let orbY = 0;
+    let currentOrbX = 0;
+    let currentOrbY = 0;
+    
     hero.addEventListener('mousemove', (e) => {
         const rect = hero.getBoundingClientRect();
         const x = ((e.clientX - rect.left) / rect.width) * 100;
@@ -434,10 +440,17 @@ if (hero) {
         hero.style.setProperty('--mouse-x', `${x}%`);
         hero.style.setProperty('--mouse-y', `${y}%`);
         
+        // Headline 3D tilt
         if (heroHeadline) {
             const moveX = (x - 50) * 0.02;
             const moveY = (y - 50) * 0.02;
             heroHeadline.style.transform = `perspective(1000px) rotateY(${moveX}deg) rotateX(${-moveY}deg)`;
+        }
+        
+        // Orb following cursor
+        if (heroOrb) {
+            orbX = e.clientX - rect.left - 250; // Center the 500px orb
+            orbY = e.clientY - rect.top - 250;
         }
     });
     
@@ -446,6 +459,19 @@ if (hero) {
             heroHeadline.style.transform = '';
         }
     });
+    
+    // Smooth orb animation with easing
+    if (heroOrb) {
+        function animateOrb() {
+            const ease = 0.08;
+            currentOrbX += (orbX - currentOrbX) * ease;
+            currentOrbY += (orbY - currentOrbY) * ease;
+            
+            heroOrb.style.transform = `translate(${currentOrbX}px, ${currentOrbY}px)`;
+            requestAnimationFrame(animateOrb);
+        }
+        animateOrb();
+    }
 }
 
 // ========================================

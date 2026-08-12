@@ -30,6 +30,9 @@
     },
     "846f7d37": {
       "value": "check some section are not visible. make sure all section loads properly and."
+    },
+    "3f01da37": {
+      "value": "good, 'We craft digital experiences' should come with some animation, smooth animation may be from blurred invisible to visible unblurred. maybe slide in or word by word reveal animation. add one animated blur orb in dark background complementing with dark background, maybe dark pink or redblack color not too strong, subtle animated with mouse cursor position."
     }
   },
   "localPrompts": {},
