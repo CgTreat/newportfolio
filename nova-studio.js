@@ -57,6 +57,34 @@ function animateCursor() {
 
 animateCursor();
 
+// ========================================
+// MOUSE-FOLLOWING GRADIENT
+// ========================================
+
+const mouseGradient = document.getElementById('mouseGradient');
+const heroSection = document.querySelector('.hero');
+
+if (mouseGradient) {
+    document.addEventListener('mousemove', (e) => {
+        const x = e.clientX;
+        const y = e.clientY;
+        
+        mouseGradient.style.background = `radial-gradient(circle 600px at ${x}px ${y}px, rgba(107, 91, 255, 0.12), transparent 80%)`;
+    });
+}
+
+// Hero mouse tracking for background gradient
+if (heroSection) {
+    heroSection.addEventListener('mousemove', (e) => {
+        const rect = heroSection.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width) * 100;
+        const y = ((e.clientY - rect.top) / rect.height) * 100;
+        
+        heroSection.style.setProperty('--mouse-x', `${x}%`);
+        heroSection.style.setProperty('--mouse-y', `${y}%`);
+    });
+}
+
 // Enhanced cursor hover effects with 3D
 const hoverElements = document.querySelectorAll('a, button, .service-card, .carousel-slide, .gallery-image, .insight-card, .project-card');
 
@@ -425,6 +453,28 @@ if (container360) {
 }
 
 // ========================================
+// PROJECT CARDS 3D WHEEL ANIMATION
+// ========================================
+
+const projectCards = document.querySelectorAll('.project-card');
+
+if (projectCards.length > 0) {
+    const cardObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+                cardObserver.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.2,
+        rootMargin: '0px 0px -100px 0px'
+    });
+    
+    projectCards.forEach(card => cardObserver.observe(card));
+}
+
+// ========================================
 // SCROLL GALLERY ANIMATIONS
 // ========================================
 
@@ -463,6 +513,49 @@ if (scrollGalleryItems.length > 0) {
                 scrub: 1
             }
         });
+    });
+}
+
+// ========================================
+// SERVICE CARDS STAGGER ANIMATION
+// ========================================
+
+const serviceCards = document.querySelectorAll('.service-card');
+
+if (serviceCards.length > 0) {
+    gsap.from(serviceCards, {
+        opacity: 0,
+        y: 60,
+        stagger: 0.15,
+        duration: 1,
+        ease: 'power3.out',
+        scrollTrigger: {
+            trigger: '.services-section',
+            start: 'top 70%',
+            once: true
+        }
+    });
+}
+
+// ========================================
+// INSIGHT CARDS ANIMATION
+// ========================================
+
+const insightCards = document.querySelectorAll('.insight-card');
+
+if (insightCards.length > 0) {
+    gsap.from(insightCards, {
+        opacity: 0,
+        y: 80,
+        scale: 0.9,
+        stagger: 0.2,
+        duration: 1.2,
+        ease: 'power3.out',
+        scrollTrigger: {
+            trigger: '.insights-section',
+            start: 'top 70%',
+            once: true
+        }
     });
 }
 
