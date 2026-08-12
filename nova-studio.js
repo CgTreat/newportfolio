@@ -58,7 +58,7 @@ function animateCursor() {
 animateCursor();
 
 // Enhanced cursor hover effects with 3D
-const hoverElements = document.querySelectorAll('a, button, .service-card, .carousel-slide, .gallery-image, .insight-card');
+const hoverElements = document.querySelectorAll('a, button, .service-card, .carousel-slide, .gallery-image, .insight-card, .project-card');
 
 hoverElements.forEach(el => {
     el.addEventListener('mouseenter', () => {
@@ -77,7 +77,7 @@ hoverElements.forEach(el => {
     });
     
     // 3D tilt effect on hover
-    if (el.classList.contains('service-card') || el.classList.contains('gallery-image') || el.classList.contains('insight-card')) {
+    if (el.classList.contains('service-card') || el.classList.contains('gallery-image') || el.classList.contains('insight-card') || el.classList.contains('project-card')) {
         el.addEventListener('mousemove', (e) => {
             const rect = el.getBoundingClientRect();
             const x = e.clientX - rect.left;
@@ -86,14 +86,22 @@ hoverElements.forEach(el => {
             const centerX = rect.width / 2;
             const centerY = rect.height / 2;
             
-            const rotateX = ((y - centerY) / centerY) * 8;
-            const rotateY = ((x - centerX) / centerX) * -8;
+            const rotateX = ((y - centerY) / centerY) * 5;
+            const rotateY = ((x - centerX) / centerX) * -5;
             
-            el.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+            if (el.classList.contains('project-card')) {
+                el.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
+            } else {
+                el.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+            }
         });
         
         el.addEventListener('mouseleave', () => {
-            el.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
+            if (el.classList.contains('project-card')) {
+                el.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0)';
+            } else {
+                el.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
+            }
         });
     }
 });
@@ -181,7 +189,7 @@ navPillsContainer.addEventListener('mousemove', (e) => {
 });
 
 // ========================================
-// THREE.JS HERO 3D
+// THREE.JS HERO 3D - Small Version
 // ========================================
 
 const hero3DContainer = document.getElementById('hero3D');
@@ -190,72 +198,53 @@ if (hero3DContainer) {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
         75,
-        hero3DContainer.offsetWidth / hero3DContainer.offsetHeight,
+        1,
         0.1,
         1000
     );
     
     const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
-    renderer.setSize(hero3DContainer.offsetWidth, hero3DContainer.offsetHeight);
+    renderer.setSize(200, 200);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     hero3DContainer.appendChild(renderer.domElement);
     
-    // Create organic blob geometry
-    const geometry = new THREE.IcosahedronGeometry(2, 1);
+    // Create torus knot
+    const geometry = new THREE.TorusKnotGeometry(0.8, 0.25, 100, 16);
     const material = new THREE.MeshPhongMaterial({
-        color: 0xB087FF,
+        color: 0x6B5BFF,
         flatShading: true,
-        shininess: 50
+        shininess: 80,
+        emissive: 0x6B5BFF,
+        emissiveIntensity: 0.2
     });
-    const blob = new THREE.Mesh(geometry, material);
-    scene.add(blob);
+    const mesh = new THREE.Mesh(geometry, material);
+    scene.add(mesh);
     
     // Lighting
-    const light1 = new THREE.DirectionalLight(0xffffff, 0.8);
+    const light1 = new THREE.DirectionalLight(0xffffff, 1);
     light1.position.set(2, 2, 2);
     scene.add(light1);
     
-    const light2 = new THREE.DirectionalLight(0xFFD074, 0.5);
+    const light2 = new THREE.DirectionalLight(0xFF6B9D, 0.6);
     light2.position.set(-2, -2, -2);
     scene.add(light2);
     
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.3);
     scene.add(ambientLight);
     
-    camera.position.z = 5;
-    
-    // Mouse interaction
-    let targetRotationX = 0;
-    let targetRotationY = 0;
-    
-    hero3DContainer.addEventListener('mousemove', (e) => {
-        const rect = hero3DContainer.getBoundingClientRect();
-        const x = (e.clientX - rect.left) / rect.width;
-        const y = (e.clientY - rect.top) / rect.height;
-        
-        targetRotationX = (y - 0.5) * 0.3;
-        targetRotationY = (x - 0.5) * 0.3;
-    });
+    camera.position.z = 3;
     
     // Animation loop
     function animateHero3D() {
         requestAnimationFrame(animateHero3D);
         
-        blob.rotation.x += (targetRotationX - blob.rotation.x) * 0.05;
-        blob.rotation.y += (targetRotationY - blob.rotation.y) * 0.05;
-        blob.rotation.y += 0.002;
+        mesh.rotation.x += 0.005;
+        mesh.rotation.y += 0.008;
         
         renderer.render(scene, camera);
     }
     
     animateHero3D();
-    
-    // Responsive
-    window.addEventListener('resize', () => {
-        camera.aspect = hero3DContainer.offsetWidth / hero3DContainer.offsetHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(hero3DContainer.offsetWidth, hero3DContainer.offsetHeight);
-    });
 }
 
 // ========================================

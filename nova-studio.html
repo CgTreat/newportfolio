@@ -57,37 +57,45 @@
         <div class="cursor-label"></div>
     </div>
 
-    <!-- Hero Section -->
+    <!-- Hero Section - Poppr Style -->
     <section class="hero" id="hero" data-scroll-section>
-        <div class="hero-blobs">
-            <div class="blob blob-1"></div>
-            <div class="blob blob-2"></div>
+        <!-- Scattered decorative text -->
+        <div class="hero-scatter-text" data-scroll data-scroll-speed="0.5" style="top: 15%; left: 8%;">
+            <span class="scatter-label">Digital</span>
+        </div>
+        <div class="hero-scatter-text" data-scroll data-scroll-speed="0.8" style="top: 25%; right: 10%;">
+            <span class="scatter-label">Craft</span>
+        </div>
+        <div class="hero-scatter-text" data-scroll data-scroll-speed="0.3" style="bottom: 30%; left: 5%;">
+            <span class="scatter-label">2026</span>
+        </div>
+        <div class="hero-scatter-text" data-scroll data-scroll-speed="0.6" style="bottom: 20%; right: 8%;">
+            <span class="scatter-label">★</span>
         </div>
         
         <div class="hero-content">
-            <div class="hero-headline">
-                <div class="headline-line">
-                    <span>Crafting</span>
-                </div>
-                <div class="headline-line">
-                    <span class="accent">Immersive</span>
-                </div>
-                <div class="headline-line">
-                    <span>Experiences</span>
-                </div>
+            <!-- Eyebrow text -->
+            <p class="hero-eyebrow">Brooklyn Based Digital Studio</p>
+            
+            <!-- Main headline - split words -->
+            <h1 class="hero-headline">
+                <span class="headline-word" data-word="1">We</span>
+                <span class="headline-word" data-word="2">craft</span>
+                <br>
+                <span class="headline-word accent" data-word="3">digital</span>
+                <br>
+                <span class="headline-word" data-word="4">experiences</span>
+            </h1>
+            
+            <!-- Subhead with link -->
+            <div class="hero-footer-text">
+                <p>Transforming ideas into immersive, interactive realities that engage and inspire.</p>
+                <a href="#work" class="hero-link">See our work →</a>
             </div>
-            
-            <p class="hero-subhead">We transform ideas into interactive digital worlds that captivate and inspire</p>
-            
-            <div class="hero-3d-container" id="hero3D"></div>
         </div>
         
-        <div class="scroll-cue">
-            <span>Scroll</span>
-            <svg width="20" height="30" viewBox="0 0 20 30">
-                <path d="M10 5 L10 25 M10 25 L5 20 M10 25 L15 20" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            </svg>
-        </div>
+        <!-- 3D element - smaller, top right -->
+        <div class="hero-3d-small" id="hero3D"></div>
     </section>
 
     <!-- Marquee -->
@@ -178,12 +186,83 @@
         <div class="drag-hint">← Drag to explore →</div>
     </section>
 
-    <!-- Featured Work -->
+    <!-- Featured Work - Grid Style -->
     <section class="work-section" id="work" data-scroll-section>
-        <div class="section-eyebrow">Selected Projects</div>
-        <h2 class="section-heading">Featured Work</h2>
+        <div class="work-header">
+            <div class="section-eyebrow">Selected Case Studies</div>
+            <h2 class="section-heading">Recent Work</h2>
+        </div>
         
-        <div class="carousel-container">
+        <!-- Project Grid -->
+        <div class="projects-grid">
+            <article class="project-card" data-color="#6B5BFF">
+                <div class="project-image-wrapper">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="project-number">01</div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-year">2025</span>
+                        <span class="project-type">WebGL / 3D</span>
+                    </div>
+                    <h3 class="project-title">Immersive Museum Experience</h3>
+                    <p class="project-desc">A virtual journey through art and history with real-time 3D environments</p>
+                    <a href="#" class="project-link">View Project <span>→</span></a>
+                </div>
+            </article>
+            
+            <article class="project-card" data-color="#FF6B9D">
+                <div class="project-image-wrapper">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="project-number">02</div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-year">2025</span>
+                        <span class="project-type">360° / Interactive</span>
+                    </div>
+                    <h3 class="project-title">Product Showcase Platform</h3>
+                    <p class="project-desc">Interactive 360° product visualization with AR integration</p>
+                    <a href="#" class="project-link">View Project <span>→</span></a>
+                </div>
+            </article>
+            
+            <article class="project-card" data-color="#4ECDC4">
+                <div class="project-image-wrapper">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="project-number">03</div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-year">2026</span>
+                        <span class="project-type">Brand / Web</span>
+                    </div>
+                    <h3 class="project-title">Digital Brand Platform</h3>
+                    <p class="project-desc">Comprehensive brand system with dynamic web presence</p>
+                    <a href="#" class="project-link">View Project <span>→</span></a>
+                </div>
+            </article>
+            
+            <article class="project-card" data-color="#FFD93D">
+                <div class="project-image-wrapper">
+                    <div class="project-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                    <div class="project-number">04</div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-year">2026</span>
+                        <span class="project-type">AR / Mobile</span>
+                    </div>
+                    <h3 class="project-title">Augmented Reality Experience</h3>
+                    <p class="project-desc">Mobile AR application blending physical and digital worlds</p>
+                    <a href="#" class="project-link">View Project <span>→</span></a>
+                </div>
+            </article>
+        </div>
+        
+        <!-- Keep original carousel for 360 demo -->
+        <div class="carousel-container" style="margin-top: 100px;">
+            <h3 style="text-align: center; margin-bottom: 40px; font-size: 32px;">Interactive 360° Demo</h3>
             <div class="carousel-track" id="carouselTrack">
                 <div class="carousel-slide">
                     <div class="slide-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
@@ -197,35 +276,16 @@
                 <div class="carousel-slide has-360" id="slide360">
                     <div class="slide-360-container" id="container360">
                         <div class="slide-360-label">
-                            <span>Drag to explore — 360°</span>
+                            <span>← Drag to rotate 360° →</span>
                             <svg class="rotate-icon" width="20" height="20" viewBox="0 0 20 20">
-                                <path d="M10 2 A8 8 0 1 1 10 18 A8 8 0 0 1 10 2" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" fill="none" stroke-width="1.5"/>
                                 <path d="M14 10 L18 10 L16 8 M18 10 L16 12" stroke="currentColor" fill="none" stroke-width="1.5"/>
                             </svg>
                         </div>
                     </div>
                     <div class="slide-content">
-                        <span class="slide-category">360° / Interactive</span>
-                        <h3 class="slide-title">Product Showcase</h3>
-                        <a href="#" class="slide-cta">View Case</a>
-                    </div>
-                </div>
-                
-                <div class="carousel-slide">
-                    <div class="slide-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
-                    <div class="slide-content">
-                        <span class="slide-category">Brand / Web</span>
-                        <h3 class="slide-title">Brand Platform</h3>
-                        <a href="#" class="slide-cta">View Case</a>
-                    </div>
-                </div>
-                
-                <div class="carousel-slide">
-                    <div class="slide-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
-                    <div class="slide-content">
-                        <span class="slide-category">AR / Mobile</span>
-                        <h3 class="slide-title">AR Experience</h3>
-                        <a href="#" class="slide-cta">View Case</a>
+                        <span class="slide-category">360° Interactive Demo</span>
+                        <h3 class="slide-title">Explore in 3D Space</h3>
                     </div>
                 </div>
             </div>
